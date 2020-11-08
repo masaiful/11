@@ -1,0 +1,31 @@
+<footer>
+  {% if pagination.items.length > 1 %}
+    <nav>
+      <ul>
+        <li>
+          {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}" title="Previous page">
+            {% endif %}
+            <span>Older</span>
+            {% if pagination.href.next %}
+            </a>
+          {% endif %}
+        </li>
+        <li>
+          {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}" title="Next page">
+            {% endif %}
+            <span>Newer</span>
+            {% if pagination.href.previous %}
+            </a>
+          {% endif %}
+        </li>
+        <li>
+          {{ pagination.pageNumber + 1 }}
+          <em>of</em>
+          {{ pagination.hrefs | length }}
+        </li>
+      </ul>
+    </nav>
+  {% endif %}
+</footer>

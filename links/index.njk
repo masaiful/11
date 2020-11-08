@@ -1,0 +1,35 @@
+---
+layout: default
+pagination:
+  data: collections.links
+  size: 50
+  alias: links
+  reverse: true
+permalink: "links/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+title: Here & There
+---
+
+{% from "macros.njk" import singlePost %}
+
+<div id="links-list">
+  {% for thing in links %}
+    {{ singlePost(thing) }}
+  {% endfor %}
+</div>
+
+<script type="text/javascript" src="/_assets/js/macy.js"></script>
+<script type="text/javascript">
+  (() => {
+    Macy({
+      container: '#links-list',
+      trueOrder: false,
+      waitForImages: false,
+      margin: 24,
+      columns: 3,
+      breakAt: {
+        900: 2,
+        700: 1
+      }
+    });
+  })();
+</script>

@@ -1,0 +1,53 @@
+---
+layout: default
+title: Archive
+changeFreq: weekly
+pageClass: archive
+eleventyExcludeFromCollections: true
+---
+
+<div id="archive">
+  <section id="search">
+    <noscript>
+      Search won&#8217;t work since Javascript&#8217;s disabled 🙁
+    </noscript>
+    <input type="text" placeholder="search..." autofocus="autofocus" />
+    {% include "search-results.njk" %}
+  </section>
+
+  <section id="years">
+    <header class="hide">
+      <h2>Posts by Year</h2>
+    </header>
+    <ul>
+      {% for year, posts in collections.thingsByYear %}
+        <li>
+          <a href="/{{ year }}" title="Posts from {{ year }}">{{ year }}</a>
+          <span>{{ posts | length }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="tags">
+    <header class="hide">
+      <h2>Posts by Tag</h2>
+    </header>
+    <ul>
+      {%- for tag in collections.tags | sort(false, true, "name") %}
+        <li>
+          <a href="/tags/{{ tag.name | lower }}" title="Posts tagged {{ tag.name | lower }}">{{ tag.name }}</a>
+          <span>{{ tag.count }}</span>
+        </li>
+      {% endfor -%}
+    </ul>
+  </section>
+
+  <section id="counts">
+    <strong>{{ collections.things | length }}</strong> things with <strong>{{ collections.tags | length }}</strong> tags
+  </section>
+</div>
+
+<script type="text/javascript" src="/_assets/js/algolia.js"></script>
+<script type="text/javascript" src="/_assets/js/mustache.js"></script>
+<script type="text/javascript" src="/_assets/js/search.js"></script>

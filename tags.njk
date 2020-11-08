@@ -1,0 +1,32 @@
+---
+layout: default
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tags
+    - things
+  addAllPagesToCollections: true
+eleventyComputed:
+  title: Posts tagged "{{ tag }}"
+permalink: /tags/{{ tag }}/
+changeFreq: weekly
+eleventyExcludeFromCollections: true
+---
+
+{% from "macros.njk" import singlePost %}
+
+{% set numberOfThings = collections[tag] | length %}
+
+<h2 class="compilation-title">
+  <strong class="compilation-count">{{ numberOfThings | numberToWords }}</strong> thing{% if numberOfThings > 1 %}s{% endif %} tagged <strong>“{{ tag }}”</strong>
+</h2>
+
+{% for post in collections[tag] | reverse %}
+  {{ singlePost(post) }}
+{% endfor %}

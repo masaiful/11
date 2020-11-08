@@ -1,0 +1,5 @@
+{
+  "layout": "post.njk",
+  "category": "posts",
+  "permalink": "posts/{{ page.fileSlug | uuidWithNoSpaces }}/"
+}

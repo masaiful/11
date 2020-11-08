@@ -1,0 +1,28 @@
+<div id="search-results"></div>
+
+{% raw %}
+  <script id="search-results-template" type="x-tmpl-mustache">
+  {{ #results }}
+  <article>
+    <header>
+      <h2>
+        <a href="{{ url }}" title="{{ title }}">
+          {{{ _snippetResult.title.value }}}
+        </a>
+      </h2>
+    </header>
+    <p>{{{ _snippetResult.content.value }}}</p>
+    <footer>
+      <ul class="tags">
+        {{ #_snippetResult.tags }}
+        <li>
+          <a title="Posts tagged {{ value }}" href="/tags/{{ value }}">{{{ value }}}</a>
+        </li>
+        {{ /_snippetResult.tags }}
+      </ul>
+      <time>{{ humanTimestamp }}</time>
+    </footer>
+  </article>
+  {{ /results }}
+  </script>
+{% endraw %}

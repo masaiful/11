@@ -1,0 +1,17 @@
+---
+layout: default
+pagination:
+  data: collections.things
+  size: 50
+  alias: things
+  reverse: true
+permalink: "{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+eleventyExcludeFromCollections: true
+pageClass: index
+---
+
+{% from "macros.njk" import singlePost %}
+
+{% for thing in things %}
+  {{ singlePost(thing) }}
+{% endfor %}

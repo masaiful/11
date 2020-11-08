@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.locale }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% if title %}
+      <meta name="description" content="{{ title | escape }}">
+      <meta property="og:title" content="{{ title | escape }}">
+      <meta property="og:description" content="{{ title | escape }}">
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
+      <meta property="og:title" content="{{ site.name }}">
+      <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/assets/og-image.png">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+    <title>
+      {% if title %}{{ title }}
+        &ndash;
+      {% endif %}{{ site.name }}
+    </title>
+
+    <link rel="apple-touch-icon" href="/_assets/img/favicon.png">
+    <link rel="shortcut icon" href="/_assets/img/favicon.png">
+    <link rel="stylesheet" href="/_assets/css/reset.css">
+    <link rel="stylesheet" href="/_assets/css/site.css">
+    <link rel="stylesheet" href="/_assets/css/code.css">
+  </head>
+
+  <body{% if pageClass %} class="{{ pageClass }}" {% endif %}>
+    {% include "header.njk" %}
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
+    {% include "scripts.njk" %}
+  </div>
+</html>

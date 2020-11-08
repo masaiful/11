@@ -1,0 +1,4 @@
+Sitemap: https://log.nikhil.io/sitemap.xml
+
+User-agent: *
+Disallow:

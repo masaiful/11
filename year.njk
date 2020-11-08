@@ -1,0 +1,30 @@
+---
+layout: default
+pagination:
+  data: collections.thingsByYear
+  size: 1
+  alias: year
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tags
+    - things
+  addAllPagesToCollections: true
+eleventyComputed:
+  title: Posts from {{ year }}
+permalink: /{{ year }}/
+changeFreq: weekly
+eleventyExcludeFromCollections: true
+---
+
+{% from "macros.njk" import singlePost %}
+
+<h1 class="compilation-title">
+  <strong class="compilation-count">{{ collections.thingsByYear[year] | length | numberToWords }}</strong> things from <strong>{{ year }}</strong>
+</h1>
+
+{% for post in collections.thingsByYear[year] | reverse %}
+  {{ singlePost(post) }}
+{% endfor %}

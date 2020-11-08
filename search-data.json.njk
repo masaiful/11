@@ -1,0 +1,32 @@
+---
+permalink: /search-data.json
+eleventyExcludeFromCollections: true
+---
+{
+  "data": [
+  {%- for post in collections.things -%}
+    {
+      "objectID": "{{ post.fileSlug | uuid }}",
+      {%- if post.data.rating -%}
+      "rating": "{{ post.data.rating }}",
+      {%- endif -%}
+      "humanTimestamp": "{{ post.data.date | date("Do MMMM yyyy") }}",
+      "timestamp": "{{ post.date | toISODateString }}",
+
+      {# TODO: Remove &quot; and the like... #}
+      {%- set content_first_pass = post.templateContent | striptags(false) | escape -%}
+      {%- set content_secondpass = content_first_pass.val | dump -%}
+
+      {%- if post.data.title == '' -%}
+      "title": "{{ content_secondpass }}",
+      "content": null,
+      {%- else -%}
+      "title": "{{ post.data.title | escape }}",
+      "content": "{{ content_secondpass }}",
+      {%- endif -%}
+      "tags": {{ post.data.tags | dump | safe }},
+      "category": "{{ post.data.category }}",
+      "url": "{{ post.url }}"
+    }{%- if not loop.last -%}, {% endif -%}
+  {% endfor -%}
+]}

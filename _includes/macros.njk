@@ -1,0 +1,143 @@
+{# https://www.11ty.dev/docs/collections/#collection-item-data-structure #}
+
+{% macro postTags(tags) %}
+  {% if tags.length > 0 %}
+    <p class="hide">Tagged:</p>
+    <ul class="tags">
+      {% for tag in tags %}
+        <li>
+          <a href="/tags/{{tag | urlencode}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+{% macro singlePost(post) %}
+
+  {# This is repetitive but very explicit and simple. #}
+
+  {% if post.data.category == "links" %}
+
+    {% set linkArticleTo = post.data.link %}
+
+    <article class="links{% if page.url == post.url %} single{% endif %}">
+      <div class="links-permalink">
+        {% if page.url == post.url %}
+          <a href="/links" title="All links">#</a>
+        {% else %}
+          <a href="{{ post.url }}" title="Permalink to {{ post.data.title }}">#</a>
+        {% endif %}
+      </div>
+
+      <div class="links-content">
+        <header>
+          <h2>
+            <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+              {{ post.data.title | smarty }}
+            </a>
+
+            {% if post.data.draft %}
+              <span class="draft">Draft</span>
+            {% endif %}
+          </h2>
+        </header>
+
+        {% if post.templateContent %}
+          <div class="content">
+            {{ post.templateContent | safe }}
+          </div>
+        {% endif %}
+
+        <footer>
+          {{ postTags(post.data.tags) }}
+          {% if page.url == post.url %}
+            <time datetime="{{ post.data.date | toISODateString }}">
+              <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+            </time>
+          {% endif %}
+        </footer>
+      </div>
+    </article>
+
+  {% elseif post.data.category == "media" %}
+
+    {% set linkArticleTo = post.url %}
+
+    <article{% if page.url == post.url %} class="single"{% endif %}>
+      <header>
+        <h2>
+          <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+            {{ post.data.title | smarty }}
+          </a>
+          {% if post.data.year %}
+            <span class="media-year">
+              ({{ post.data.year }})
+          </span>
+          {% endif %}
+          {% if post.data.imdb %}
+            <span class="media-imdb">
+              &middot;
+              <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}">IMDb</a>
+            </span>
+          {% endif %}
+          {% if post.data.rating %}
+            &middot;
+            <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
+              <span>{{ post.data.rating }}</span>
+            </span>
+          {% endif %}
+        </span>
+        {% if post.data.draft %}
+          <span class="draft">Draft</span>
+        {% endif %}
+      </h2>
+    </header>
+
+    {% if post.templateContent %}
+      {{ post.templateContent | safe }}
+    {% endif %}
+
+    <footer>
+      {{ postTags(post.data.tags) }}
+      {% if page.url == post.url %}
+        <time datetime="{{ post.data.date | toISODateString }}">
+          <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+        </time>
+      {% endif %}
+    </footer>
+  </article>
+
+{% else %}
+
+  {% set linkArticleTo = post.url %}
+
+  <article{% if page.url == post.url %} class="single"{% endif %}>
+    <header>
+      <h2>
+        <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+          {{ post.data.title | smarty }}
+        </a>
+
+        {% if post.data.draft %}
+          <span class="draft">Draft</span>
+        {% endif %}
+      </h2>
+    </header>
+
+    {% if post.templateContent %}
+      {{ post.templateContent | safe }}
+    {% endif %}
+
+    <footer>
+      {{ postTags(post.data.tags) }}
+      {% if page.url == post.url %}
+        <time datetime="{{ post.data.date | toISODateString }}">
+          <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+        </time>
+      {% endif %}
+    </footer>
+  </article>
+
+{% endif %}
+{% endmacro %}

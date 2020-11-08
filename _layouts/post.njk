@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% from "macros.njk" import singlePost %}
+
+{% set post = {
+  url: url,
+  data: {
+    title: title,
+    templateContent: content,
+    tags: tags,
+    date: page.date,
+    category: category,
+
+    link: link,
+
+    year: year,
+    rating: rating,
+    imdb: imdb
+  },
+  templateContent: content
+} %}
+
+{{ singlePost(post) }}

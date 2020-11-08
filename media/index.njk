@@ -1,0 +1,33 @@
+---
+layout: default
+pagination:
+  data: collections.media
+  size: 100
+  alias: media
+  reverse: true
+permalink: "media/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+title: Movies and Documentaries
+---
+
+<table class="media-list">
+  <tbody>
+    {% for post in media %}
+    <tr>
+      <td>
+        <a href="{{ post.url }}" title="{{ post.data.title }}">
+          {{ post.data.title | smarty }}
+        </a>
+      </td>
+      <td>
+        {{ post.data.year }}
+      </td>
+      <td>
+        <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}">IMDb</a>
+      </td>
+      <td>
+        <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
