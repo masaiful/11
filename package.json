@@ -4,19 +4,20 @@
   "description": "Nikhil's 11ty.js Log",
   "main": ".eleventy.js",
   "scripts": {
-    "build:site": "eleventy",
+    "build:site": "npx eleventy",
     "build": "npm-run-all clean build:site",
     "clean": "rimraf _site",
     "create": "node _scripts/create.js",
     "new": "node _scripts/create.js",
     "push": "node _scripts/push.js",
-    "serve": "eleventy --watch --serve --port 9000",
+    "serve": "npx eleventy --watch --serve --port 9000",
     "start": "npm-run-all serve",
     "update-algolia": "node _scripts/update-algolia.js"
   },
   "author": "Nikhil Anand",
   "license": "MIT",
   "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@sindresorhus/slugify": "^1.1.0",
     "algoliasearch": "^4.6.0",
