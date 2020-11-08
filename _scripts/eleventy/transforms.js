@@ -116,5 +116,7 @@ module.exports = {
    * source (even though you can do this in developer tools.) When ready for
    * production, minify.
    */
-  transformHTML: process.env.CI ? minify : beautify,
+  // TODO: This doesn't work :/ Just beautify for now.
+  // transformHTML: process.env.CI ? minify : beautify,
+  transformHTML: beautify,
 };
