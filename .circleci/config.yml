@@ -41,7 +41,7 @@ workflows:
     jobs:
       - build:
           context:
-            - AWS
+            - aws
           filters:
             branches:
               only: master
