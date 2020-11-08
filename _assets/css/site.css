@@ -12,7 +12,7 @@
   --font-size-base: 18px;
   --font-size-serif: 110%;
   --font-size-monospace: 100%;
-  --sans-serif-family: "Circular", -apple-system, BlinkMacSystemFont, avenir next, avenir,
+  --sans-serif-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   --serif-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
     Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
@@ -594,15 +594,16 @@ article.links.single {
 
 /* 404 */
 .four-oh-four h2 {
-  text-align: center;
   font-size: 15vw;
-  line-height: initial;
   font-weight: bold;
+  line-height: initial;
+  text-align: center;
 }
 .four-oh-four p {
-  font-size: calc(var(--font-size-base) * 2);
-  text-align: center;
   color: var(--color-highlight);
+  font-size: calc(var(--font-size-base) * 2);
+  line-height: initial;
+  text-align: center;
 }
 
 /* RESPONSIVE SHIT */
