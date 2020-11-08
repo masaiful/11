@@ -1,0 +1,46 @@
+# https://circleci.com/docs/2.0/language-javascript
+
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: afreeorange/build:latest
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
+
+      - run:
+          name: Installing dependencies
+          command: yarn
+
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: Building the site
+          command: yarn build
+
+      - run:
+          name: Updating search index
+          command: yarn update-algolia
+
+      - run:
+          name: Deploying to The Cloud ☝️
+          command: yarn push
+
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+

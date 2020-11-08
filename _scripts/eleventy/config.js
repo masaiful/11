@@ -1,3 +1,7 @@
+/**
+ * Where we store all the JS, CSS, Images, and other things (i.e. not Nunjucks
+ * templates) required to render this site.
+ */
 const ASSET_PATH = "_assets";
 
 /**
@@ -13,15 +17,22 @@ const MISC_PATH = "misc";
 const OPTIMIZED_MISC_FOLDER = "_optimized";
 
 /**
- * If this is `null`, just look locally
+ * Remote URI that serves pictures and videos. No trailing slashes. If this is
+ * `null`, just look locally. If this 
  */
-const REMOTE_MISC_PREFIX = null;
+const REMOTE_MISC_PREFIX = "https://static-log.nikhil.io";
+
+/**
+ * S3 Bucket where this site is deployed ☁️ No prefix or trailing slash.
+ */
+const BUCKET_NAME = "log.nikhil.io";
 
 module.exports = {
   ASSET_PATH,
+  BUCKET_NAME,
   MISC_PATH,
-  REMOTE_MISC_PREFIX,
   OPTIMIZED_MISC_FOLDER,
+  REMOTE_MISC_PREFIX,
 
   /**
    * Used to display stars
