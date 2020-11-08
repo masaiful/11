@@ -40,8 +40,6 @@ workflows:
   main:
     jobs:
       - build:
-          context:
-            - aws
           filters:
             branches:
               only: master
