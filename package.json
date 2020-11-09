@@ -12,7 +12,7 @@
     "new": "node _scripts/create",
     "push": "node _scripts/push.js",
     "serve": "npx eleventy --watch --serve --port 9000",
-    "start": "npm-run-all serve",
+    "start": "npm-run-all clean serve",
     "sync": "bash _scripts/sync.sh",
     "update-algolia": "node _scripts/update-algolia.js"
   },
