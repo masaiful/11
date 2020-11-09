@@ -8,7 +8,7 @@
     "build": "npm-run-all clean build:site",
     "clean": "rimraf _site",
     "create": "node _scripts/create.js",
-    "new": "node _scripts/create.js",
+    "new": "node _scripts/create",
     "push": "node _scripts/push.js",
     "serve": "eleventy --watch --serve --port 9000",
     "start": "npm-run-all serve",
