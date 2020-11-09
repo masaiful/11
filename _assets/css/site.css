@@ -21,11 +21,12 @@
     monospace;
 
   /* Colors */
-  --color-black: #111111;
-  --color-gray: #ccc;
+  --color-black: #111;
+  --color-gray: #999;
   --color-gray-light: #ddd;
   --color-highlight: #ffbe0d;
   --color-highlight-light: #ff6;
+  --color-background: #fff;
 }
 
 @keyframes fadeIn {
@@ -40,6 +41,10 @@
 ::selection {
   background: var(--color-highlight-light);
   color: var(--color-black);
+}
+
+html {
+  background: var(--color-background);
 }
 
 html,
@@ -217,14 +222,12 @@ article table thead tr th:first-child {
   padding-left: 0;
 }
 article table tbody tr td {
+  border-bottom: 1px dotted var(--color-gray-light);
   padding: calc(var(--root-spacing) / 4) calc(var(--root-spacing) / 2);
   vertical-align: top;
 }
 article table tbody tr td:first-child {
   padding-left: 0;
-}
-article table tbody tr:nth-child(odd) td {
-  background: #f6f6f6;
 }
 article table tbody tr:last-child td {
   border-bottom: none;
@@ -302,6 +305,7 @@ article .footnotes ol li p {
 }
 article .footnotes a {
   border-bottom-color: var(--color-gray-light);
+  color: var(--color-gray);
 }
 article .footnote-ref {
   border-radius: calc(var(--rounding-radius) * 10);
