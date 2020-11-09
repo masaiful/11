@@ -4,14 +4,15 @@
   "description": "Nikhil's 11ty.js Log",
   "main": ".eleventy.js",
   "scripts": {
-    "build:site": "npx eleventy",
     "build": "npm-run-all clean build:site",
+    "build:site": "npx eleventy",
     "clean": "rimraf _site",
     "create": "node _scripts/create.js",
     "new": "node _scripts/create",
     "push": "node _scripts/push.js",
     "serve": "npx eleventy --watch --serve --port 9000",
     "start": "npm-run-all serve",
+    "sync": "bash _scripts/sync.sh",
     "update-algolia": "node _scripts/update-algolia.js"
   },
   "author": "Nikhil Anand",
