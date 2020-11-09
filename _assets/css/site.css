@@ -49,7 +49,16 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--line-height);
   padding: var(--root-spacing) calc(var(--root-spacing) * 2);
+
+  /**
+   *  Doesn't work everywhere
+   *  https://caniuse.com/#search=scroll-behavior
+   */
   scroll-behavior: smooth;
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body > * {
@@ -64,7 +73,7 @@ main {
 
 a {
   text-decoration: none;
-  transition: background 0.75s;
+  transition: background 0.5s;
 }
 a:hover {
   background: var(--color-highlight-light);
@@ -382,7 +391,7 @@ article.links.single {
 }
 
 /* Media type styles */
-article.media .media-year {
+.media-year {
   font-weight: normal;
 }
 .media-imdb a {
@@ -390,6 +399,7 @@ article.media .media-year {
 }
 .media-list {
   width: 100%;
+  margin-bottom: var(--root-spacing);
 }
 .media-list a {
   color: var(--color-black);
@@ -507,20 +517,35 @@ article.media .media-year {
 .hide {
   display: none;
 }
-.stars {
+.stars,
+.stars-superlative {
   --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
 }
-.stars span {
+.stars span,
+.stars-superlative span {
   display: none;
 }
 .stars::before {
   --percent: calc(var(--rating) / 5 * 100%);
-  content: "✶✶✶✶✶";
+  content: "★★★★★";
   letter-spacing: 2px;
   background: linear-gradient(
     90deg,
     var(--color-black) var(--percent),
+    var(--color-gray-light) var(--percent)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.stars-superlative::before {
+  --percent: calc(var(--rating) / 5 * 100%);
+  content: "★★★★★";
+  letter-spacing: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--color-highlight) var(--percent),
     var(--color-gray-light) var(--percent)
   );
   background-clip: text;
@@ -565,6 +590,20 @@ article.media .media-year {
 .searching {
   background: var(--color-black);
   color: white;
+}
+
+/* 404 */
+.four-oh-four h2 {
+  font-size: 15vw;
+  font-weight: bold;
+  line-height: initial;
+  text-align: center;
+}
+.four-oh-four p {
+  color: var(--color-highlight);
+  font-size: calc(var(--font-size-base) * 2);
+  line-height: initial;
+  text-align: center;
 }
 
 /* RESPONSIVE SHIT */
