@@ -1,7 +1,7 @@
 {
   "name": "log-nikhil-io",
   "version": "1.0.0",
-  "description": "Nikhil's 11ty.js Log",
+  "description": "Nikhil's Log",
   "main": ".eleventy.js",
   "scripts": {
     "build": "npm-run-all clean build:site",
