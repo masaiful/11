@@ -582,7 +582,7 @@ article.links.single {
   margin-bottom: calc(var(--root-spacing) * -0.5);
 }
 #search-results article > * {
-  margin: calc(var(--root-spacing) / 4) 0;
+  margin: calc(var(--root-spacing) / 2) 0;
 }
 #search-results article em {
   font-family: var(--sans-serif-family);

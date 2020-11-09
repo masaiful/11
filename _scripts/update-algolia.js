@@ -5,6 +5,11 @@ require("dotenv").config();
 
 const SEARCH_DATA_FILE = "_site/search-data.json";
 
+if (!process.env.ALGOLIA_APPLICATION_ID || !process.env.ALGOLIA_API_KEY) {
+  console.log(chalk.red("Algolia configuration not found in env"));
+  process.exit(1);
+}
+
 const algoliaClient = algoliasearch(
   process.env.ALGOLIA_APPLICATION_ID,
   process.env.ALGOLIA_API_KEY,

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npm-run-all clean build:site",
     "build:site": "npx eleventy",
+    "compress:site": "node _scripts/compress-site.js",
     "clean": "rimraf _site",
     "create": "node _scripts/create.js",
     "new": "node _scripts/create",

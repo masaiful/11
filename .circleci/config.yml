@@ -32,6 +32,10 @@ jobs:
           command: yarn update-algolia
 
       - run:
+          name: Compressing for deployment
+          command: yarn compress:site
+
+      - run:
           name: Deploying to The Cloud ☝️
           command: yarn push
 

@@ -1,10 +1,6 @@
 # log.nikhil.io
 
-My personal log powered by [11ty.js](https://www.11ty.dev/)
-
-### Usage
-
-Customization in `_data/site.json` and `_scripts/config.js`.
+[My personal log](https://log.nikhil.io/) powered by [11ty.js](https://www.11ty.dev/).
 
 ```bash
 # Install dependencies
@@ -21,4 +17,7 @@ yarn clean
 
 # Build site
 yarn build
+
+# Publish stuff
+yarn sync
 ```
