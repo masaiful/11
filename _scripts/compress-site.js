@@ -17,7 +17,10 @@ if (process.env.CI) {
 
   const compress = exec(compressCommand);
   compress.stdout.on("data", (data) => console.log(chalk.green(data)));
-  compress.stderr.on("data", (data) => console.log(chalk.red(data)));
+  compress.stderr.on("data", (data) => {
+    console.log(chalk.red(data));
+    process.exit(1);
+  });
 }
 
 fs.writeFileSync(`${config.SITE.dir.output}/.compressed`, "", (e) => {

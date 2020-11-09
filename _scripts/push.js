@@ -27,4 +27,7 @@ if (compressed) {
 
 const sync = exec(syncCommand);
 sync.stdout.on("data", (data) => console.log(chalk.green(data)));
-sync.stderr.on("data", (data) => console.log(chalk.red(data)));
+sync.stderr.on("data", (data) => {
+  console.log(chalk.red(data));
+  process.exit(1);
+});
