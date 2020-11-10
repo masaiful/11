@@ -387,8 +387,6 @@ article.links .content p + p::before {
 }
 article.links.single {
   font-size: x-large;
-  grid-template-columns: calc(var(--root-spacing) * 2) auto;
-  margin-left: calc(var(--root-spacing) * -2);
 }
 .index article.links + article.links {
   margin-top: calc(var(--root-spacing) * -0.5 * var(--article-spacing-factor));

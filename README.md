@@ -27,6 +27,9 @@ yarn clean
 # Build site
 yarn build
 
-# Publish stuff
+# Push to S3
+yarn push
+
+# Do everything: clean, build and sync site and misc assets
 yarn sync
 ```
