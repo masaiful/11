@@ -4,8 +4,8 @@ title: Expedition to the floor of the Mariana Trench finds plastic bag and sweet
 link: https://www.bbc.com/news/science-environment-48230157
 category: links
 tags:
-  - ocean
   - science
+  - nature
   - adventure
   - pollution
   - environment

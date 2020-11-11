@@ -1,35 +1,36 @@
-.env
-_site
+# Project-specific stuff
 node_modules
-
-# Miscellaneous assets
-misc/_optimized
-misc/a
-misc/b
-misc/c
-misc/d
-misc/e
-misc/f
-misc/g
-misc/h
-misc/i
-misc/j
-misc/k
-misc/l
-misc/m
-misc/n
-misc/o
-misc/p
-misc/q
-misc/r
-misc/s
-misc/t
-misc/u
-misc/v
-misc/w
-misc/x
-misc/y
-misc/z
+_optimized
+.optimized
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+index.html
+s3-bucket-listing.config.json
+s3-bucket-listing.og-image.png
 
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 

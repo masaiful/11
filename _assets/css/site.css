@@ -196,6 +196,11 @@ article blockquote {
   font-family: var(--serif-family);
   padding-left: var(--root-spacing);
 }
+article code {
+  border: 1px dotted var(--color-gray-light);
+  border-radius: var(--rounding-radius);
+  padding: 0 calc(var(--root-spacing) / 6);
+}
 article ul {
   list-style-type: disc;
   margin-left: var(--root-spacing);

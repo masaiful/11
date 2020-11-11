@@ -6,7 +6,6 @@ tags:
     - beautiful
     - photography
     - nature
-    - oceans
     - marine biology
 ---
 

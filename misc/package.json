@@ -1,0 +1,29 @@
+{
+  "name": "static-log.nikhil.io",
+  "version": "1.0.0",
+  "description": "Miscellaneous assets for my log",
+  "main": "index.js",
+  "repository": "git@github.com:afreeorange/static.git",
+  "author": "Nikhil Anand <mail@nikhil.io> (https://nikhil.io)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.6",
+    "mkdirp": "^1.0.4",
+    "npm-run-all": "^4.1.5",
+    "sharp": "^0.26.1"
+  },
+  "private": "true",
+  "scripts": {
+    "bootstrap": "npm-run-all create-folders pull",
+    "borg": "npm-run-all organize build",
+    "build": "node _scripts/build.js",
+    "create-folders": "node _scripts/bootstrap.js",
+    "org": "node _scripts/organize.js",
+    "organize": "node _scripts/organize.js",
+    "pull": "node _scripts/pull.js",
+    "push:only": "node _scripts/push.js",
+    "push": "npm-run-all build push:only"
+  }
+}

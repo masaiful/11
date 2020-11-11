@@ -8,6 +8,7 @@ tags:
     - octopus
     - favorite things
     - nature
+    - beautiful
 ---
 
 ![transparent baby octopus](/misc/t/transparent-octopus.jpg)
