@@ -25,7 +25,7 @@
   --color-gray: #999;
   --color-gray-light: #ddd;
   --color-highlight: #ffbe0d;
-  --color-highlight-light: #ff6;
+  --color-highlight-light: rgba(254, 227, 91, 0.87);
   --color-background: #fff;
 }
 
@@ -637,6 +637,7 @@ article.links.single {
 @media all and (max-width: 500px) {
   :root {
     --article-spacing-factor: 2;
+    --font-size-base: 16px;
   }
   .media-list tbody td:nth-child(2),
   .media-list tbody td:nth-child(3) {
