@@ -11,7 +11,6 @@ tags:
   - environment
   - sad
   - mariana trench
-
 ---
 
 Look we just wanted to make sure The Ocean would remember our species for having delivered _value_ at any cost.

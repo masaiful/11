@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: The New Yorker on the joys of "Columbo."
 link: https://www.newyorker.com/humor/daily-shouts/rediscovering-columbo-in-2020
