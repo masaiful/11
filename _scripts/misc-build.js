@@ -17,7 +17,7 @@ const optimizeFile = async (filePath) => {
   // console.info(chalk.yellow("⠶ Checking", filePath));
   const fileBuffer = fs.readFileSync(filePath);
 
-  const optimizedFilePath = `${config.OPTIMIZED_FILES_PREFIX}/${filePath}`;
+  const optimizedFilePath = `${config.OPTIMIZED_MISC_FOLDER}/${filePath}`;
   const { dir, name } = path.parse(optimizedFilePath);
   const optimizedFilePath_WebP = `${dir}/${name}.webp`;
 

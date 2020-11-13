@@ -2,34 +2,10 @@
 _site
 node_modules
 
-# Miscellaneous assets
+# Miscellaneous assets. Don't want stuff in the bucket and the things we
+# optimize using Sharp.
 misc/_optimized
-misc/a
-misc/b
-misc/c
-misc/d
-misc/e
-misc/f
-misc/g
-misc/h
-misc/i
-misc/j
-misc/k
-misc/l
-misc/m
-misc/n
-misc/o
-misc/p
-misc/q
-misc/r
-misc/s
-misc/t
-misc/u
-misc/v
-misc/w
-misc/x
-misc/y
-misc/z
+misc/[a-z]*
 
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 
@@ -59,4 +35,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-

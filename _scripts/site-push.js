@@ -13,9 +13,16 @@ try {
   compressed = false;
 }
 
+/**
+ * Note: Learned this rather late but adding a `--size-only` flag to S3
+ * sync will prevent it from syncing things with different modification
+ * timestamps 🤦‍♀️
+ */
+const excludeLocalMisc = `--exclude "${config.MISC_PATH}/*"`;
+
 const syncCommand = `
 aws s3 sync ${config.SITE.dir.output}/ "s3://${config.BUCKET_NAME}/" \
-    --exclude "${config.MISC_PATH}/*" \
+    ${config.REMOTE_MISC_PREFIX ? excludeLocalMisc : ""} \
     --delete \
     --size-only \
     ${compressed ? "--content-encoding gzip" : ""}

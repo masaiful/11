@@ -29,6 +29,40 @@ const OPTIMIZED_MISC_FOLDER = "_optimized";
 const REMOTE_MISC_PREFIX = "https://static-log.nikhil.io";
 
 /**
+ * Just a simple way of organizing misc assets without this folder
+ * getting too hairy. Drop some some stuff here and run `yarn borg` so
+ * it's built and filed away properly.
+ */
+const MISC_FOLDER_LIST = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+];
+
+/**
  * S3 Bucket where this site is deployed ☁️ No prefix or trailing slash.
  */
 const BUCKET_NAME = "log.nikhil.io";
@@ -39,6 +73,7 @@ module.exports = {
   MISC_PATH,
   OPTIMIZED_MISC_FOLDER,
   REMOTE_MISC_PREFIX,
+  MISC_FOLDER_LIST,
 
   /**
    * Used to display stars
