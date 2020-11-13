@@ -9,7 +9,8 @@ const staticVideoPattern = RegExp(
 );
 
 /**
- * TODO: This is slow af. Write a plugin for `markdown-it`...
+ * TODO: This is slow af. Why wouldn't it be? Write a plugin for
+ * `markdown-it`...
  */
 const embedVideo = async (content, outputPath) => {
   if (outputPath && outputPath.endsWith(".html")) {
@@ -20,13 +21,22 @@ const embedVideo = async (content, outputPath) => {
     }
 
     console.log(
-      `📽  Embedding ${matches.length} HTML5 video(s) in ${outputPath}`,
+      `📽  Will embed ${matches.length} HTML5 video${
+        matches.length > 1 ? "s" : ""
+      } in ${outputPath}`,
     );
 
     matches.forEach(() => {
       let [nodeMatch, path, fileName, extension] = staticVideoPattern.exec(
         content,
       );
+
+      if (config.REMOTE_MISC_PREFIX !== null && process.env.CI) {
+        path = `${config.REMOTE_MISC_PREFIX}/${path.replace(
+          `/${config.MISC_PATH}/`,
+          "",
+        )}`;
+      }
 
       let embedCode = `
         <div class="video-container">

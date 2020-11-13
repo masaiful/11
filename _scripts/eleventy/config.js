@@ -5,8 +5,11 @@
 const ASSET_PATH = "_assets";
 
 /**
- * External repo of all the images and videos and miscellanea included in log
- * posts. Update .eleventyignore if you change this!
+ * External repo of all the images and videos and miscellanea included
+ * in log posts. 
+ *
+ * - Update .eleventyignore if you change this! 
+ * - No preceding or trailing slashes!
  */
 const MISC_PATH = "misc";
 
@@ -17,8 +20,11 @@ const MISC_PATH = "misc";
 const OPTIMIZED_MISC_FOLDER = "_optimized";
 
 /**
- * Remote URI that serves pictures and videos. No trailing slashes. If this is
- * `null`, just look locally. If this 
+ * Remote URI that serves pictures and videos. No trailing slashes. If
+ * this is `null`, just look locally. 
+ *
+ * Note: `/MISC_PATH/` is removed when making a production build if this
+ * is set to `null`!
  */
 const REMOTE_MISC_PREFIX = "https://static-log.nikhil.io";
 

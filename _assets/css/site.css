@@ -59,7 +59,7 @@ body {
    *  Doesn't work everywhere
    *  https://caniuse.com/#search=scroll-behavior
    */
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
