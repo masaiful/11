@@ -17,6 +17,7 @@ const syncCommand = `
 aws s3 sync ${config.SITE.dir.output}/ "s3://${config.BUCKET_NAME}/" \
     --exclude "${config.MISC_PATH}/*" \
     --delete \
+    --size-only \
     ${compressed ? "--content-encoding gzip" : ""}
 `;
 
