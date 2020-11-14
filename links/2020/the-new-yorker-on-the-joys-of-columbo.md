@@ -11,4 +11,3 @@ tags:
     - favorite things
 ---
 
-My parents just started watching this show and absolutely love it. I've seen every episode at least twice and love discovering new, random things about the show on [the Subreddit](https://www.reddit.com/r/Columbo/). I love paying special attention to the technology in the show ♥♥♥
