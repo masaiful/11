@@ -16,7 +16,7 @@
     "compress:site": "node _scripts/compress-site.js",
     "push:site": "node _scripts/push-site.js",
     "build": "npm-run-all clean organize:misc build:misc build:site",
-    "sync": "bash _scripts/sync.sh",
+    "push": "bash _scripts/push.sh",
     "update-algolia": "node _scripts/update-algolia.js",
     "new": "node _scripts/create",
     "serve": "npx eleventy --watch --serve --port 9000",
