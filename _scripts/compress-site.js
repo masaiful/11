@@ -12,16 +12,19 @@ const compressCommand = `
         -exec gzip -9 \'{}\' \\; -exec mv \'{}.gz\' \'{}\' \\;
 `;
 
-if (process.env.CI) {
-  console.log(chalk.yellow("Compressing output"));
-
-  const compress = exec(compressCommand);
-  compress.stdout.on("data", (data) => console.log(chalk.green(data)));
-  compress.stderr.on("data", (data) => {
-    console.log(chalk.red(data));
-    process.exit(1);
-  });
+if (!fs.existsSync(config.SITE.dir.output)) {
+  console.log(chalk.red("Site has not been built!"));
+  process.exit(1);
 }
+
+console.log(chalk.yellow("Compressing output"));
+
+const compress = exec(compressCommand);
+compress.stdout.on("data", (data) => console.log(chalk.green(data)));
+compress.stderr.on("data", (data) => {
+  console.log(chalk.red(data));
+  process.exit(1);
+});
 
 fs.writeFileSync(`${config.SITE.dir.output}/.compressed`, "", (e) => {
   if (e) {

@@ -22,7 +22,7 @@ const excludeLocalMisc = `--exclude "${config.MISC_PATH}/*"`;
 
 const syncCommand = `
 aws s3 sync ${config.SITE.dir.output}/ "s3://${config.BUCKET_NAME}/" \
-    ${config.REMOTE_MISC_PREFIX ? excludeLocalMisc : ""} \
+    ${config.MISC_REMOTE_PREFIX ? excludeLocalMisc : ""} \
     --delete \
     --size-only \
     ${compressed ? "--content-encoding gzip" : ""}

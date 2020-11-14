@@ -31,8 +31,8 @@ const embedVideo = async (content, outputPath) => {
         content,
       );
 
-      if (config.REMOTE_MISC_PREFIX !== null && process.env.CI) {
-        path = `${config.REMOTE_MISC_PREFIX}/${path.replace(
+      if (config.MISC_REMOTE_PREFIX !== null && process.env.CI) {
+        path = `${config.MISC_REMOTE_PREFIX}/${path.replace(
           `/${config.MISC_PATH}/`,
           "",
         )}`;

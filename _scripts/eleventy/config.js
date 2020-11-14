@@ -6,9 +6,9 @@ const ASSET_PATH = "_assets";
 
 /**
  * External repo of all the images and videos and miscellanea included
- * in log posts. 
+ * in log posts.
  *
- * - Update .eleventyignore if you change this! 
+ * - Update .eleventyignore if you change this!
  * - No preceding or trailing slashes!
  */
 const MISC_PATH = "misc";
@@ -17,16 +17,19 @@ const MISC_PATH = "misc";
  * This is the folder *within* the `MISC_PATH` that all the optimized assets
  * are written to.
  */
-const OPTIMIZED_MISC_FOLDER = "_optimized";
+const MISC_OPTIMIZED_FOLDER = "_optimized";
 
 /**
  * Remote URI that serves pictures and videos. No trailing slashes. If
- * this is `null`, just look locally. 
+ * this is `null`, just look locally.
  *
  * Note: `/MISC_PATH/` is removed when making a production build if this
  * is set to `null`!
+ *
+ * Note: Bucket name only! No "s3://" prefix!
  */
-const REMOTE_MISC_PREFIX = "https://static-log.nikhil.io";
+const MISC_REMOTE_BUCKET = "static-log.nikhil.io";
+const MISC_REMOTE_PREFIX = "https://static-log.nikhil.io";
 
 /**
  * Just a simple way of organizing misc assets without this folder
@@ -67,13 +70,23 @@ const MISC_FOLDER_LIST = [
  */
 const BUCKET_NAME = "log.nikhil.io";
 
+/**
+ * Send these straight through to the built site
+ */
+let PASSTHROUGH = ["robots.txt", ASSET_PATH];
+if (MISC_REMOTE_PREFIX === null) {
+  PASSTHROUGH.push(MISC_PATH);
+}
+
 module.exports = {
   ASSET_PATH,
   BUCKET_NAME,
-  MISC_PATH,
-  OPTIMIZED_MISC_FOLDER,
-  REMOTE_MISC_PREFIX,
   MISC_FOLDER_LIST,
+  MISC_OPTIMIZED_FOLDER,
+  MISC_PATH,
+  MISC_REMOTE_BUCKET,
+  MISC_REMOTE_PREFIX,
+  PASSTHROUGH,
 
   /**
    * Used to display stars
@@ -123,11 +136,6 @@ module.exports = {
       output: "_site", // Update package.json if you change this!
     },
   },
-
-  /**
-   * Send these straight through to the built site
-   */
-  PASSTHROUGH: ["robots.txt", ASSET_PATH, MISC_PATH],
 
   /**
    * Monitor these files/dirs/globs for changes

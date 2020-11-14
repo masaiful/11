@@ -1,35 +1,33 @@
-# log.nikhil.io
+# Miscellaneous Assets for `log.nikhil.io`
 
-[My personal log](https://log.nikhil.io/) powered by [11ty.js](https://www.11ty.dev/).
+Being pictures, video, text, and HTML files I use on [my log](https://log.nikhil.io/). I just keep the scripts here. The assets themselves are in [a CloudFront-ed S3 bucket](https://static-log.nikhil.io) with versioning enabled, for I got tired of messing around with `git lfs`.
+
+Uses Sharp to create optimized _and_ WebP versions of PNG and JPEG assets. These are created in `_optimized` with the same path. That is to say: the original assets (in `a/`, `b/`, and so on) remain **untouched** and **unused**.
+
+I use [this project](https://github.com/afreeorange/s3-bucket-listing) for a [nice bucket listing](https://static-log.nikhil.io/).
+
+### Usage
 
 ```bash
-# Clone the misc assets repo and bootstrap
-git clone https://github.com/afreeorange/log-misc.git misc
-pushd misc && yarn && yarn bootstrap && popd
-
-# Create a .env with these
-ALGOLIA_APPLICATION_ID="FOO"
-ALGOLIA_API_KEY="FOO"
-OMDB_API_KEY="FOO"
-
 # Install dependencies
 yarn
 
-# Make a new post
-yarn new
+# Create a folder structure; organize assets by the first character
+# of their filenames. This way, don't have to pull down the entire
+# bucket for local development.
+yarn bootstrap
 
-# Start a live-reloading server (on port 9000)
-yarn start
+# Pull all assets. Modify bucket in _scripts/pull.sh
+yarn pull
 
-# Clean build
-yarn clean
+# Organize assets
+yarn organize
 
-# Build site
+# Optimize Images
 yarn build
 
-# Push to S3
+# Push assets. Modify bucket in _scripts/push.sh
 yarn push
-
-# Do everything: clean, build and sync site and misc assets
-yarn sync
 ```
+
+Why `yarn`? The log itself is based on [11ty.js](https://www.11ty.dev/) and has a lot of `yarn` scripts itself. This just keeps the tooling consistent 🤷‍♂️

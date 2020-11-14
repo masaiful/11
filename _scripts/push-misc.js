@@ -1,16 +1,17 @@
 const chalk = require("chalk");
 const { exec } = require("child_process");
 
-const config = require("./config");
+const config = require("./eleventy/config");
 
 const command = `
-aws s3 sync . "s3://${config.REMOTE_MISC_PREFIX}/" \
+aws s3 sync ${config.MISC_PATH}/ "s3://${config.MISC_REMOTE_BUCKET}/" \
     --cache-control max-age=31536000,public \
     --metadata-directive REPLACE \
-    ${config.SYNC_EXCLUDE_PATHS.map((p) => `--exclude "${p}"`).join(" ")}`;
+    --size-only
+`;
 
 console.log(
-  chalk.cyan(`Publishing misc assets to s3://${config.REMOTE_MISC_PREFIX}`),
+  chalk.cyan(`Publishing misc assets to s3://${config.MISC_REMOTE_BUCKET}`),
 );
 
 const push = exec(command);

@@ -6,7 +6,7 @@ const path = require("path");
 const process = require("process");
 const sharp = require("sharp");
 
-const config = require("./config");
+const config = require("./eleventy/config");
 
 let forceProcessing = false;
 if (process.argv.length > 2 && process.argv[2] === "--force") {
@@ -17,7 +17,7 @@ const optimizeFile = async (filePath) => {
   // console.info(chalk.yellow("⠶ Checking", filePath));
   const fileBuffer = fs.readFileSync(filePath);
 
-  const optimizedFilePath = `${config.OPTIMIZED_MISC_FOLDER}/${filePath}`;
+  const optimizedFilePath = `${config.MISC_OPTIMIZED_FOLDER}/${filePath}`;
   const { dir, name } = path.parse(optimizedFilePath);
   const optimizedFilePath_WebP = `${dir}/${name}.webp`;
 
@@ -42,11 +42,17 @@ const optimizeFile = async (filePath) => {
   }
 };
 
-glob(
-  "**/*.*(jpg|jpeg|png)",
-  {
-    ignore: config.IGNORED_PATHS,
-    nocase: true,
-  },
-  (_, files) => files.map((filePath) => optimizeFile(filePath)),
-);
+try {
+  process.chdir(config.MISC_PATH);
+
+  glob(
+    "**/*.*(jpg|jpeg|png)",
+    {
+      ignore: [`${config.MISC_OPTIMIZED_FOLDER}/**`],
+      nocase: true,
+    },
+    (_, files) => files.map((filePath) => optimizeFile(filePath)),
+  );
+} catch (error) {
+  console.log(chalk.red("Could not switch to misc assets folder:", error));
+}

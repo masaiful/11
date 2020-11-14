@@ -11,7 +11,7 @@
 const config = require("./config");
 
 const LOCAL_MISC_PREFIX = `/${config.MISC_PATH}`;
-const REMOTE_MISC_PREFIX = config.REMOTE_MISC_PREFIX;
+const MISC_REMOTE_PREFIX = config.MISC_REMOTE_PREFIX;
 
 /**
  * Converts md to html5 picture elements
@@ -115,10 +115,10 @@ const rule = (state, silent) => {
      * This is the structure being created here:
      *
      * <picture class="lazy" data-alt="Foo">
-     *   <source type="image/webp" srcset="$REMOTE_MISC_PREFIX/misc/_optimized/m/midwest_cold.webp">
-     *   <source srcset="$REMOTE_MISC_PREFIX/misc/_optimized/m/midwest_cold.png">
+     *   <source type="image/webp" srcset="$MISC_REMOTE_PREFIX/misc/_optimized/m/midwest_cold.webp">
+     *   <source srcset="$MISC_REMOTE_PREFIX/misc/_optimized/m/midwest_cold.png">
      *   <noscript>
-     *     <img src="$REMOTE_MISC_PREFIX/misc/_optimized/m/midwest_cold.png" alt="Foo">
+     *     <img src="$MISC_REMOTE_PREFIX/misc/_optimized/m/midwest_cold.png" alt="Foo">
      *   </noscript>
      * </picture>
      */
@@ -136,9 +136,9 @@ const rule = (state, silent) => {
      * URI/prefix exists, use it. If not, supply the absolute path to the
      * misc file.
      */
-    let fullPathReplacement = REMOTE_MISC_PREFIX
-      ? `${REMOTE_MISC_PREFIX}/${config.OPTIMIZED_MISC_FOLDER}`
-      : `${LOCAL_MISC_PREFIX}/${config.OPTIMIZED_MISC_FOLDER}`;
+    let fullPathReplacement = MISC_REMOTE_PREFIX
+      ? `${MISC_REMOTE_PREFIX}/${config.MISC_OPTIMIZED_FOLDER}`
+      : `${LOCAL_MISC_PREFIX}/${config.MISC_OPTIMIZED_FOLDER}`;
 
     // Don't want GIFs as a source since Sharp won't even process them!
     if (!primary.endsWith(".gif")) {
