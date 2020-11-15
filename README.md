@@ -1,33 +1,50 @@
-# Miscellaneous Assets for `log.nikhil.io`
+# [log.nikhil.io](https://log.nikhil.io/)
 
-Being pictures, video, text, and HTML files I use on [my log](https://log.nikhil.io/). I just keep the scripts here. The assets themselves are in [a CloudFront-ed S3 bucket](https://static-log.nikhil.io) with versioning enabled, for I got tired of messing around with `git lfs`.
+My personal log powered by the awesome [11ty.js](https://www.11ty.dev/). Stupid-simple and scores very well on [Lightouse](https://developers.google.com/web/tools/lighthouse) and [WebPageTest](https://www.webpagetest.org/).
 
-Uses Sharp to create optimized _and_ WebP versions of PNG and JPEG assets. These are created in `_optimized` with the same path. That is to say: the original assets (in `a/`, `b/`, and so on) remain **untouched** and **unused**.
+## Usage
 
-I use [this project](https://github.com/afreeorange/s3-bucket-listing) for a [nice bucket listing](https://static-log.nikhil.io/).
+### Environment
 
-### Usage
+Create `.env` with these
+
+```
+ALGOLIA_APPLICATION_ID="foobar"
+ALGOLIA_API_KEY="foobar"
+OMDB_API_KEY="foobar"
+```
+
+### Commands
 
 ```bash
 # Install dependencies
 yarn
 
-# Create a folder structure; organize assets by the first character
-# of their filenames. This way, don't have to pull down the entire
-# bucket for local development.
-yarn bootstrap
+# Bootstrap misc assets (like photos, videos, etc)
+# Will pull down assets from a separate S3 bucket
+# that hosts them with versioning in case I do
+# something stupid.
+yarn bootstrap-misc
 
-# Pull all assets. Modify bucket in _scripts/pull.sh
-yarn pull
+# Start a live-reloading server
+yarn start
 
-# Organize assets
-yarn organize
+# Create a new post
+yarn new
 
-# Optimize Images
-yarn build
-
-# Push assets. Modify bucket in _scripts/push.sh
+# Push changes. The log itself is pushed here, which
+# triggers a CircleCI build that syncs to an S3 Bucket.
+# The misc assets are synced from my machine to another
+# bucket (that has versioning enabled.)
 yarn push
 ```
 
-Why `yarn`? The log itself is based on [11ty.js](https://www.11ty.dev/) and has a lot of `yarn` scripts itself. This just keeps the tooling consistent 🤷‍♂️
+See `package.json` for more commands. Other than the most frequently used ones listed above, `yarn borg` will build and organize all misc assets in `misc/`
+
+### Misc Notes
+
+I use [this project](https://github.com/afreeorange/s3-bucket-listing) for a [nice bucket listing](https://static-log.nikhil.io/).
+
+Uses Sharp to create optimized _and_ WebP versions of PNG and JPEG assets. These are created in `misc/_optimized` with the same path. That is to say: the original assets (in `misc/a`, `misc/b`, and so on) remain **untouched** and **unused**.
+
+Things can be customized in `_scripts/eleventy/config.js`
