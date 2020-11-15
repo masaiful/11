@@ -9,8 +9,8 @@ const markdownParser = require("markdown-it")({
    */
   .use(require("./picture"))
   .use(require("./footnotes"))
+  .use(require("./kbd"))
   .use(require("markdown-it-prism"))
-  .use(require("markdown-it-kbd"))
   .use(require("markdown-it-sup"))
   .use(require("markdown-it-sub"));
 

@@ -191,6 +191,20 @@ article strong {
 article p {
   margin: var(--root-spacing) 0;
 }
+article kbd {
+  background-color: #f0f0f0;
+
+  border-radius: var(--rounding-radius);
+  -moz-border-radius: var(--rounding-radius);
+  -webkit-border-radius: var(--rounding-radius);
+
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 2px #ffffff;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+
+  padding: 0 calc(var(--root-spacing) / 4);
+}
 article blockquote {
   border-left: 1px solid lightgray;
   font-family: var(--serif-family);

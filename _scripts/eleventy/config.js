@@ -106,24 +106,6 @@ module.exports = {
   },
 
   /**
-   * These are used for the <kbd> tag.
-   */
-  KBD_MAPPING: {
-    cmd: "&#8984;",
-    option: "&#8997;",
-    shift: "&#8679;",
-    caps: "&#8682;",
-    eject: "&#9167;",
-    return: "&#9166;",
-    delete: "&#9003;",
-    esc: "&#9099;",
-    right: "&rarr;",
-    left: "&larr;",
-    up: "&uarr;",
-    down: "&darr;",
-  },
-
-  /**
    * Nothing more than the 11ty site config. Don't clobber with stuff not
    * documented!
    */
