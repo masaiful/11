@@ -15,6 +15,6 @@ tags:
 >
 > But yeah if she's dreaming _that's_ the dream.
 
--- David Scheel, Scientist ([Source](https://www.pbs.org/video/octopus-dreaming-trept6/))
+-- [David Scheel](https://www.pbs.org/video/octopus-dreaming-trept6/)
 
 /misc/s/sleeping-octopus.mp4
