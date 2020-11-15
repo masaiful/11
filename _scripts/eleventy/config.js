@@ -74,7 +74,12 @@ const BUCKET_NAME = "log.nikhil.io";
  * Send these straight through to the built site
  */
 let PASSTHROUGH = ["robots.txt", ASSET_PATH];
-if (MISC_REMOTE_PREFIX === null) {
+
+/**
+ * If we're not in a production context OR if we're not using a separate bukcet
+ * for our assets, include the misc assets folder in the built output.
+ */
+if (MISC_REMOTE_PREFIX === null || !process.env.CI) {
   PASSTHROUGH.push(MISC_PATH);
 }
 
