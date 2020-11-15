@@ -17,6 +17,4 @@ tags:
 
 -- David Scheel, Scientist ([Source](https://www.pbs.org/video/octopus-dreaming-trept6/))
 
-[[cmd]] + [[c]]
-
 /misc/s/sleeping-octopus.mp4

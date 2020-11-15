@@ -7,8 +7,6 @@ const command = `
 aws s3 sync ${config.MISC_PATH}/ "s3://${config.MISC_REMOTE_BUCKET}/" \
     --cache-control max-age=31536000,public \
     --metadata-directive REPLACE \
-    --exclude "*.git* \
-    --exclude "*.optimized* \
     --size-only
 `;
 
