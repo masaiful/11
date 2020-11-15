@@ -15,10 +15,10 @@ const configureExternalEmbeds = (eleventyConfigObj) =>
         embedClass: "video-container",
         lite: {
           css: {
-            path: `/${config.ASSET_PATH}/css/yt.css`,
+            path: `/${config.ASSET_PATH_IN_BUILT_SITE}/css/yt.css`,
           },
           js: {
-            path: `/${config.ASSET_PATH}/js/yt.js`,
+            path: `/${config.ASSET_PATH_IN_BUILT_SITE}/js/yt.js`,
           },
         },
       },

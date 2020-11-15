@@ -3,6 +3,7 @@
  * templates) required to render this site.
  */
 const ASSET_PATH = "_assets";
+const ASSET_PATH_IN_BUILT_SITE = "assets";
 
 /**
  * External repo of all the images and videos and miscellanea included
@@ -71,9 +72,15 @@ const MISC_FOLDER_LIST = [
 const BUCKET_NAME = "log.nikhil.io";
 
 /**
- * Send these straight through to the built site
+ * Send these straight through to the built site. If you want to rename the
+ * target, specify it as a map of source:dest. Eleventy will know what to do.
  */
-let PASSTHROUGH = ["robots.txt", ASSET_PATH];
+let PASSTHROUGH = [
+  "robots.txt",
+  {
+    [ASSET_PATH]: ASSET_PATH_IN_BUILT_SITE,
+  },
+];
 
 /**
  * If we're not in a production context OR if we're not using a separate bukcet
@@ -85,6 +92,7 @@ if (MISC_REMOTE_PREFIX === null || !process.env.CI) {
 
 module.exports = {
   ASSET_PATH,
+  ASSET_PATH_IN_BUILT_SITE,
   BUCKET_NAME,
   MISC_FOLDER_LIST,
   MISC_OPTIMIZED_FOLDER,

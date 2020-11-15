@@ -13,20 +13,17 @@ module.exports = (eleventyConfig) => {
    */
   eleventyConfig.setLibrary("md", parser);
 
-  /**
-   * Shortcodes
-   * TODO: Finish this
-   */
-  // E.g. <kbd>shift</kbd>
-  eleventyConfig.addShortcode("kbd", (shortcut) => {
-    return shortcut;
-  });
-
   Object.keys(filters).map((f) => eleventyConfig.addFilter(f, filters[f]));
 
-  config.PASSTHROUGH.map((p) => eleventyConfig.addPassthroughCopy(p));
+  config.PASSTHROUGH.map((p) => {
+    console.log("🛂 Passthrough", p);
+    eleventyConfig.addPassthroughCopy(p);
+  });
 
-  config.WATCH_TARGETS.map((t) => eleventyConfig.addWatchTarget(t));
+  config.WATCH_TARGETS.map((t) => {
+    console.log("👀 Watching", t);
+    eleventyConfig.addWatchTarget(t);
+  });
 
   Object.keys(config.COLLECTIONS).map((collectionName) =>
     eleventyConfig.addCollection(collectionName, (collection) =>
