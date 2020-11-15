@@ -1,6 +1,6 @@
 # [log.nikhil.io](https://log.nikhil.io/)
 
-My personal log powered by the awesome [11ty.js](https://www.11ty.dev/). Stupid-simple and scores very well on [Lightouse](https://developers.google.com/web/tools/lighthouse) and [WebPageTest](https://www.webpagetest.org/).
+My personal log powered by the awesome [11ty.js](https://www.11ty.dev/). Simple and scores very well on [Lighthouse](https://developers.google.com/web/tools/lighthouse) and [WebPageTest](https://www.webpagetest.org/).
 
 ## Usage
 
