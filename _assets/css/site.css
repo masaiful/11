@@ -21,12 +21,12 @@
     monospace;
 
   /* Colors */
-  --color-black: #111;
-  --color-gray: #999;
-  --color-gray-light: #ddd;
+  --color-background: #fff;
+  --color-text: #111;
+  --color-text-secondary: #999;
+  --color-text-tertiary: #ddd;
   --color-highlight: #ffbe0d;
   --color-highlight-light: rgba(254, 227, 91, 0.87);
-  --color-background: #fff;
 }
 
 @keyframes fadeIn {
@@ -40,7 +40,7 @@
 
 ::selection {
   background: var(--color-highlight-light);
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 html {
@@ -49,7 +49,7 @@ html {
 
 html,
 body {
-  color: var(--color-black);
+  color: var(--color-text);
   font-family: var(--sans-serif-family);
   font-size: var(--font-size-base);
   line-height: var(--line-height);
@@ -82,7 +82,7 @@ a {
 }
 a:hover {
   background: var(--color-highlight-light);
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 body > header > nav {
@@ -104,10 +104,10 @@ body > header > nav ul li {
   margin-left: var(--root-spacing);
 }
 body > header > nav ul li a {
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
 }
 body > header > nav ul li a:hover {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 body > header > nav ul li a.active {
   color: var(--color-highlight);
@@ -115,7 +115,7 @@ body > header > nav ul li a.active {
 
 body > footer {
   margin-bottom: var(--root-spacing);
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 body > footer ul li {
   display: inline-block;
@@ -125,7 +125,7 @@ body > footer em {
   font-family: var(--serif-family);
 }
 body > footer a {
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
 }
 body > footer li:first-child::before {
   content: "\21E0";
@@ -138,10 +138,10 @@ body > footer li:first-child::before {
 }
 body > footer li:nth-child(2):after {
   content: "\290F";
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 body > footer ul li:last-child {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
   float: right;
 }
 
@@ -150,7 +150,7 @@ article {
 }
 article header a {
   border-bottom: none;
-  color: var(--color-black);
+  color: var(--color-text);
 }
 article header .draft {
   background-color: var(--color-highlight);
@@ -168,17 +168,17 @@ article h5 {
   font-weight: bold;
 }
 article h3 {
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
 }
 article h4,
 article h5 {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 article h5 {
   font-size: small;
 }
 article a {
-  color: var(--color-black);
+  color: var(--color-text);
   border-bottom: var(--border-thickness) solid var(--color-highlight);
 }
 article em {
@@ -211,7 +211,7 @@ article blockquote {
   padding-left: var(--root-spacing);
 }
 article code {
-  border: 1px dotted var(--color-gray-light);
+  border: 1px dotted var(--color-text-tertiary);
   border-radius: var(--rounding-radius);
   padding: 0 calc(var(--root-spacing) / 6);
 }
@@ -241,7 +241,7 @@ article table thead tr th:first-child {
   padding-left: 0;
 }
 article table tbody tr td {
-  border-bottom: 1px dotted var(--color-gray-light);
+  border-bottom: 1px dotted var(--color-text-tertiary);
   padding: calc(var(--root-spacing) / 4) calc(var(--root-spacing) / 2);
   vertical-align: top;
 }
@@ -275,7 +275,7 @@ article .video-container video {
   width: 100%;
 }
 article footer {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
   line-height: initial;
 }
 article footer ul,
@@ -292,19 +292,19 @@ article footer ul li:not(:last-child):after {
   content: "·";
 }
 article footer time {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 article footer time::before {
   content: "··· ";
 }
 article footer,
 article footer a {
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
   border-bottom: none;
 }
 article .footnotes {
   border-top: 1px dotted lightgray;
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
   margin: var(--root-spacing) 0;
   padding-top: var(--root-spacing);
   width: 75%;
@@ -323,8 +323,8 @@ article .footnotes ol li p {
   padding: 0;
 }
 article .footnotes a {
-  border-bottom-color: var(--color-gray-light);
-  color: var(--color-gray);
+  border-bottom-color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
 }
 article .footnote-ref {
   border-radius: calc(var(--rounding-radius) * 10);
@@ -345,12 +345,12 @@ article .footnote-ref a:hover {
 article .footnote-backref {
   border: 1px solid lightgray;
   border-radius: calc(var(--rounding-radius) * 10);
-  color: var(--color-gray);
+  color: var(--color-text-secondary);
   font-size: calc(var(--font-size-base) * 0.75);
   padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
 }
 article .footnote-backref:hover {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 
 /* Link Type styles */
@@ -371,17 +371,17 @@ article.links header a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
 }
 article.links .links-permalink {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
   text-align: left;
 }
 article.links .links-permalink a {
   text-decoration: none;
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
   font-weight: bold;
   border-bottom: none;
 }
 article.links .links-permalink a:hover {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 /* Inline a few things */
 article.links header,
@@ -423,7 +423,7 @@ article.links.single {
   margin-bottom: var(--root-spacing);
 }
 .media-list a {
-  color: var(--color-black);
+  color: var(--color-text);
   border-bottom: var(--border-thickness) solid var(--color-highlight);
 }
 .media-list tbody td {
@@ -470,7 +470,7 @@ article.links.single {
 }
 #archive #tags ul li a,
 #archive #years ul li a {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 #archive #tags ul li span,
 #archive #years ul li span {
@@ -478,7 +478,7 @@ article.links.single {
   display: inline-block;
   text-align: center;
   padding: 0 calc(var(--root-spacing) / 4);
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 #archive #tags ul li:hover,
 #archive #years ul li:hover {
@@ -486,7 +486,7 @@ article.links.single {
 }
 #archive #tags ul li:hover span,
 #archive #years ul li:hover span {
-  color: var(--color-black);
+  color: var(--color-text);
 }
 #archive #years {
   padding-bottom: calc(var(--root-spacing) / 2);
@@ -496,7 +496,7 @@ article.links.single {
   margin-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #counts {
-  color: var(--color-gray-light);
+  color: var(--color-text-tertiary);
 }
 #archive noscript {
   display: block;
@@ -553,8 +553,8 @@ article.links.single {
   letter-spacing: 2px;
   background: linear-gradient(
     90deg,
-    var(--color-black) var(--percent),
-    var(--color-gray-light) var(--percent)
+    var(--color-text) var(--percent),
+    var(--color-text-tertiary) var(--percent)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -567,7 +567,7 @@ article.links.single {
   background: linear-gradient(
     90deg,
     var(--color-highlight) var(--percent),
-    var(--color-gray-light) var(--percent)
+    var(--color-text-tertiary) var(--percent)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -577,7 +577,7 @@ article.links.single {
 /* SEARCH AND RESULTS */
 #search input {
   border-radius: var(--rounding-radius);
-  border: 1px solid var(--color-gray);
+  border: 1px solid var(--color-text-secondary);
   font-size: large;
   padding: calc(var(--root-spacing) / 2) var(--root-spacing);
   width: 100%;
@@ -606,10 +606,10 @@ article.links.single {
   font-style: normal;
   background: var(--color-highlight-light);
   border-radius: var(--rounding-radius);
-  color: var(--color-black);
+  color: var(--color-text);
 }
 .searching {
-  background: var(--color-black);
+  background: var(--color-text);
   color: white;
 }
 
