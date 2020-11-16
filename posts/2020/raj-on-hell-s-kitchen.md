@@ -17,6 +17,6 @@ I don't watch the show and tapped this YouTube suggestion on a lazy Sunday. This
 
 > Raj is widely regarded as one of the worst and most useless chefs in _Hell's Kitchen_ history.
 
-Since I don't watch the show, the most charitable assessment I can offer after sitting through the highlight reel below is this: The man is wired very, _very_ differently (which I suppose makes for engaging (cruel?) television.)
+Since I don't watch the show, the most charitable assessment I can offer after sitting through the highlight reel below is this: The man is wired very, _very_ differently, which I suppose makes for engaging (cruel?) television 🤷‍♂️
 
 https://www.youtube.com/watch?v=CgqudioHmTE
