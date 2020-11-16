@@ -12,5 +12,5 @@ tags:
     - cheatsheets
 ---
 
-One should be good 80%+ of time between that and the awesome [`pgcli`]()https://www.pgcli.com/).
+One should be good 80%+ of time between that and the awesome [`pgcli`](https://www.pgcli.com/).
 
