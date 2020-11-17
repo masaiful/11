@@ -32,6 +32,9 @@ yarn start
 # Create a new post
 yarn new
 
+# Organize and run `sharp` on images in /misc (where applicable)
+yarn borg
+
 # Push changes. The log itself is pushed here, which
 # triggers a CircleCI build that syncs to an S3 Bucket.
 # The misc assets are synced from my machine to another
@@ -39,7 +42,7 @@ yarn new
 yarn push
 ```
 
-See `package.json` for more commands. Other than the most frequently used ones listed above, `yarn borg` will build and organize all misc assets in `misc/`
+See `package.json` for more commands.
 
 ### Misc Notes
 
