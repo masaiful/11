@@ -91,9 +91,8 @@ body > header > nav {
   margin-bottom: calc(var(--root-spacing) * var(--article-spacing-factor));
 }
 body > header > nav h1 a {
-  font-size: larger;
-  font-weight: bold;
   color: var(--color-highlight);
+  font-weight: bold;
 }
 body > header > nav ul {
   text-align: right;
@@ -512,7 +511,7 @@ article.links.single {
   right: 0;
   height: 100%;
 
-  background: url(/_assets/img/nikhil.jpeg) top right no-repeat;
+  background: url(/assets/img/nikhil.jpeg) top right no-repeat;
   background-size: 60%;
 
   z-index: -1;
