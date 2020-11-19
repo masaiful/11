@@ -1,4 +1,4 @@
-const markdownParser = require("markdown-it")({
+module.exports = require("markdown-it")({
   breaks: true,
   html: true,
   linkify: true,
@@ -13,5 +13,3 @@ const markdownParser = require("markdown-it")({
   .use(require("markdown-it-prism"))
   .use(require("markdown-it-sup"))
   .use(require("markdown-it-sub"));
-
-module.exports = markdownParser;
