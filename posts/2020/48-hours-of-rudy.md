@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: The Last 48 Hours of Rudy Saving Our Hallowed Democracy
+title: The Last 48 Hours of an A+ Team Trying to Save Our Hallowed Democracy
 date: 2020-11-19 20:19:20
 tags:
     - politics
@@ -59,6 +59,8 @@ And finally:
 > -- "[_Trump Campaign Drops Michigan Election Suit, Claims Victory_](https://static-log.nikhil.io/r/rudy-4.html)."
 
 An "Absolutely Brilliant" Elite Whirlwind Powerhouse Leader of the Most A+ Legal Team you can assemble, folks 🌪 So _unbelievably_ competent, [Snopes had to publish an entry](https://www.snopes.com/fact-check/giuliani-quotes-trump-case/) about his return to court 💯
+
+No, really:
 
 /misc/h/hannity-rudy-brilliant.mp4
 
