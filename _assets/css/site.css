@@ -208,6 +208,10 @@ article blockquote {
   border-left: calc(var(--border-thickness) * 1) solid var(--color-text-tertiary);
   padding-left: var(--root-spacing);
 }
+article figure > figcaption {
+  font-size: medium;
+  margin-left: var(--root-spacing);
+}
 article code {
   border: 1px dotted var(--color-text-tertiary);
   border-radius: var(--rounding-radius);
