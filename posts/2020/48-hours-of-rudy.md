@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: The Last 48-Hours of Rudy Saving Our Hallowed Democracy
+title: The Last 48 Hours of Rudy Saving Our Hallowed Democracy
 date: 2020-11-19 20:19:20
 tags:
     - politics
