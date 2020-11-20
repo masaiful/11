@@ -58,7 +58,7 @@ And finally:
 
 > -- "[_Trump Campaign Drops Michigan Election Suit, Claims Victory_](https://static-log.nikhil.io/r/rudy-4.html)."
 
-An "Absolutely Brilliant" Elite Whirlwind Powerhouse Leader of the Most A+ Legal Team you can assemble, folks 🌪 So _unbelievably_ competent, [Snopes had to publish an entry](https://www.snopes.com/fact-check/giuliani-quotes-trump-case/) about his return to court 💯
+An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of the Most A+ Legal Team one could assemble given the seriousness of the [charges against our democratic systems](https://www.cisa.gov/news/2020/11/12/joint-statement-elections-infrastructure-government-coordinating-council-election), folks 🌪 So _unbelievably_ competent, [Snopes had to publish an entry](https://www.snopes.com/fact-check/giuliani-quotes-trump-case/) about his return to court 💯
 
 No, really:
 
