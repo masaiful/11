@@ -205,8 +205,7 @@ article kbd {
   padding: 0 calc(var(--root-spacing) / 4);
 }
 article blockquote {
-  border-left: 1px solid lightgray;
-  font-family: var(--serif-family);
+  border-left: calc(var(--border-thickness) * 1) solid var(--color-text-tertiary);
   padding-left: var(--root-spacing);
 }
 article code {
@@ -327,8 +326,10 @@ article .footnotes a {
 }
 article .footnote-ref {
   border-radius: calc(var(--rounding-radius) * 10);
-  border: 1px solid var(--color-highlight);
-  margin-right: 0.25rem;
+  background: var(--color-highlight);
+  font-family: var(--sans-serif-family);
+  margin: 0 0.125em;
+  padding: 0.125em;
   text-align: center;
 }
 article .footnote-ref:hover {

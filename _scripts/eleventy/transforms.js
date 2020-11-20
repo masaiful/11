@@ -8,6 +8,11 @@ const staticVideoPattern = RegExp(
   "g",
 );
 
+const miscLinkPattern = RegExp(
+  String.raw`<a href="(\/${config.MISC_PATH}.*)">`,
+  "g",
+)
+
 /**
  * TODO: This is slow af. Why wouldn't it be? Write a plugin for
  * `markdown-it`...
@@ -15,6 +20,11 @@ const staticVideoPattern = RegExp(
 const embedVideo = async (content, outputPath) => {
   if (outputPath && outputPath.endsWith(".html")) {
     let matches = content.match(staticVideoPattern);
+    // let foo = content.match(miscLinkPattern);
+
+    // if (foo) {
+    //   console.log('foo :>> ', foo);
+    // }
 
     if (!matches) {
       return content;
