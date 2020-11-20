@@ -40,6 +40,8 @@ And because IANAL, some helpful context:
 
 > -- "[_The Unpardonable Sins of Lindsey Graham_](https://newrepublic.com/article/160254/lindsey-graham-trump-coup-georgia)"
 
+Onward:
+
 > At one point he referred to president-elect Joe Biden as a “crook” and **chastised the press for reporting that he has no evidence of fraud. Mr Giuliani has offered no evidence in court of fraud**.
 
 > He compared election observers being corralled away from the votes counts to a moment in the movie in which the eponymous character asks a witness in court how many fingers he is holding up, claiming that they could not see a thing.
@@ -63,3 +65,4 @@ An "Absolutely Brilliant" Elite Whirlwind Powerhouse Leader of the Most A+ Legal
 [^rudy_big_words]: ["Big words, your honor," Giuliani said.](https://static-log.nikhil.io/r/rudy-5.html)
 
 [^rudy_borg]: [See also](https://static-log.nikhil.io/b/BORG.jpeg).
+
