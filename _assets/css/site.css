@@ -205,7 +205,8 @@ article kbd {
   padding: 0 calc(var(--root-spacing) / 4);
 }
 article blockquote {
-  border-left: calc(var(--border-thickness) * 1) solid var(--color-text-tertiary);
+  border-left: calc(var(--border-thickness) * 1) solid
+    var(--color-text-tertiary);
   padding-left: var(--root-spacing);
 }
 article figure > figcaption {
@@ -355,6 +356,11 @@ article .footnote-backref {
 }
 article .footnote-backref:hover {
   color: var(--color-text);
+}
+article hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted var(--color-text-tertiary);
 }
 
 /* Link Type styles */

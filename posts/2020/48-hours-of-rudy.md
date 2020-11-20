@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: The Last 48 Hours of an Elite Strike-Force Team Saving Our Hallowed Democracy
+title: The Last 48 Hours of an Elite Strike-Force Team Saving Our Battered Democracy
 date: 2020-11-19 20:19:20
 tags:
     - politics
@@ -46,7 +46,7 @@ Onward:
 
 > He compared election observers being corralled away from the votes counts to a moment in the movie in which the eponymous character asks a witness in court how many fingers he is holding up, claiming that they could not see a thing.
 
-> As [what appeared to be hair dye](https://static-log.nikhil.io/h/hair-dye.jpeg) dripped down both sides of his face...
+> As [what appeared to be hair dye](https://static-log.nikhil.io/r/rudy-dye.mp4) dripped down both sides of his face...
 
 > Ms Ellis described the assembled lawyers as "**an elite strike-force team**" working on behalf of the president.
 
@@ -58,11 +58,11 @@ And finally:
 
 > -- "[_Trump Campaign Drops Michigan Election Suit, Claims Victory_](https://static-log.nikhil.io/r/rudy-4.html)."
 
-An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of the Most A+ Legal Team one could assemble given the seriousness of the [charges against our democratic systems](https://www.cisa.gov/news/2020/11/12/joint-statement-elections-infrastructure-government-coordinating-council-election), folks 🌪 So _unbelievably_ competent, [Snopes had to publish an entry](https://www.snopes.com/fact-check/giuliani-quotes-trump-case/) about his return to court 💯
-
-No, really:
+An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal Team](https://static-log.nikhil.io/c/commie-circumcision.jpeg)[^true_believer] one could assemble given the seriousness of the [charges against our democratic systems](https://www.cisa.gov/news/2020/11/12/joint-statement-elections-infrastructure-government-coordinating-council-election), folks. So _unbelievably_ competent, [Snopes had to publish an entry](https://www.snopes.com/fact-check/giuliani-quotes-trump-case/) about his performance in court 💯
 
 /misc/h/hannity-rudy-brilliant.mp4
+
+---
 
 **Update** 20 Nov 2020.
 
@@ -79,3 +79,5 @@ No, really:
 [^rudy_big_words]: ["Big words, your honor," Giuliani said.](https://static-log.nikhil.io/r/rudy-5.html)
 
 [^scaringi]: "The day before a major argument in Pennsylvania, three lawyers for Trump withdrew and were replaced in part by Marc Scaringi, an attorney and talk show host who wrote a blog post after the election referring to 'President-elect Joe Biden.' Scaringi himself had told listeners on his radio show days after the election that 'there are really no bombshells' about to drop 'that will derail a Biden presidency,' and noting that several of the lawsuits 'don’t seem to have much evidence to substantiate their claims.' - [The Independent](https://www.independent.co.uk/news/world/americas/us-politics/trump-election-results-rudy-giuliani-lawyers-b1759104.html)
+
+[^true_believer]: Screenshot is from the Facebook page of a True Believer. This person and the commenter are not trying to be funny. They cannot be, even if they tried.
