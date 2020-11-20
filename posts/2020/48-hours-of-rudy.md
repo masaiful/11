@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: The Last 48 Hours of an A+ Team Trying to Save Our Hallowed Democracy
+title: The Last 48 Hours of an Elite Strike-Force Team Saving Our Hallowed Democracy
 date: 2020-11-19 20:19:20
 tags:
     - politics
