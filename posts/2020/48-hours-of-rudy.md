@@ -25,9 +25,9 @@ All emphases are mine.
 And:
 
 > Before Tuesday, Rudy Giuliani **last registered an appearance in the U.S. federal judiciary [in 1992](https://twitter.com/ZoeTillman/status/1328714995237056514/photo/1)**, and in the view of many legal observers, it showed. The former mayor of New York flubbed basic concepts of law and, in at least one instance, displayed a poor command of the English language.
-> 
+>
 > Giuliani confessed that he did not know the word "opacity," applying the Bizarro World definition that it "probably means you can see."
-> 
+>
 > "It means you can’t," U.S. District Judge Matthew Brann corrected[^rudy_big_words].
 
 > When pressed by the judge on what standard of scrutiny should be applied to Pennsylvania government’s action, Giuliani replied: "**The normal one**."
@@ -48,9 +48,9 @@ And because IANAL, some helpful context:
 
 > Ms Ellis described the assembled lawyers as "**an elite strike-force team**" working on behalf of the president.
 
--- "[_Giuliani quotes ‘_My Cousin Vinny_’ as he sets out conspiracy theories at bizarre press conference_](https://www.independent.co.uk/news/world/americas/us-election-2020/trump-giuliani-press-conference-election-biden-b1749632.html)"
+-- "[_Giuliani quotes 'My Cousin Vinny' as he sets out conspiracy theories at bizarre press conference_](https://www.independent.co.uk/news/world/americas/us-election-2020/trump-giuliani-press-conference-election-biden-b1749632.html)"
 
-And finally: 
+And finally:
 
 > President Donald Trump’s campaign says it’s dropping its Michigan election lawsuit because it **succeeded in halting certification** of election results in Detroit and surrounding Wayne County, **despite the outcome already having been certified in favor of President-elect Joe Biden**.
 
