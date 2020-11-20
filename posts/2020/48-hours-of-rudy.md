@@ -80,4 +80,4 @@ An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal T
 
 [^scaringi]: "The day before a major argument in Pennsylvania, three lawyers for Trump withdrew and were replaced in part by Marc Scaringi, an attorney and talk show host who wrote a blog post after the election referring to 'President-elect Joe Biden.' Scaringi himself had told listeners on his radio show days after the election that 'there are really no bombshells' about to drop 'that will derail a Biden presidency,' and noting that several of the lawsuits 'don’t seem to have much evidence to substantiate their claims.' - [The Independent](https://www.independent.co.uk/news/world/americas/us-politics/trump-election-results-rudy-giuliani-lawyers-b1759104.html)
 
-[^true_believer]: Screenshot is from the Facebook page of a True Believer. This person and the commenter are not trying to be funny. They cannot be, even if they tried.
+[^true_believer]: Screenshot is from the Facebook page of a True Believer. This person and the commenter are not trying to be funny. They cannot be, even if they tried. "Believe me."
