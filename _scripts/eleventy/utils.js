@@ -3,6 +3,22 @@
  */
 
 const config = require("./config");
+const helpers = require("./helpers");
+
+/**
+ * TODO: Implement later.
+ */
+getPinnedPosts = (collection) => {
+  const pinnedPosts = [];
+
+  collection.getFilteredByGlob(config.COLLECTIONS.things).map((item) => {
+    if (helpers.postIsPinned(item)) {
+      pinnedPosts.push(item);
+    }
+  });
+
+  return pinnedPosts;
+};
 
 getAllTags = (collection) => {
   let tagList = [];

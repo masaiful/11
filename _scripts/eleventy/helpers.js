@@ -7,6 +7,7 @@ const isAfter = require("date-fns/isAfter");
  */
 const postIsFromTheFuture = (p) => isAfter(toDate(p.data.date), new Date());
 const postIsADraft = (p) => p.data.draft === true;
+const postIsPinned = (p) => p.data.pinned === true;
 
 /**
  * Simple helper that takes a `collection` object and filters it by `glob`, and
@@ -21,5 +22,6 @@ const filterCollection = (collection, glob) =>
 module.exports = {
   postIsADraft,
   postIsFromTheFuture,
+  postIsPinned,
   filterCollection,
 };

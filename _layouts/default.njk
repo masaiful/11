@@ -30,10 +30,14 @@
     <link rel="stylesheet" href="/assets/css/code.css">
   </head>
 
-  <body{% if pageClass %} class="{{ pageClass }}" {% endif %}>
+  <body{% if pageclass %} class="{{ pageClass }}" {% endif %}>
     {% include "header.njk" %}
     <main>
       {{ content | safe }}
+
+      <div class="bottom-panel" id="bottom-panel">
+        <div class="popup-wrapper" id="popup-wrapper"></div>
+      </div>
     </main>
     {% include "footer.njk" %}
     {% include "scripts.njk" %}

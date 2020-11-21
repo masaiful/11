@@ -302,15 +302,23 @@ article footer time::before {
 }
 article footer,
 article footer a {
-  color: var(--color-text-secondary);
+  color: var(--color-text-tertiary);
   border-bottom: none;
 }
+article hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted var(--color-text-tertiary);
+}
+
 article .footnotes {
   border-top: 1px dotted lightgray;
   color: var(--color-text-secondary);
   margin: var(--root-spacing) 0;
   padding-top: var(--root-spacing);
-  width: 75%;
+}
+article .footnotes ol {
+  margin-left: calc(var(--root-spacing) * 1.25);
 }
 article .footnotes ol li {
   margin: calc(var(--root-spacing) / 2) 0;
@@ -328,6 +336,10 @@ article .footnotes ol li p {
 article .footnotes a {
   border-bottom-color: var(--color-text-tertiary);
   color: var(--color-text-secondary);
+}
+article .footnotes a:hover {
+  border-bottom-color: var(--color-highlight);
+  color: var(--color-text);
 }
 article .footnote-ref {
   border-radius: calc(var(--rounding-radius) * 10);
@@ -349,18 +361,15 @@ article .footnote-ref a:hover {
 }
 article .footnote-backref {
   border: 1px solid lightgray;
-  border-radius: calc(var(--rounding-radius) * 10);
+  border-radius: var(--rounding-radius);
   color: var(--color-text-secondary);
-  font-size: calc(var(--font-size-base) * 0.75);
+  font-size: calc(var(--font-size-base) * 0.95);
+  margin-left: calc(var(--root-spacing) / 4);
   padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
 }
 article .footnote-backref:hover {
   color: var(--color-text);
-}
-article hr {
-  border: 0;
-  height: 0;
-  border-top: 1px dotted var(--color-text-tertiary);
+  border: 1px dotted var(--color-highlight);
 }
 
 /* Link Type styles */

@@ -13,9 +13,9 @@ module.exports = require("markdown-it")({
   .use(require("markdown-it-prism"))
   .use(require("markdown-it-sup"))
   .use(require("markdown-it-sub"))
-  .use(require('markdown-it-attribution'), {
-    classNameContainer: 'quote',
-    classNameAttribution: 'quote__source',
-    marker: '--',
+  .use(require("markdown-it-attribution"), {
+    classNameContainer: "quote",
+    classNameAttribution: "quote__source",
+    marker: "--",
     removeMarker: false,
   });
