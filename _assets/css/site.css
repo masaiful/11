@@ -648,9 +648,6 @@ article.links.single {
 
 /* RESPONSIVE SHIT */
 @media all and (max-width: 700px) {
-  :root {
-    --article-spacing-factor: 2;
-  }
   html,
   body {
     padding: calc(var(--root-spacing) / 3);
@@ -674,7 +671,7 @@ article.links.single {
 
 @media all and (max-width: 500px) {
   :root {
-    --article-spacing-factor: 2;
+    --article-spacing-factor: 2.5;
     --font-size-base: 16px;
   }
   .media-list tbody td:nth-child(2),
