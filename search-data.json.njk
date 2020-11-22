@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
       {%- if post.data.rating -%}
       "rating": "{{ post.data.rating }}",
       {%- endif -%}
-      "humanTimestamp": "{{ post.data.date | date("Do MMMM yyyy") }}",
+      "humanTimestamp": "{{ post.data.date | date("do MMMM yyyy") }}",
       "timestamp": "{{ post.date | toISODateString }}",
 
       {# TODO: Remove &quot; and the like... #}

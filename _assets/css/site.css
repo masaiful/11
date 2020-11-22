@@ -501,8 +501,11 @@ article.links.single {
   padding-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #years ul li {
-  font-size: x-large;
+  font-size: larger;
   margin-bottom: calc(var(--root-spacing) / 2);
+}
+#archive #tags {
+  font-size: smaller;
 }
 #archive #counts {
   color: var(--color-text-tertiary);
@@ -520,10 +523,9 @@ article.links.single {
   border: 1px solid lightgray;
   cursor: pointer;
   display: inline-block;
+  line-height: normal;
   margin-right: calc(var(--root-spacing) / 8);
   padding: 0 0 0 calc(var(--root-spacing) / 4);
-  font-size: smaller;
-  line-height: normal;
 }
 .list-of-things-with-count li:hover {
   background: var(--color-highlight-light);
