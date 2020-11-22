@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
     <noscript>
       Search won&#8217;t work since Javascript&#8217;s disabled 🙁
     </noscript>
-    <input type="text" placeholder="search..." autofocus="autofocus" />
+    <input type="text" placeholder="search..." autofocus="autofocus"/>
     {% include "search-results.njk" %}
   </section>
 
@@ -19,7 +19,15 @@ eleventyExcludeFromCollections: true
     <header class="hide">
       <h2>Posts by Year</h2>
     </header>
-    <ul>
+    <ul class="list-of-things-with-count">
+      <li>
+        <a href="/links" title="All links"><strong>Links</strong></a>
+        <span>{{ collections.links | length }}</span>
+      </li>
+      <li>
+        <a href="/media" title="All media"><strong>Media</strong></a>
+        <span>{{ collections.media | length }}</span>
+      </li>
       {% for year, posts in collections.thingsByYear %}
         <li>
           <a href="/{{ year }}" title="Posts from {{ year }}">{{ year }}</a>
@@ -33,7 +41,7 @@ eleventyExcludeFromCollections: true
     <header class="hide">
       <h2>Posts by Tag</h2>
     </header>
-    <ul>
+    <ul class="list-of-things-with-count">
       {%- for tag in collections.tags | sort(false, true, "name") %}
         <li>
           <a href="/tags/{{ tag.name | lower }}" title="Posts tagged {{ tag.name | lower }}">{{ tag.name }}</a>
@@ -44,7 +52,10 @@ eleventyExcludeFromCollections: true
   </section>
 
   <section id="counts">
-    <strong>{{ collections.things | length }}</strong> things with <strong>{{ collections.tags | length }}</strong> tags
+    <strong>{{ collections.things | length }}</strong>
+    things with
+    <strong>{{ collections.tags | length }}</strong>
+    tags
   </section>
 </div>
 

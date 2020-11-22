@@ -23,9 +23,7 @@
 
     <article class="links{% if page.url == post.url %} single{% endif %}">
       <div class="links-permalink">
-        {% if page.url == post.url %}
-          <a href="/links" title="All links">#</a>
-        {% else %}
+        {% if page.url != post.url %}
           <a href="{{ post.url }}" title="Permalink to {{ post.data.title }}">#</a>
         {% endif %}
       </div>
@@ -53,7 +51,7 @@
           {{ postTags(post.data.tags) }}
           {% if page.url == post.url %}
             <time datetime="{{ post.data.date | toISODateString }}">
-              <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+              <span class="hide">Posted</span>{{ post.data.date | date("do MMMM yyyy") | safe }}
             </time>
           {% endif %}
         </footer>
@@ -64,7 +62,7 @@
 
     {% set linkArticleTo = post.url %}
 
-    <article{% if page.url == post.url %} class="single"{% endif %}>
+    <article{% if page.url == post.url %} class="single" {% endif %}>
       <header>
         <h2>
           <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
@@ -73,7 +71,7 @@
           {% if post.data.year %}
             <span class="media-year">
               ({{ post.data.year }})
-          </span>
+            </span>
           {% endif %}
           {% if post.data.imdb %}
             <span class="media-imdb">
@@ -102,7 +100,8 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span class="hide">Posted
+          </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
@@ -112,7 +111,7 @@
 
   {% set linkArticleTo = post.url %}
 
-  <article{% if page.url == post.url %} class="single"{% endif %}>
+  <article{% if page.url == post.url %} class="single" {% endif %}>
     <header>
       <h2>
         <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
@@ -133,7 +132,8 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span class="hide">Posted </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span class="hide">Posted
+          </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
