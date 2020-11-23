@@ -457,6 +457,7 @@ article.links.single {
 }
 .media-imdb a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
+  font-weight: 600;
 }
 .media-list {
   width: 100%;
@@ -501,7 +502,6 @@ article.links.single {
   padding-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #years ul li {
-  font-size: larger;
   margin-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #tags {
