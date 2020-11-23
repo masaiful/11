@@ -124,7 +124,7 @@ body > header > nav ul li {
   margin-left: var(--root-spacing);
 }
 body > header > nav ul li a {
-  color: var(--color-text-secondary);
+  color: var(--color-text-tertiary);
 }
 body > header > nav ul li a:hover {
   color: var(--color-text);
