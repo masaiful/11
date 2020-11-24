@@ -678,15 +678,6 @@ article.links.single {
   article .footnotes {
     width: 100%;
   }
-  body > * > footer li:first-child::before,
-  article.links header .links-permalink {
-    display: inline;
-    margin-left: 0;
-  }
-  article.links,
-  article.links.single {
-    margin-left: 0;
-  }
   article.links.single {
     font-size: large;
   }
