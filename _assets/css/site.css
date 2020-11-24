@@ -564,6 +564,9 @@ article.links.single {
   font-size: larger;
   line-height: calc(var(--line-height) + 10%);
 }
+.about header nav ul li a {
+  color: var(--color-text);
+}
 
 /* MISCELLANEOUS */
 .compilation-title {
