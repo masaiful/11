@@ -111,8 +111,12 @@ body > header > nav {
   margin-bottom: calc(var(--root-spacing) * var(--article-spacing-factor));
 }
 body > header > nav h1 a {
-  color: var(--color-highlight);
+  color: var(--color-text);
+  background: var(--color-highlight-light);
   font-weight: 800;
+}
+body > header > nav h1 a:hover {
+  background: var(--color-highlight);
 }
 body > header > nav ul {
   text-align: right;
@@ -624,7 +628,7 @@ article.links.single {
 /* SEARCH AND RESULTS */
 #search input {
   border-radius: var(--rounding-radius);
-  border: 1px solid var(--color-text-secondary);
+  border: 1px solid var(--color-text-tertiary);
   font-size: large;
   padding: calc(var(--root-spacing) / 2) var(--root-spacing);
   width: 100%;
