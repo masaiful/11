@@ -21,6 +21,7 @@ const configureExternalEmbeds = (eleventyConfigObj) =>
             path: `/${config.ASSET_PATH_IN_BUILT_SITE}/js/yt.js`,
           },
         },
+        lazy: true,
       },
     },
   });

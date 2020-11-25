@@ -457,6 +457,7 @@ article.links.single {
 }
 .media-imdb a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
+  font-weight: 600;
 }
 .media-list {
   width: 100%;
@@ -501,7 +502,6 @@ article.links.single {
   padding-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #years ul li {
-  font-size: larger;
   margin-bottom: calc(var(--root-spacing) / 2);
 }
 #archive #tags {
@@ -563,6 +563,9 @@ article.links.single {
   width: 35%;
   font-size: larger;
   line-height: calc(var(--line-height) + 10%);
+}
+.about header nav ul li a {
+  color: var(--color-text);
 }
 
 /* MISCELLANEOUS */
@@ -677,15 +680,6 @@ article.links.single {
   }
   article .footnotes {
     width: 100%;
-  }
-  body > * > footer li:first-child::before,
-  article.links header .links-permalink {
-    display: inline;
-    margin-left: 0;
-  }
-  article.links,
-  article.links.single {
-    margin-left: 0;
   }
   article.links.single {
     font-size: large;
