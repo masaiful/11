@@ -108,7 +108,7 @@ An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal T
 
 **Update** 25 Nov 2020
 
-> The only place maybe worse is Michigan, and particularly the city of Detroit. The city of Detroit probably had more voters than it had citizens. **I'm exaggerating a bit**, but all you have to do is look at statistical data and you can see that the fraud was rampant and out of control.
+> The only place maybe worse is Michigan, and particularly the city of Detroit. **The city of Detroit probably had more voters than it had citizens. I'm exaggerating a bit**, but all you have to do is look at statistical data and you can see that the fraud was rampant and out of control.
 > -- Ian Schwartz, "[Giuliani: We're Pursuing a Supreme Court Challenge Due To 'Misconduct Of The Election'](https://www.realclearpolitics.com/video/2020/11/23/giuliani_were_pursuing_a_supreme_court_challenge_due_to_misconduct_of_the_election.html)", _RealClearPolitics_
 
 Here's a TL;DR at this point:
