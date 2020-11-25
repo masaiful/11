@@ -235,6 +235,9 @@ article figure > figcaption {
   font-size: medium;
   margin-left: var(--root-spacing);
 }
+article figure + hr { /* This is an odd one... */
+  margin-top: var(--root-spacing);
+}
 article code {
   border: 1px dotted var(--color-text-tertiary);
   border-radius: var(--rounding-radius);

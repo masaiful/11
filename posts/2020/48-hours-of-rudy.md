@@ -88,6 +88,8 @@ An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal T
 >
 > -- Colleen Long, Jill Colvin, and Alanna Durkin Richer, [Trump’s lawsuits plagued by spelling errors: ‘I’ve never seen an election lawyer handle a case as poorly as Giuliani has’](https://www.independent.co.uk/news/world/americas/us-politics/trump-election-results-rudy-giuliani-lawyers-b1759104.html), _The Independent_
 
+---
+
 **Update** 21 Nov 2020
 
 > The painful monologue screeched to a halt whenever Rudy hit the guardrails of judicial questioning. Asked the most important question in nearly any election lawsuit, what standard of review should apply, he was caught completely off guard. **For non-lawyers, it’s hard to explain just how appalling this is. Standard of review is the sort of thing that every first-year law student learns.** But rather than agreeing with the judge that the case demanded “strict scrutiny,” or arguing that it called for rational basis review, he simply advocated for “the normal one.” If legal Twitter had a voice in that moment, the scream would have been heard around the world.
@@ -101,6 +103,17 @@ An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal T
 > Actually, Rudy’s first lie came before he ever set foot in the Pennsylvania courthouse. On Tuesday morning, Rudy petitioned to represent the Trump campaign, which is a routine step for lawyers appearing out of state. If you aren’t licensed to practice in a court, you have to request permission to argue. Sadly, Rudy couldn’t complete this two-page form without committing perjury. Rudy claimed to be licensed in the District of Columbia, where in fact **[he’s currently suspended for not paying his dues](https://twitter.com/AndrewFeinberg/status/1328796179887427586?s=20)**.
 >
 > -- Albert Fox Cahn, "[It’s Time to Take Away Rudy’s Law License](https://www.thedailybeast.com/its-time-to-take-away-trump-personal-attorney-rudy-giulianis-law-license)", _The Daily Beast_
+
+---
+
+**Update** 25 Nov 2020
+
+> The only place maybe worse is Michigan, and particularly the city of Detroit. The city of Detroit probably had more voters than it had citizens. **I'm exaggerating a bit**, but all you have to do is look at statistical data and you can see that the fraud was rampant and out of control.
+> -- Ian Schwartz, "[Giuliani: We're Pursuing a Supreme Court Challenge Due To 'Misconduct Of The Election'](https://www.realclearpolitics.com/video/2020/11/23/giuliani_were_pursuing_a_supreme_court_challenge_due_to_misconduct_of_the_election.html)", _RealClearPolitics_
+
+Here's a TL;DR at this point:
+
+![Charlie Kelly](/misc/r/rudy-charlie-kelly.jpg)
 
 [^rudy_big_words]: ["Big words, your honor," Giuliani said.](https://static-log.nikhil.io/r/rudy-5.html)
 
