@@ -18,6 +18,6 @@ Deeply upsetting. One of the best horror movies I've ever seen. Anthony Lane of 
 
 The amazing Colin Stetson did [the soundtrack](https://pitchfork.com/reviews/albums/colin-stetson-hereditary-original-motion-picture-soundtrack/) which is somehow even more unsettling than [Brian Reitzell's _Hannibal_](https://www.nytimes.com/2015/06/14/arts/television/hannibal-3-steps-to-tvs-scariest-soundtrack.html).
 
-<span class="update">10/25/18</span> If [this](https://www.instagram.com/p/BpMx3Y_lYbO/?hl=en&taken-by=desmoinesartcenter) was a movie:
+**Update** 25 Oct 2018: If [this](https://www.instagram.com/p/BpMx3Y_lYbO/?hl=en&taken-by=desmoinesartcenter) was a movie:
 
-![](/static/a/ann_hamilton.jpg)
+![Ann Hamilton Horse Eye photograph](/static/a/ann_hamilton.jpg)
