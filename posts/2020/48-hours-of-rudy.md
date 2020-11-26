@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: The Story of an A+ Elite Strike-Force Team Saving Our Imperiled Democracy
+title: The Continuing Saga of an A+ Elite Strike-Force Team Saving Our Imperiled Democracy
 date: 2020-11-26 09:19:20
 tags:
     - politics
