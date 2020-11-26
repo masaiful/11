@@ -237,7 +237,7 @@ article blockquote {
 }
 article figure > figcaption {
   font-size: medium;
-  margin-left: var(--root-spacing);
+  margin: var(--root-spacing);
 }
 article figure + hr { /* This is an odd one... */
   margin-top: var(--root-spacing);
