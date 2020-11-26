@@ -10,7 +10,7 @@ tags:
     - paper
 ---
 
-These are memo pads that "excavate objects" as it is used. [A bit expensive](https://www.aliexpress.com/item/32971615796.html) but a very lovely idea.
+These are memo pads that "excavate objects" as they are used. [A bit more expensive](https://www.aliexpress.com/item/32971615796.html) than your average PostIt, but a very lovely idea.
 
 ![Omoshiroi Block](/misc/o/omoshiroi-2.jpg)
 
