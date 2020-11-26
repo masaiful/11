@@ -111,6 +111,23 @@ An "Absolutely Brilliant" Elite Mercurial Powerhouse Leader of [the Best Legal T
 > The only place maybe worse is Michigan, and particularly the city of Detroit. **The city of Detroit probably had more voters than it had citizens. I'm exaggerating a bit**, but all you have to do is look at statistical data and you can see that the fraud was rampant and out of control.
 > -- Ian Schwartz, "[Giuliani: We're Pursuing a Supreme Court Challenge Due To 'Misconduct Of The Election'](https://www.realclearpolitics.com/video/2020/11/23/giuliani_were_pursuing_a_supreme_court_challenge_due_to_misconduct_of_the_election.html)", _RealClearPolitics_
 
+---
+
+**Update** 26 Nov 2020
+
+It never ends.
+
+> "**I think we may actually have won Virginia**, but that's another battle," Mr Giuliani said.
+>
+> The comments were made during a meeting of Republican state lawmakers in Gettysburg, Pennsylvania on Wednesday.
+>
+> **Mr Biden defeated Mr Trump in Virginia by 451,138 votes.**
+>
+> -- Graig Graziosi, "[Giuliani thinks Trump ‘may have won Virginia’ despite Biden winning state by nearly half a million votes
+](https://www.independent.co.uk/news/world/americas/us-election/giuliani-virginia-trump-election-result-b1761965.html)", _The Independent_
+
+---
+
 Here's a TL;DR at this point:
 
 ![Charlie Kelly](/misc/r/rudy-charlie-kelly.jpg)
