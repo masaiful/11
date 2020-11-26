@@ -20,4 +20,4 @@ The amazing Colin Stetson did [the soundtrack](https://pitchfork.com/reviews/alb
 
 **Update** 25 Oct 2018: If [this](https://www.instagram.com/p/BpMx3Y_lYbO/?hl=en&taken-by=desmoinesartcenter) was a movie:
 
-![Ann Hamilton Horse Eye photograph](/static/a/ann_hamilton.jpg)
+![Ann Hamilton Horse Eye photograph](/misc/a/ann_hamilton.jpg)
