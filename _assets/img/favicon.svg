@@ -1,1 +1,37 @@
-<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg"><path fill="rgba(253, 179, 9, 1.000000)" stroke="rgba(0, 0, 0, 1.000000)" stroke-width="0.000000px" d="M0 0H512V512H0z"/><ellipse cx="256" cy="256" rx="222" ry="222" fill="rgba(14, 14, 14, 1.000000)" stroke="rgba(0, 0, 0, 1.000000)" stroke-width="0.000000px"/><ellipse cx="255.5" cy="256.5" rx="225.5" ry="225.5" fill="rgba(14, 14, 14, 1.000000)" stroke="rgba(0, 0, 0, 1.000000)" stroke-width="0.000000px"/><g><ellipse cx="255.5" cy="256.5" rx="122.5" ry="122.5" fill="rgba(255, 255, 255, 1.000000)" stroke="rgba(0, 0, 0, 1.000000)" stroke-width="0.000000px"/></g></svg>
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <path
+    fill="rgba(253, 179, 9, 1.000000)"
+    stroke="rgba(0, 0, 0, 1.000000)"
+    stroke-width="0.000000px"
+    d="M0 0H512V512H0z"
+  />
+  <ellipse
+    cx="256"
+    cy="256"
+    rx="222"
+    ry="222"
+    fill="rgba(14, 14, 14, 1.000000)"
+    stroke="rgba(0, 0, 0, 1.000000)"
+    stroke-width="0.000000px"
+  />
+  <ellipse
+    cx="255.5"
+    cy="256.5"
+    rx="225.5"
+    ry="225.5"
+    fill="rgba(14, 14, 14, 1.000000)"
+    stroke="rgba(0, 0, 0, 1.000000)"
+    stroke-width="0.000000px"
+  />
+  <g>
+    <ellipse
+      cx="255.5"
+      cy="256.5"
+      rx="122.5"
+      ry="122.5"
+      fill="rgba(255, 255, 255, 1.000000)"
+      stroke="rgba(0, 0, 0, 1.000000)"
+      stroke-width="0.000000px"
+    />
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-module.exports = require("markdown-it")({
+const md = require("markdown-it")({
   breaks: true,
   html: true,
   linkify: true,
@@ -14,8 +14,10 @@ module.exports = require("markdown-it")({
   .use(require("markdown-it-sup"))
   .use(require("markdown-it-sub"))
   .use(require("markdown-it-attribution"), {
-    classNameContainer: "quote",
-    classNameAttribution: "quote__source",
+    classNameContainer: null,
+    classNameAttribution: null,
     marker: "--",
     removeMarker: false,
   });
+
+module.exports = md;

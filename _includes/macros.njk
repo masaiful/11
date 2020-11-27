@@ -2,8 +2,8 @@
 
 {% macro postTags(tags) %}
   {% if tags.length > 0 %}
-    <p class="hide">Tagged:</p>
-    <ul class="tags">
+    <p>Tagged:</p>
+    <ul>
       {% for tag in tags %}
         <li>
           <a href="/tags/{{tag | urlencode}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
@@ -51,7 +51,7 @@
           {{ postTags(post.data.tags) }}
           {% if page.url == post.url %}
             <time datetime="{{ post.data.date | toISODateString }}">
-              <span class="hide">Posted</span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+              <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
             </time>
           {% endif %}
         </footer>
@@ -100,8 +100,7 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span class="hide">Posted
-          </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
@@ -132,8 +131,7 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span class="hide">Posted
-          </span>{{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
