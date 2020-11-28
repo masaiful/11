@@ -20,6 +20,8 @@
     Segoe UI Emoji, Segoe UI Symbol;
   --monospace-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
     monospace;
+  --font-weight-article-light: 400;
+  --font-weight-article-dark: 300;
 
   --color-light-background: #fff;
   --color-light-text: #111;
@@ -90,6 +92,8 @@ body {
   --color-text-tertiary: var(--color-light-text-tertiary);
   --color-highlight: var(--color-light-highlight);
   --color-highlight-light: var(--color-light-highlight-light);
+
+  --font-weight-article: var(--font-weight-article-light);
 }
 
 .container > * {
@@ -162,42 +166,42 @@ body > * > header > nav ul li:nth-of-type(3) a:hover {
   background-color: var(--color-highlight);
 }
 
-body > .container > footer {
+body > * > footer {
   margin-bottom: var(--root-spacing);
   color: var(--color-text-tertiary);
 }
-body > .container > footer ul li {
+body > * > footer ul li {
   display: inline-block;
   margin-right: var(--root-spacing);
 }
-body > .container > footer em {
+body > * > footer em {
   font-family: var(--serif-family);
 }
-body > .container > footer a {
+body > * > footer a {
   color: var(--color-text-secondary);
 }
-body > .container > footer li:first-child::before {
+body > * > footer li:first-child::before {
   content: "\21E0";
   display: inline-block;
   margin-left: calc(var(--root-spacing) * -1.25);
   width: var(--root-spacing);
 }
-body > .container > footer li:first-child::before {
+body > * > footer li:first-child::before {
   content: "\21E0";
 }
-body > .container > footer li:nth-child(2):after {
+body > * > footer li:nth-child(2):after {
   content: "\290F";
   color: var(--color-text-tertiary);
 }
-body > .container > footer ul li:last-child {
+body > * > footer ul li:last-child {
   color: var(--color-text-tertiary);
   float: right;
 }
 
 article {
   color: var(--color-text);
+  font-weight: var(--font-weight-article);
   margin-bottom: calc(var(--root-spacing) * var(--article-spacing-factor));
-  font-weight: 400;
 }
 article header a {
   border-bottom: none;
@@ -748,6 +752,8 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
   --color-text-tertiary: var(--color-dark-text-tertiary);
   --color-highlight: var(--color-dark-highlight);
   --color-highlight-light: var(--color-dark-highlight-light);
+
+  --font-weight-article: var(--font-weight-article-dark);
 }
 
 label[for="dark-mode"] {

@@ -8,9 +8,6 @@ const utils = require("./_scripts/eleventy/utils");
 const video = require("./_scripts/eleventy/video");
 
 module.exports = (eleventyConfig) => {
-  /**
-   * Use a customized Markdown parser
-   */
   eleventyConfig.setLibrary("md", parser);
 
   Object.keys(filters).map((f) => eleventyConfig.addFilter(f, filters[f]));
