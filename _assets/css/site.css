@@ -675,7 +675,7 @@ article.links.single {
   background-color: var(--color-background);
   border-radius: var(--rounding-radius);
   border: 1px solid var(--color-text-tertiary);
-  color: var(--color-text-secondary);
+  color: var(--color-text);
   font-size: large;
   padding: calc(var(--root-spacing) / 2) var(--root-spacing);
   width: 100%;
