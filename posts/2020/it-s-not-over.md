@@ -21,7 +21,7 @@ Until the lawsuits are appealed at the _State_ Supreme Courts.
 Until the lawsuits are appealed at _the_ Supreme Court.
 Until the states certify the results.
 Until the electors vote.
-Until the electors vote faithlessly.
-Until Joe is sworn in on the 20th.
+Until the electors _maybe_ vote faithlessly.
+Until Joe is sworn in on the 20^th^.
 
 And it won't matter after that because, proof be damned, it was a _massive_ fraud perpetrated upon us.
