@@ -12,9 +12,11 @@ tags:
     - twitter
     - collections
     - rudy giuliani
+    - the worst
+    - shitkraken
 ---
 
-Will add updates as I read them with amusement and disbelief. Armando Ianucci must be weeping right now. All emphases are mine.
+Will [tag updates](/tags/shitkraken) as I read them with amusement and disbelief. Armando Ianucci must be weeping right now. All emphases are mine.
 
 > In a court filing signed by Rudy Giuliani and Marc Scaringi[^scaringi] — the two remaining attorneys on the case **after everyone else quit** — the campaign asked for the judge to hand over Pennsylvania's electors.
 >

@@ -270,6 +270,7 @@ article figure > figcaption {
 }
 article figure > figcaption a {
   border-bottom-color: var(--color-text-tertiary);
+  font-weight: 600;
 }
 article figure > figcaption a:hover {
   border-bottom-color: var(--color-highlight);
