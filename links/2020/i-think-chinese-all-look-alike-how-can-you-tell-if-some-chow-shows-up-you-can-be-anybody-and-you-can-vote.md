@@ -13,8 +13,9 @@ tags:
     - racism
 ---
 
-That would be a real quote from one of Mr. Giuliani's witnesses testifying in Michigan as part of Operation [Shitkraken](/tags/shitkraken). I _had_ to save this one.
+That would be a real, casually racist quote from one of Mr. Giuliani's witnesses testifying in Michigan as part of Operation [Shitkraken](/tags/shitkraken). I _had_ to save this one.
 
 /misc/r/rudy-chow.mp4
 
 And: Naturalized Indian people supporting people who vilify new immigrants and want to keep them out is _on fucking brand_ 👏👏👏
+
