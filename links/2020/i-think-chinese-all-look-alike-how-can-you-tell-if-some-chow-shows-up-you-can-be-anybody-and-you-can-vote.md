@@ -17,5 +17,5 @@ That would be a real, casually racist quote from one of Mr. Giuliani's witnesses
 
 /misc/r/rudy-chow.mp4
 
-And: Naturalized Indian people supporting people who vilify new immigrants and want to keep them out is _on fucking brand_ 👏👏👏
+And: Naturalized Indian people supporting people who vilify new immigrants and want to keep them out is [_on fucking brand](/posts/c08dcdcd13515a1bb16b6b47147477ab)_ 👏👏👏
 
