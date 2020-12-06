@@ -15,12 +15,12 @@
     "clean": "rimraf _site",
     "compress:site": "node _scripts/compress-site.js",
     "push:site": "node _scripts/push-site.js",
-    "build": "npm-run-all clean organize:misc build:misc build:site",
+    "build": "node _scripts/build.js",
     "push": "bash _scripts/push.sh",
     "update-algolia": "node _scripts/update-algolia.js",
     "new": "node _scripts/create",
     "serve": "npx eleventy --watch --serve --port 9000",
-    "start": "npm-run-all clean serve"
+    "start": "node _scripts/start.js"
   },
   "author": "Nikhil Anand",
   "license": "MIT",
