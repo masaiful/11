@@ -51,7 +51,8 @@
           {{ postTags(post.data.tags) }}
           {% if page.url == post.url %}
             <time datetime="{{ post.data.date | toISODateString }}">
-              <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
+              <span>Posted</span>
+              {{ post.data.date | date("do MMMM yyyy") | safe }}
             </time>
           {% endif %}
         </footer>
@@ -65,9 +66,13 @@
     <article{% if page.url == post.url %} class="single" {% endif %}>
       <header>
         <h2>
-          <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+          {% if page.url != post.url %}
+            <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+            {% endif %}
             {{ post.data.title | smarty }}
-          </a>
+            {% if page.url != post.url %}
+            </a>
+          {% endif %}
           {% if post.data.year %}
             <span class="media-year">
               ({{ post.data.year }})
@@ -100,7 +105,8 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span>Posted</span>
+          {{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
@@ -113,9 +119,13 @@
   <article{% if page.url == post.url %} class="single" {% endif %}>
     <header>
       <h2>
-        <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+        {% if page.url != post.url %}
+          <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
+          {% endif %}
           {{ post.data.title | smarty }}
-        </a>
+          {% if page.url != post.url %}
+          </a>
+        {% endif %}
 
         {% if post.data.draft %}
           <span class="draft">Draft</span>
@@ -131,7 +141,8 @@
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">
-          <span>Posted</span> {{ post.data.date | date("do MMMM yyyy") | safe }}
+          <span>Posted</span>
+          {{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
     </footer>
