@@ -18,6 +18,10 @@ Here's some lovely, old-school, traditional, _conservative_ barbarism:
 >
 > -- Zack Budryk, "[Trump campaign lawyer resigns from Gridiron Club after saying Krebs should be shot](https://thehill.com/homenews/media/528522-trump-campaign-lawyer-resigns-from-gridiron-club-after-saying-krebs-should-be)", _The Hill_
 
+Which drew this impassioned response from a Georgia election official:
+
+https://www.youtube.com/watch?v=hYRAHhUMcGw&feature=emb_logo
+
 It was all "hyperbole" and "in jest", of course! They tend to pick [the best subjects for humor](https://www.vanityfair.com/news/2020/06/white-house-trump-was-just-joking-about-a-deadly-pandemic). And only the most Elite can handle the spotlight:
 
 > “It’s egregious, I’m at a loss for words at how absurd those and offensive those comments were, I think that’s got to violate some type of code of professional conduct for the DC Bar, and I hope they look into it,” Travis, the former deputy director of the Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA), said at the Aspen Institute’s virtual Cyber Summit on Tuesday.
