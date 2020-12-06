@@ -13,11 +13,11 @@ tags:
     - politics
 ---
 
-I _had_ to save this one as well.
+Operation [#shitkraken](/tags/shitkraken) appears to limping along quite well. 
 
 /misc/r/rudy-carrone.mp4
 
-[A living caricature](https://twitter.com/benyahr/status/1334526677028843520) who could've been drunk, who could just [be an SNL character](https://www.instyle.com/politics-social-issues/melissa-carone-testimony-twitter-reactions), who put out so much "Can I See Your Manager" energy she had to shushed by [the flatulent Leader](https://www.businessinsider.com/rudy-giuliani-fart-on-camera-confirmed-by-michigan-state-representative-2020-12) of the Elite Strike-Force Team, who described herself as a "[Duchess of CyberSecurity](https://www.facebook.com/photo?fbid=1145671952480387&set=ecnf.100011127785440)[^duchess]", and who was [definitely arrested](https://www.deadlinedetroit.com/articles/26813/giuliani_s_michigan_witness_mellissa_carone_harassed_sent_sex_videos_to_boyfriend_s_ex) for harassing her boyfriend's ex with graphic videos.
+[A living caricature](https://twitter.com/benyahr/status/1334526677028843520) who could've been drunk, who could just [be an SNL character](https://www.instyle.com/politics-social-issues/melissa-carone-testimony-twitter-reactions), who put out so much Can-I-See-Your-Manager energy she had to shushed by [the flatulent Leader](https://www.businessinsider.com/rudy-giuliani-fart-on-camera-confirmed-by-michigan-state-representative-2020-12) of the Elite Strike-Force Team, who described herself as a "[Duchess of CyberSecurity](https://www.facebook.com/photo?fbid=1145671952480387&set=ecnf.100011127785440)[^duchess]", and who was [definitely arrested](https://www.deadlinedetroit.com/articles/26813/giuliani_s_michigan_witness_mellissa_carone_harassed_sent_sex_videos_to_boyfriend_s_ex) for harassing her boyfriend's ex with videos of them having sex.
 
 Imagine my surprise when she was found to be "[not credible](https://www.washingtonpost.com/nation/2020/12/03/melissa-carone-michigan-trump-giuliani-election/)." I'd genuinely hoped that she was an elite troll and that it was performance art of highest calibre[^mckinnon], but there's a higher likelihood of Mediacom deciding to treat its customers with respect.
 
