@@ -21,12 +21,34 @@ eleventyExcludeFromCollections: true
     </header>
     <ul class="list-of-things-with-count">
       <li>
-        <a href="/links" title="All links"><strong>Links</strong></a>
+        <a href="/links" title="All links">
+          <strong>Links</strong>
+        </a>
         <span>{{ collections.links | length }}</span>
       </li>
       <li>
-        <a href="/media" title="All media"><strong>Media</strong></a>
+        <a href="/media" title="All media">
+          <strong>Media</strong>
+        </a>
         <span>{{ collections.media | length }}</span>
+      </li>
+      <li>
+        <a href="/tags/favorite things" title="Favorite Things">
+          <strong>Favorite Things</strong>
+        </a>
+        <span>
+          {% set special1 = collections.tags | where("name", "favorite things") %}
+          {{ special1.count }}
+        </span>
+      </li>
+      <li>
+        <a href="/tags/the worst" title="The Worst">
+          <strong>The Worst</strong>
+        </a>
+        <span>
+          {% set special2 = collections.tags | where("name", "the worst") %}
+          {{ special2.count }}
+        </span>
       </li>
       {% for year, posts in collections.thingsByYear %}
         <li>

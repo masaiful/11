@@ -25,4 +25,6 @@ module.exports = {
   toISODateString: (dateString) => formatISO(toDate(dateString)),
   uuid: (s) => uuidv5(s, uuidv5.URL),
   uuidWithNoSpaces: (s) => uuidv5(s, uuidv5.URL).replace(/-/g, ""),
+  where: (listOfObjects, keyName, valueToSearch) =>
+    listOfObjects.filter((_) => _[keyName] === valueToSearch)[0] || null,
 };
