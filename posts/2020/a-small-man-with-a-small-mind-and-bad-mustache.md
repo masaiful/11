@@ -10,7 +10,7 @@ tags:
     - the worst
 ---
 
-A member of The Elite Strike-Force Team bemoaned [being "canceled" and asked to resign from an elite club](https://thehill.com/homenews/media/528522-trump-campaign-lawyer-resigns-from-gridiron-club-after-saying-krebs-should-be) after calling for violence against the country's former CyberSecurity chief who said that the elections were "the most secure in American history" (which was the opinion that got him fired.) Mercifully, Operation [#shitkraken](/tags/shitkraken) remains on-track despite this minor upset.
+A member of The Elite Strike-Force Team bemoaned [being "canceled" and asked to resign from an elite club](https://thehill.com/homenews/media/528522-trump-campaign-lawyer-resigns-from-gridiron-club-after-saying-krebs-should-be) after calling for violence against the country's former CyberSecurity chief who said that the elections were "the most secure in American history" (which was the opinion that got him fired.) Mercifully, Operation [#shitkraken](/tags/shitkraken) continues to deliver despite this minor upset.
 
 Here's some lovely, old-school, traditional, _conservative_ barbarism:
 

@@ -269,8 +269,8 @@ article figure > figcaption {
   margin: var(--root-spacing);
 }
 article figure > figcaption a {
-  border-bottom-color: var(--color-text-tertiary);
   font-weight: 600;
+  border-bottom-color: var(--color-text-tertiary);
 }
 article figure > figcaption a:hover {
   border-bottom-color: var(--color-highlight);
