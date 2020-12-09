@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Misc Assets</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <div id="container"></div>
+
+  <script type="module">
+    const formatBytes = (bytes, decimals) => {
+      if (bytes == 0) return '0 Bytes';
+      let k = 1024,
+        dm = decimals || 2,
+        sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
+        i = Math.floor(Math.log(bytes) / Math.log(k));
+      return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+
+    import { h, Component, render } from 'https://unpkg.com/preact?module';
+    import htm from 'https://unpkg.com/htm?module';
+    const html = htm.bind(h);
+
+    const File = (props) => html`
+      <section>
+        <a href=${props.file.path}>
+          ${props.file.thumbnail
+          ? html`<img src=${props.file.thumbnail} />`
+          : html`<stong>${props.file.path}</strong>`
+        }</a>
+        <p>${props.file.path} <span>(${formatBytes(props.file.size)})</span></p>
+      </section>
+    `;
+
+    const App = (props) => html`
+      <h3>${props.files.length} Files</h3>
+      <div id="wrapper">
+        ${props.files.map(f => html`<${File} file=${f} />`)}
+      </div>
+    `;
+
+    (async () => {
+      const manifest = await (await fetch("/manifest.json")).json();
+
+      render(
+        html`<${App} files=${manifest.files} />`,
+        document.getElementById("container")
+      );
+    })();
+  </script>
+</body>
+
+</html>

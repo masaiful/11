@@ -1,0 +1,53 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+body {
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+#wrapper {
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 1em;
+}
+h3 {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5em;
+}
+section {
+  display: inline-block;
+  height: 180px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0.25em;
+  overflow: hidden;
+}
+section:hover {
+  border: 1px solid coral;
+}
+section img {
+  border-radius: 5px;
+}
+section > * {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  font-size: 0.65em;
+}
+section a {
+  padding: 0.5em;
+}
+section p {
+  border-top: 1px solid #ddd;
+  padding: 0.5em;
+}
+section p span {
+  color: lightcoral;
+}
