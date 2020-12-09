@@ -21,6 +21,14 @@ const MISC_PATH = "misc";
 const MISC_OPTIMIZED_FOLDER = "_optimized";
 
 /**
+ * Write all thumbnails to this folder
+ */
+const MISC_THUMBNAIL_FOLDER = "_thumbnails";
+
+// In pixels... what else?
+const MISC_THUMBNAIL_SIZE = 128;
+
+/**
  * Remote URI that serves pictures and videos. No trailing slashes. If
  * this is `null`, just look locally.
  *
@@ -91,14 +99,16 @@ if (MISC_REMOTE_PREFIX === null || !process.env.CI) {
 }
 
 module.exports = {
-  ASSET_PATH,
   ASSET_PATH_IN_BUILT_SITE,
+  ASSET_PATH,
   BUCKET_NAME,
   MISC_FOLDER_LIST,
   MISC_OPTIMIZED_FOLDER,
   MISC_PATH,
   MISC_REMOTE_BUCKET,
   MISC_REMOTE_PREFIX,
+  MISC_THUMBNAIL_FOLDER,
+  MISC_THUMBNAIL_SIZE,
   PASSTHROUGH,
 
   /**

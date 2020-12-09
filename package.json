@@ -6,6 +6,7 @@
   "scripts": {
     "bootstrap-misc": "npm-run-all make-misc-folders pull:misc",
     "make-misc-folders": "node _scripts/make-misc-folders.js",
+    "make-misc-manifest": "node _scripts/make-misc-manifest.js",
     "pull:misc": "node _scripts/pull-misc.js",
     "build:misc": "node _scripts/build-misc.js",
     "push:misc": "node _scripts/push-misc.js",
@@ -31,6 +32,7 @@
     "algoliasearch": "^4.6.0",
     "chalk": "^4.1.0",
     "date-fns": "^2.16.1",
+    "directory-tree": "^2.2.5",
     "dotenv": "^8.2.0",
     "eleventy-plugin-embed-everything": "^1.9.3",
     "glob": "^7.1.6",

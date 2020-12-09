@@ -21,9 +21,13 @@ const optimizeFile = async (filePath) => {
   const { dir, name } = path.parse(optimizedFilePath);
   const optimizedFilePath_WebP = `${dir}/${name}.webp`;
 
+  const thumbnailFilePath = `${config.MISC_THUMBNAIL_FOLDER}/${filePath}`;
+
   try {
     await mkdirp(path.dirname(optimizedFilePath));
+    await mkdirp(path.dirname(thumbnailFilePath));
 
+    // Optimized file: original extension
     fs.access(optimizedFilePath, async (e) => {
       if (e || forceProcessing) {
         await sharp(fileBuffer).toFile(optimizedFilePath);
@@ -31,10 +35,21 @@ const optimizeFile = async (filePath) => {
       }
     });
 
+    // WebP version of the file; much smaller!
     fs.access(optimizedFilePath_WebP, async (e) => {
       if (e || forceProcessing) {
         await sharp(fileBuffer).toFile(optimizedFilePath_WebP);
         console.log(chalk.cyan(`✔ Wrote ${optimizedFilePath_WebP}`));
+      }
+    });
+
+    // Thumbnail for easy browsing in /misc
+    fs.access(thumbnailFilePath, async (e) => {
+      if (e || forceProcessing) {
+        await sharp(fileBuffer)
+          .resize(config.MISC_THUMBNAIL_SIZE, config.MISC_THUMBNAIL_SIZE)
+          .toFile(thumbnailFilePath);
+        console.log(chalk.cyan(`✔ Wrote ${thumbnailFilePath}`));
       }
     });
   } catch (error) {
@@ -46,9 +61,12 @@ try {
   process.chdir(config.MISC_PATH);
 
   glob(
-    "**/*.*(jpg|jpeg|png)",
+    "**/*.*(jpg|jpeg|png|JPG|JPEG|PNG)",
     {
-      ignore: [`${config.MISC_OPTIMIZED_FOLDER}/**`],
+      ignore: [
+        `${config.MISC_OPTIMIZED_FOLDER}/**`,
+        `${config.MISC_THUMBNAIL_FOLDER}/**`,
+      ],
       nocase: true,
     },
     (_, files) => files.map((filePath) => optimizeFile(filePath)),
