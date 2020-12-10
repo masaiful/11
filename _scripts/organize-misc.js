@@ -8,6 +8,8 @@ const IGNORED_PATHS = [
   ...config.MISC_FOLDER_LIST,
   config.MISC_OPTIMIZED_FOLDER,
   config.MISC_THUMBNAIL_FOLDER,
+  "manifest.json",
+  "index.css",
   "index.html",
   "error.html",
   "s3-bucket*",
