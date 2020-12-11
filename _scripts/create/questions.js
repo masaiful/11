@@ -23,7 +23,7 @@ const basic = [
     message: "Is this a draft?",
     default: false,
   },
-  helpers.makeBasicQuestion("Title:", "title", "Enter a post title!"),
+  helpers.makeBasicQuestion("Title/Author/Album:", "title", "Enter a post title!"),
 ];
 
 const rating = {

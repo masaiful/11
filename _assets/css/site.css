@@ -509,6 +509,24 @@ article.links.single {
   margin-top: calc(var(--root-spacing) * -0.5 * var(--article-spacing-factor));
 }
 
+/* QUOTE TYPE */
+article.quotes blockquote {
+  border-left: 0;
+  position: relative;
+  padding-left: 1.75em;
+}
+article.quotes blockquote::before {
+  content: '“';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: calc(var(--font-size-base) * 2.5);
+  color: var(--color-highlight);
+}
+article.quotes figcaption {
+  color: var(--color-text-secondary);
+}
+
 /* MEDIA TYPE */
 .media-year {
   font-weight: 400;

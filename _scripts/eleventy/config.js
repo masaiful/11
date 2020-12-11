@@ -151,9 +151,15 @@ module.exports = {
    * We _could_ use `all` in lieu of `things` but keep it separate 🤷‍♂️
    */
   COLLECTIONS: {
-    things: ["posts/**/*.md", "links/**/*.md", "media/**/*.md"],
+    things: [
+      "posts/**/*.md",
+      "links/**/*.md",
+      "media/**/*.md",
+      "quotes/**/*.md",
+    ],
     links: ["links/**/*.md"],
     media: ["media/**/*.md"],
     posts: ["posts/**/*.md"],
+    quotes: ["quotes/**/*.md"],
   },
 };

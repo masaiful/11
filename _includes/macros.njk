@@ -20,7 +20,6 @@
   {% if post.data.category == "links" %}
 
     {% set linkArticleTo = post.data.link %}
-
     <article class="links{% if page.url == post.url %} single{% endif %}">
       <div class="links-permalink">
         {% if page.url != post.url %}
@@ -62,7 +61,6 @@
   {% elseif post.data.category == "media" %}
 
     {% set linkArticleTo = post.url %}
-
     <article{% if page.url == post.url %} class="single" {% endif %}>
       <header>
         <h2>
@@ -97,6 +95,25 @@
       </h2>
     </header>
 
+    {% if post.templateContent %}
+      {{ post.templateContent | safe }}
+    {% endif %}
+
+    <footer>
+      {{ postTags(post.data.tags) }}
+      {% if page.url == post.url %}
+        <time datetime="{{ post.data.date | toISODateString }}">
+          <span>Posted</span>
+          {{ post.data.date | date("do MMMM yyyy") | safe }}
+        </time>
+      {% endif %}
+    </footer>
+  </article>
+
+{% elseif post.data.category == "quotes" %}
+
+  {% set linkArticleTo = post.url %}
+  <article class="quotes{% if page.url == post.url %} single{% endif %}">
     {% if post.templateContent %}
       {{ post.templateContent | safe }}
     {% endif %}
