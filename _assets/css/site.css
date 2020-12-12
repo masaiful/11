@@ -265,12 +265,13 @@ article blockquote {
   padding-left: var(--root-spacing);
 }
 article figure > figcaption {
-  font-size: medium;
+  color: var(--color-text-secondary);
   margin: var(--root-spacing);
 }
 article figure > figcaption a {
-  font-weight: 600;
   border-bottom-color: var(--color-text-tertiary);
+  color: var(--color-text-secondary);
+  font-weight: 600;
 }
 article figure > figcaption a:hover {
   border-bottom-color: var(--color-highlight);
@@ -386,7 +387,7 @@ article .update strong {
   text-transform: uppercase;
 }
 article .update strong::after {
-  content: " ·"
+  content: " ·";
 }
 
 article .footnotes {
@@ -518,7 +519,7 @@ article.quotes blockquote {
   padding-left: 0;
 }
 article.quotes blockquote::before {
-  content: '“';
+  content: "“";
   position: absolute;
   left: -0.65em;
   top: 10px;
@@ -833,7 +834,10 @@ label[for="dark-mode"] span:nth-of-type(2) {
   transform: translateX(18px);
 }
 
-#dark-mode:checked ~ .container label[for="dark-mode"] span:nth-of-type(1)::before {
+#dark-mode:checked
+  ~ .container
+  label[for="dark-mode"]
+  span:nth-of-type(1)::before {
   content: "🌛";
 }
 
@@ -849,11 +853,16 @@ label[for="dark-mode"] span:nth-of-type(2) {
     font-size: large;
   }
   article.quotes blockquote {
-    left: 1.5em;
-    padding-right: var(--root-spacing);
+    display: grid;
+    grid-template-columns: calc(var(--root-spacing) * 1.5) auto;
+  }
+  article.quotes blockquote::before {
+    position: relative;
+    left: 0;
+    top: calc(var(--root-spacing) * 1.5);
   }
   article.quotes figcaption {
-    padding-left: var(--root-spacing);
+    margin: 0 var(--root-spacing);
   }
 }
 
