@@ -9,6 +9,7 @@ misc/manifest.json
 misc/_optimized
 misc/_thumbnails
 misc/[a-z]*
+misc/[0-9]*
 
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 

@@ -46,6 +46,16 @@ const MISC_REMOTE_PREFIX = "https://static-log.nikhil.io";
  * it's built and filed away properly.
  */
 const MISC_FOLDER_LIST = [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
   "a",
   "b",
   "c",
