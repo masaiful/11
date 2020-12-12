@@ -452,7 +452,7 @@ article .footnote-backref:hover {
 
 /* LINK TYPE */
 article.links {
-  line-height: calc(var(--line-height) + 10%);
+  line-height: calc(var(--line-height) + 20%);
   display: grid;
   grid-template-columns: calc(var(--root-spacing) * 1.5) auto;
   margin-left: calc(var(--root-spacing) * -1.5);
@@ -514,18 +514,20 @@ article.links.single {
 article.quotes blockquote {
   border-left: 0;
   position: relative;
-  padding-left: 1.75em;
+  margin-left: 0;
+  padding-left: 0;
 }
 article.quotes blockquote::before {
   content: '“';
   position: absolute;
-  left: 0;
+  left: -0.65em;
   top: 10px;
   font-size: calc(var(--font-size-base) * 2.5);
   color: var(--color-highlight);
 }
 article.quotes figcaption {
   color: var(--color-text-secondary);
+  margin-left: 0;
 }
 .index article.quotes footer {
   display: none;
@@ -845,6 +847,13 @@ label[for="dark-mode"] span:nth-of-type(2) {
   }
   article.links.single {
     font-size: large;
+  }
+  article.quotes blockquote {
+    left: 1.5em;
+    padding-right: var(--root-spacing);
+  }
+  article.quotes figcaption {
+    padding-left: var(--root-spacing);
   }
 }
 
