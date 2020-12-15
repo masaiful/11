@@ -3,7 +3,7 @@ category: posts
 draft: false
 
 title: It's Not Over
-date: 2020-12-01 18:59:28
+date: 2020-12-14 18:15:28
 tags:
     - shitkraken
     - politics
@@ -17,10 +17,10 @@ Until _all_ votes are counted.
 Until all votes are _recounted_.
 Until all votes are recounted _by hand_.
 Until [the lawsuits](/posts/ac575166772052fc918f0fd134993bbb) are filed.
-Until the lawsuits are appealed at the _State_ Supreme Courts.
-Until the lawsuits are appealed at _the_ Supreme Court.
-Until the states certify the results.
-Until the electors vote.
+[Until the lawsuits are appealed at the _State_ Supreme Courts](https://abcnews.go.com/Politics/wireStory/wisconsin-supreme-court-tosses-trump-election-lawsuit-74717684).
+[Until the lawsuits are appealed at _the_ Supreme Court](https://www.nytimes.com/2020/12/11/us/politics/supreme-court-election-texas.html).
+[Until the states certify the results](https://www.cnn.com/2020/12/09/politics/2020-election-results-certified/index.html).
+[Until the electors vote](https://apnews.com/article/joe-biden-social-affairs-elections-ap-news-alert-electoral-college-9f7c5bbc89077e7cf52ae572de9bd18d).
 Until the electors _maybe_ vote faithlessly.
 Until Joe is sworn in on the 20^th^.
 
