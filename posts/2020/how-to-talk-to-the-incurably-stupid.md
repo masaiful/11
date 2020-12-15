@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: Nothing Will Work With The Incurably Stupid
+title: Some People Are Incurably Stupid
 date: 2020-12-11 13:19:26
 tags:
     - stupid people
