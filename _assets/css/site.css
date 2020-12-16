@@ -512,6 +512,9 @@ article.links.single {
 } */
 
 /* QUOTE TYPE */
+article.quotes {
+  margin-top: calc(var(--root-spacing) * -0.5);
+}
 article.quotes blockquote {
   border-left: 0;
   position: relative;
@@ -877,6 +880,9 @@ label[for="dark-mode"] span:nth-of-type(2) {
   }
   body > * > header > nav ul li:nth-of-type(4) {
     margin-right: calc(var(--root-spacing) / 2);
+  }
+  article.quotes {
+    margin-top: calc(var(--root-spacing) * -1.25);
   }
   .media-list tbody td:nth-child(2),
   .media-list tbody td:nth-child(3) {
