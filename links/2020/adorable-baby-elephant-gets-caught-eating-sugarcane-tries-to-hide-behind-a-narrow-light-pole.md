@@ -13,6 +13,6 @@ tags:
 
 😭
 
-![](https://static-log.nikhil.io/misc/b/baby-elephant-light-pole.jpg)
+![](/misc/b/baby-elephant-light-pole.jpg)
 
 Clever girl 🐘 ♥️
