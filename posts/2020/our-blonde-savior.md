@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: Our Blonde Saviour 🙏
+title: '"Dyed For Your Sins" 🙏'
 date: 2020-12-20 20:09:18
 tags:
     - religion
