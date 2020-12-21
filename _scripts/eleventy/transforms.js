@@ -11,7 +11,33 @@ const staticVideoPattern = RegExp(
 const miscLinkPattern = RegExp(
   String.raw`<a href="(\/${config.MISC_PATH}.*)">`,
   "g",
-)
+);
+
+const updatePattern = RegExp(
+  String.raw`<p><strong>Update<\/strong>(.*)<\/p>`,
+  "g",
+);
+
+const formatUpdates = async (content, outputPath) => {
+  if (outputPath && outputPath.endsWith(".html")) {
+    let matches = content.match(updatePattern);
+
+    if (!matches) {
+      return content;
+    }
+
+    matches.forEach(() => {
+      let [nodeMatch, updateContent] = updatePattern.exec(content);
+      let updateWithClassname = `<p class="update"><strong>Update</strong>${updateContent}</p>`;
+
+      content = content.replace(nodeMatch, updateWithClassname);
+    });
+
+    return content;
+  }
+
+  return content;
+};
 
 /**
  * TODO: This is slow af. Why wouldn't it be? Write a plugin for
@@ -130,6 +156,7 @@ const noTransform = (content) => content;
 
 module.exports = {
   embedVideo,
+  formatUpdates,
 
   /**
    * When running locally, beautify the HTML so it's easier to inspect the

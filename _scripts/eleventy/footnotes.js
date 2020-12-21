@@ -60,11 +60,11 @@ function render_footnote_ref(tokens, idx, options, env, slf) {
 }
 
 function render_footnote_block_open(tokens, idx, options) {
-  return '<div class="footnotes"><ol>';
+  return '<section class="footnotes"><ol>';
 }
 
 function render_footnote_block_close() {
-  return "</ol></div>";
+  return "</ol></section>";
 }
 
 function render_footnote_open(tokens, idx, options, env, slf) {

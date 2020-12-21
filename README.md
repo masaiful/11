@@ -51,3 +51,7 @@ I use [this project](https://github.com/afreeorange/s3-bucket-listing) for a [ni
 Uses Sharp to create optimized _and_ WebP versions of PNG and JPEG assets. These are created in `misc/_optimized` with the same path. That is to say: the original assets (in `misc/a`, `misc/b`, and so on) remain **untouched** and **unused**.
 
 Things can be customized in `_scripts/eleventy/config.js`
+
+## Resources
+
+* [TurnDown](https://domchristie.github.io/turndown) turns HTML &rarr; Markdown.

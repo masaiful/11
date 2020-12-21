@@ -21,6 +21,14 @@ const MISC_PATH = "misc";
 const MISC_OPTIMIZED_FOLDER = "_optimized";
 
 /**
+ * Write all thumbnails to this folder
+ */
+const MISC_THUMBNAIL_FOLDER = "_thumbnails";
+
+// In pixels... what else?
+const MISC_THUMBNAIL_SIZE = 128;
+
+/**
  * Remote URI that serves pictures and videos. No trailing slashes. If
  * this is `null`, just look locally.
  *
@@ -38,6 +46,16 @@ const MISC_REMOTE_PREFIX = "https://static-log.nikhil.io";
  * it's built and filed away properly.
  */
 const MISC_FOLDER_LIST = [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
   "a",
   "b",
   "c",
@@ -91,14 +109,16 @@ if (MISC_REMOTE_PREFIX === null || !process.env.CI) {
 }
 
 module.exports = {
-  ASSET_PATH,
   ASSET_PATH_IN_BUILT_SITE,
+  ASSET_PATH,
   BUCKET_NAME,
   MISC_FOLDER_LIST,
   MISC_OPTIMIZED_FOLDER,
   MISC_PATH,
   MISC_REMOTE_BUCKET,
   MISC_REMOTE_PREFIX,
+  MISC_THUMBNAIL_FOLDER,
+  MISC_THUMBNAIL_SIZE,
   PASSTHROUGH,
 
   /**
@@ -141,9 +161,15 @@ module.exports = {
    * We _could_ use `all` in lieu of `things` but keep it separate 🤷‍♂️
    */
   COLLECTIONS: {
-    things: ["posts/**/*.md", "links/**/*.md", "media/**/*.md"],
+    things: [
+      "posts/**/*.md",
+      "links/**/*.md",
+      "media/**/*.md",
+      "quotes/**/*.md",
+    ],
     links: ["links/**/*.md"],
     media: ["media/**/*.md"],
     posts: ["posts/**/*.md"],
+    quotes: ["quotes/**/*.md"],
   },
 };

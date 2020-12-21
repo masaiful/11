@@ -15,4 +15,3 @@ These are memo pads that "excavate objects" as they are used. [A bit more expens
 ![Omoshiroi Block](/misc/o/omoshiroi-2.jpg)
 
 ![Omoshiroi Block - Harry Potter](/misc/o/omoshiroi-hp.jpg)
-

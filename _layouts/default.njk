@@ -25,16 +25,21 @@
 
     <link rel="apple-touch-icon" href="/assets/img/favicon.svg">
     <link rel="shortcut icon" href="/assets/img/favicon.svg">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <link rel="stylesheet" href="/assets/css/code.css">
   </head>
 
   <body{% if pageClass %} class="{{ pageClass }}" {% endif %}>
-    {% include "header.njk" %}
-    <main>
-      {{ content | safe }}
-    </main>
-    {% include "footer.njk" %}
-    {% include "scripts.njk" %}
+    <input type="checkbox" id="dark-mode"/>
+    <div class="container">
+      {% include "header.njk" %}
+      <main>
+        {{ content | safe }}
+      </main>
+      {% include "footer.njk" %}
+      {% include "scripts.njk" %}
+    </div>
+  </body>
 </html>

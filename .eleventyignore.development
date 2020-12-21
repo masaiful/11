@@ -1,0 +1,12 @@
+_templates
+misc/**
+README.md
+
+year.njk
+feed.xml.njk
+archive.njk
+search-data.json.njk
+sitemap.xml.njk
+tags.njk
+links/index.njk
+media/index.njk

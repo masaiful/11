@@ -1,14 +1,29 @@
 <header>
   <nav>
     <h1>
-      <a href="/" title="Home">{{ site.name }}</a>
+      <a href="/" title="Home">log.nikhil.io</a>
     </h1>
     <ul>
       <li>
-        <a href="/about" title="About this site"{% if "about" in page.url %} class="active"{% endif %}>About</a>
+        <a href="/about" title="About this site">
+          <span>About</span>
+        </a>
       </li>
       <li>
-        <a href="/archive" title="Post archives"{% if "archive" in page.url %} class="active"{% endif %}>Archive</a>
+        <a href="/archive" title="Post archives">
+          <span>Archive</span>
+        </a>
+      </li>
+      <li>
+        <a href="/feed.xml" title="Atom Feed">
+          <span>Feed</span>
+        </a>
+      </li>
+      <li>
+        <label for="dark-mode">
+          <span></span>
+          <span>Dark Mode</span>
+        </label>
       </li>
     </ul>
   </nav>

@@ -1,11 +1,15 @@
 .env
 _site
+.eleventyignore
 node_modules
 
 # Miscellaneous assets. Don't want stuff in the bucket and the things we
 # optimize using Sharp.
+misc/manifest.json
 misc/_optimized
+misc/_thumbnails
 misc/[a-z]*
+misc/[0-9]*
 
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 
