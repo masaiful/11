@@ -24,6 +24,7 @@ const syncCommand = `
 aws s3 sync ${config.SITE.dir.output}/ "s3://${config.BUCKET_NAME}/" \
     ${config.MISC_REMOTE_PREFIX ? excludeLocalMisc : ""} \
     --delete \
+    --exclude "*.DS_Store*" \
     --size-only \
     ${compressed ? "--content-encoding gzip" : ""}
 `;
