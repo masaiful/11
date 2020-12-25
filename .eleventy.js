@@ -1,4 +1,5 @@
 const config = require("./_scripts/eleventy/config");
+const data = require("./_scripts/eleventy/data");
 const filters = require("./_scripts/eleventy/filters");
 const helpers = require("./_scripts/eleventy/helpers");
 const parser = require("./_scripts/eleventy/parser");
@@ -38,6 +39,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addCollection("yearAndMonthCounts", (collection) =>
     utils.getYearAndMonthFrequencies(collection),
   );
+
+  data.map(([customFormat, parser]) => {
+    eleventyConfig.addDataExtension(customFormat, parser);
+  });
 
   plugins.map((p) => eleventyConfig.addPlugin(p));
 

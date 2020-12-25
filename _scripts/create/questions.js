@@ -23,7 +23,7 @@ const basic = [
     message: "Is this a draft?",
     default: false,
   },
-  helpers.makeBasicQuestion("Title/Author/Album:", "title", "Enter a post title!"),
+  helpers.makeBasicQuestion("Title/Author/Track:", "title", "Enter a post title!"),
 ];
 
 const rating = {
@@ -58,7 +58,6 @@ const book = [
 
 const music = [
   helpers.makeBasicQuestion("Artist:", "artist", "Who's the artist yo?"),
-  year,
   rating,
 ];
 

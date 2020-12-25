@@ -1,0 +1,63 @@
+---
+layout: default
+permalink: "lists/songs/index.html"
+title: Songs I Like
+---
+
+<h2 class="compilation-title">
+  A
+  <a href="/lists" title="List of Lists">List</a>
+  of
+  <span class="compilation-count">{{ songs | length }}
+    Songs</span>
+  I Like</span>
+</h2>
+
+<article>
+<table class="list-songs">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Track</th>
+      <th>Album</th>
+      <th>Artist</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for song in songs %}
+      <tr>
+        <td>
+          {% if song.link %}
+            <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
+              🎵
+            </a>
+          {% endif %}
+        </td>
+        <td>{{ song.track }}</td>
+        <td>
+          {% if song.albumLink %}
+            <a href="{{ song.albumLink }}" title="Link to {{ song.albumLink }}">
+              {{ song.album }}
+            </a>
+          {% else %}
+            {{ song.album }}
+          {% endif %}
+        </td>
+        <td>{{ song.artist }}</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          {% if song.rating %}
+            <span class="{% if song.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ song.rating | gradeToNumber }};" aria-label="Rated {{ song.rating | gradeToNumber }} out of 5">
+            {% else %}
+              {% set rating = "F" %}
+              <span class="{% if rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ rating | gradeToNumber }};" aria-label="Rated {{ rating | gradeToNumber }} out of 5">
+              {% endif %}
+            </td>
+            <td colspan="3">{{ song.notes }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </article>

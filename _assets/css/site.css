@@ -601,35 +601,6 @@ article.quotes figcaption {
   margin-bottom: var(--root-spacing);
 }
 
-.list-of-things-with-count li strong {
-  font-weight: 600;
-}
-.list-of-things-with-count li {
-  border-radius: var(--rounding-radius);
-  border: 1px solid var(--color-text-tertiary);
-  cursor: pointer;
-  display: inline-block;
-  line-height: normal;
-  margin-right: calc(var(--root-spacing) / 8);
-  padding: 0 0 0 calc(var(--root-spacing) / 4);
-}
-.list-of-things-with-count li:hover {
-  background: var(--color-highlight-light);
-}
-.list-of-things-with-count li a {
-  color: var(--color-text);
-}
-.list-of-things-with-count li span {
-  border-left: 1px dotted var(--color-text-tertiary);
-  display: inline-block;
-  text-align: center;
-  padding: 0 calc(var(--root-spacing) / 4);
-  color: var(--color-text-tertiary);
-}
-.list-of-things-with-count li:hover span {
-  color: var(--color-text);
-}
-
 /* ABOUT */
 .about .container {
   content: "";
@@ -656,6 +627,14 @@ article.quotes figcaption {
 .compilation-title {
   color: var(--color-highlight);
   margin-bottom: calc(var(--root-spacing) * var(--article-spacing-factor));
+}
+.compilation-title a {
+  border-bottom: 1px dotted var(--color-highlight);
+  color: var(--color-highlight);
+  font-weight: 600;
+}
+.compilation-title a:hover {
+  color: var(--color-text);
 }
 .compilation-count {
   border-radius: var(--rounding-radius);
@@ -842,6 +821,55 @@ label[for="dark-mode"] span:nth-of-type(2) {
   label[for="dark-mode"]
   span:nth-of-type(1)::before {
   content: "🌛";
+}
+
+/**
+ * LISTS AND LISTS AND LISTS!
+ */
+.list-of-things-with-count li strong {
+  font-weight: 600;
+}
+.list-of-things-with-count li {
+  border-radius: var(--rounding-radius);
+  border: 1px solid var(--color-text-tertiary);
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  margin-right: calc(var(--root-spacing) / 8);
+  padding: 0 0 0 calc(var(--root-spacing) / 4);
+}
+.list-of-things-with-count li:hover {
+  background: var(--color-highlight-light);
+}
+.list-of-things-with-count li a {
+  color: var(--color-text);
+}
+.list-of-things-with-count li span {
+  border-left: 1px dotted var(--color-text-tertiary);
+  display: inline-block;
+  text-align: center;
+  padding: 0 calc(var(--root-spacing) / 4);
+  color: var(--color-text-tertiary);
+}
+.list-of-things-with-count li:hover span {
+  color: var(--color-text);
+}
+
+.lists .list-of-things-with-count {
+  font-size: xx-large;
+}
+.list-songs tr:nth-child(odd) td:first-child a {
+  border-bottom: 0;
+}
+.list-songs tr:nth-child(odd) td:first-child {
+  text-align: center;
+}
+.list-songs tr:nth-child(odd) td {
+  border-bottom: 0;
+}
+.list-songs tr:nth-child(even) td {
+  color: var(--color-text-secondary);
+  font-size: smaller;
 }
 
 /* RESPONSIVE SHIT */
