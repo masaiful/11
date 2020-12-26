@@ -866,10 +866,12 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 .list-songs tr:nth-child(odd) td {
   border-bottom: 0;
+  padding-bottom: 0;
 }
 .list-songs tr:nth-child(even) td {
   color: var(--color-text-secondary);
   font-size: smaller;
+  padding-top: 0;
 }
 
 /* RESPONSIVE SHIT */
