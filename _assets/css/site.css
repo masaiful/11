@@ -345,7 +345,7 @@ article footer a {
   color: var(--color-text-tertiary);
   border-bottom: none;
   font-weight: 400;
-  line-height: initial;
+  line-height: calc(var(--line-height) / 1.5);
 }
 article footer > p {
   display: none;
