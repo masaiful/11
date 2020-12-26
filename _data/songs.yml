@@ -1,15 +1,21 @@
 - track: First Sleep
+  link: https://www.youtube.com/watch?v=3NOzIqV_XLg
+  artist: Clint Mansell
   album: Solaris OST
   albumLink: 
-  artist: Clint Mansell
-  link: https://www.youtube.com/watch?v=3NOzIqV_XLg
   rating: A+
   notes: 
+  tags:
+    - ambient
+    - science fiction
 
-- track: First Sleep
-  album: Solaris OST
+- track: A Tune for Jack
+  link: https://www.youtube.com/watch?v=T9pd_Al9mxw
+  artist: Lemon Jelly
+  album: 
   albumLink:
-  artist: Clint Mansell
-  link:
-  rating: 
+  rating: B+
   notes:
+  tags:
+    - electronic
+    - chill

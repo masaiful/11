@@ -1,13 +1,11 @@
 ---
 layout: default
-permalink: "lists/songs/index.html"
+permalink: "songs/index.html"
 title: Songs I Like
 ---
 
 <h2 class="compilation-title">
-  A
-  <a href="/lists" title="List of Lists">List</a>
-  of
+  A List of
   <span class="compilation-count">{{ songs | length }}
     Songs</span>
   I Like</span>
@@ -19,8 +17,8 @@ title: Songs I Like
     <tr>
       <th></th>
       <th>Track</th>
-      <th>Album</th>
       <th>Artist</th>
+      <th>Album</th>
     </tr>
   </thead>
   <tbody>
@@ -34,6 +32,7 @@ title: Songs I Like
           {% endif %}
         </td>
         <td>{{ song.track }}</td>
+        <td>{{ song.artist }}</td>
         <td>
           {% if song.albumLink %}
             <a href="{{ song.albumLink }}" title="Link to {{ song.albumLink }}">
@@ -43,7 +42,6 @@ title: Songs I Like
             {{ song.album }}
           {% endif %}
         </td>
-        <td>{{ song.artist }}</td>
       </tr>
       <tr>
         <td></td>
