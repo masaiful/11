@@ -27,7 +27,7 @@ jobs:
 
       - save_cache:
           paths:
-            - ~/.cache/yarn
+            - /home/circleci/project/node_modules
           key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
 
       - run:
