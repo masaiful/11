@@ -61,7 +61,7 @@ workflows:
   version: 2
   main:
     jobs:
-      - build:
+      - all-the-things:
           # Don't care about running the above for anything other than pushes
           # to the master branch 🤷‍♂️
           filters:
