@@ -1,3 +1,7 @@
+/**
+ * Note: Sync flags here should match those in .circleci/config.yml
+ */
+
 const fs = require("fs");
 const chalk = require("chalk");
 const { exec } = require("child_process");
