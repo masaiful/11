@@ -1,6 +1,7 @@
 version: 2.1
 
 orbs:
+  node: circleci/node@4.1.0
   aws-s3: circleci/aws-s3@2.0.0
 
 jobs:
@@ -8,27 +9,31 @@ jobs:
     docker:
       # This is their "Next Generation" image
       # https://circleci.com/developer/images/image/cimg/node
-      - image: cimg/node:14.15.2
+      - image: 'cimg/base:stable'
 
     steps:
       - checkout
 
-      # When the lock file changes, use increasingly general patterns to
-      # restore cache
-      - restore_cache:
-          keys:
-            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
-            - yarn-packages-v1-{{ .Branch }}-
-            - yarn-packages-v1-
+      - node/install:
+          install-yarn: true
+          node-version: 14.15.3
+
+      # # When the lock file changes, use increasingly general patterns to
+      # # restore cache
+      # - restore_cache:
+      #     keys:
+      #       - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      #       - yarn-packages-v1-{{ .Branch }}-
+      #       - yarn-packages-v1-
 
       - run:
           name: Installing dependencies
           command: yarn
 
-      - save_cache:
-          paths:
-            - /home/circleci/project/node_modules
-          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      # - save_cache:
+      #     paths:
+      #       - /home/circleci/project/node_modules
+      #     key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
 
       - run:
           name: Building the site
