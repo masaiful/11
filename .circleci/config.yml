@@ -19,7 +19,7 @@ jobs:
       - restore_cache:
           name: 🗃 Restoring package cache
           keys:
-            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
             # - yarn-packages-v1-{{ .Branch }}-
             # - yarn-packages-v1-
 
@@ -31,7 +31,7 @@ jobs:
 
       - save_cache:
           name: 💾 Saving package cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
+          key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
 
