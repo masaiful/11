@@ -1,7 +1,6 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.1.0
   aws-s3: circleci/aws-s3@2.0.0
 
 jobs:
@@ -9,31 +8,31 @@ jobs:
     docker:
       # This is their "Next Generation" image
       # https://circleci.com/developer/images/image/cimg/node
-      - image: 'cimg/base:stable'
+      - image: cimg/node:14.15.2
 
     steps:
       - checkout
 
-      - node/install:
-          install-yarn: true
-          node-version: 14.15.3
+      # When the lock file changes, use increasingly general patterns to
+      # restore cache
+      - restore_cache:
+          name: 🗃 Restoring package cache
+          keys:
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
 
-      # # When the lock file changes, use increasingly general patterns to
-      # # restore cache
-      # - restore_cache:
-      #     keys:
-      #       - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
-      #       - yarn-packages-v1-{{ .Branch }}-
-      #       - yarn-packages-v1-
-
+      # This command is for yarn v1. See this
+      # https://circleci.com/docs/2.0/yarn/
       - run:
-          name: Installing dependencies
-          command: yarn
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
 
-      # - save_cache:
-      #     paths:
-      #       - /home/circleci/project/node_modules
-      #     key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - save_cache:
+          name: 💾 Saving package cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
 
       - run:
           name: Building the site
