@@ -9,4 +9,4 @@ I am [Nikhil](https://nikhil.io). This is [a log of sorts](https://www.clickhole
 
 That's a drawing of me by the singularly talented [Mark Vollenweider](https://www.markjvollenweider.com) of Iowa City.
 
-<!-- Site was last built on {{ "" | timestamp }} -->
+<!-- Last built {{ "" | timestamp }} -->
