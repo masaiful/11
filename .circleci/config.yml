@@ -4,7 +4,7 @@ orbs:
   aws-s3: circleci/aws-s3@2.0.0
 
 jobs:
-  all-the-things:
+  build-and-deploy-log:
     docker:
       # This is their "Next Generation" image
       # https://circleci.com/developer/images/image/cimg/node
@@ -61,7 +61,7 @@ workflows:
   version: 2
   main:
     jobs:
-      - all-the-things:
+      - build-and-deploy-log:
           # Don't care about running the above for anything other than pushes
           # to the master branch 🤷‍♂️
           filters:
