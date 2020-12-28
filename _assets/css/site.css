@@ -260,13 +260,24 @@ article kbd {
   padding: 0 calc(var(--root-spacing) / 4);
 }
 article blockquote {
-  border-left: calc(var(--border-thickness) * 1) solid
-    var(--color-text-tertiary);
-  padding-left: var(--root-spacing);
+  position: relative;
+  margin-left: 1.5em;
+}
+article blockquote::before {
+  content: "“";
+  position: absolute;
+  display: block;
+  width: 1em;
+  height: 1em;
+  left: -0.60em;
+  top: 10px;
+  font-size: calc(var(--font-size-base) * 2.5);
+  color: var(--color-highlight);
 }
 article figure > figcaption {
   color: var(--color-text-secondary);
   margin: var(--root-spacing);
+  margin-left: 0.6em;
 }
 article figure > figcaption a {
   border-bottom-color: var(--color-text-tertiary);
@@ -510,32 +521,6 @@ article.links.single {
 /* .index article.links + article.links {
   margin-top: calc(var(--root-spacing) * -0.5 * var(--article-spacing-factor));
 } */
-
-/* QUOTE TYPE */
-article.quotes {
-  margin-top: calc(var(--root-spacing) * -0.5);
-}
-article.quotes blockquote {
-  border-left: 0;
-  position: relative;
-  margin-left: 0;
-  padding-left: 0;
-}
-article.quotes blockquote::before {
-  content: "“";
-  position: absolute;
-  left: -0.65em;
-  top: 10px;
-  font-size: calc(var(--font-size-base) * 2.5);
-  color: var(--color-highlight);
-}
-article.quotes figcaption {
-  color: var(--color-text-secondary);
-  margin-left: 0;
-}
-.index article.quotes footer {
-  display: none;
-}
 
 /* MEDIA TYPE */
 .media-year {
@@ -885,18 +870,6 @@ label[for="dark-mode"] span:nth-of-type(2) {
   article.links.single {
     font-size: large;
   }
-  article.quotes blockquote {
-    display: grid;
-    grid-template-columns: calc(var(--root-spacing) * 1.5) auto;
-  }
-  article.quotes blockquote::before {
-    position: relative;
-    left: 0;
-    top: calc(var(--root-spacing) * 1.5);
-  }
-  article.quotes figcaption {
-    margin: 0 var(--root-spacing);
-  }
 }
 
 @media all and (max-width: 500px) {
@@ -910,9 +883,6 @@ label[for="dark-mode"] span:nth-of-type(2) {
   }
   body > * > header > nav ul li:nth-of-type(4) {
     margin-right: calc(var(--root-spacing) / 2);
-  }
-  article.quotes {
-    margin-top: calc(var(--root-spacing) * -1.25);
   }
   .media-list tbody td:nth-child(2),
   .media-list tbody td:nth-child(3) {
