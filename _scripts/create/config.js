@@ -9,9 +9,9 @@ const THING_PATHS = {
   post: "../../posts",
   link: "../../links",
   movie: "../../media",
-  quote: "../../quotes",
-  music: "../../music",
-  book: "../../books",
+  // quote: "../../quotes",
+  // music: "../../music",
+  // book: "../../books",
 };
 
 module.exports = {

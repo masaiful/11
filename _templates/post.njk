@@ -5,6 +5,7 @@ draft: {{ isDraft }}
 title: {{ title }}
 date: {{ timestamp }}
 tags:
-    - tag
+    {% for tag in tags -%}
+    - {{ tag }}
+    {% endfor %}
 ---
-

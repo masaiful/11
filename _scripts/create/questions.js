@@ -17,13 +17,22 @@ const basic = [
     // Turn it back to lowercase so we can look it up.
     filter: (val) => val.toLowerCase(),
   },
-  {
-    type: "confirm",
-    name: "isDraft",
-    message: "Is this a draft?",
-    default: false,
-  },
-  helpers.makeBasicQuestion("Title/Author/Track:", "title", "Enter a post title!"),
+  // {
+  //   type: "confirm",
+  //   name: "isDraft",
+  //   message: "Is this a draft?",
+  //   default: false,
+  // },
+  helpers.makeBasicQuestion(
+    "Title (Movie Name, Link Title, etc):",
+    "title",
+    "Enter a post title!",
+  ),
+  helpers.makeBasicQuestion(
+    "Tags (comma-separated):",
+    "tags",
+    "Enter some tags, yo!",
+  ),
 ];
 
 const rating = {

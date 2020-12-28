@@ -1,11 +1,12 @@
 const got = require("got");
 const chalk = require("chalk");
 
-const makeBasicQuestion = (message, name, yellWith) => ({
+const makeBasicQuestion = (message, name, yellWith, transformer = null) => ({
   type: "input",
   name,
   message,
   validate: (value) => (value ? true : yellWith),
+  transformer: transformer,
 });
 
 const getMovieMetadata = async (movieTitle, OMDBKey) => {

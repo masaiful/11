@@ -43,6 +43,10 @@ console.log(chalk.gray(`Post will be timestamped "${timestamp}"`));
 const askQuestions = async () => {
   // Ask the basic questions
   const answers = await inquirer.prompt(questions.basic);
+  const postTags = answers.tags
+    .split(",")
+    .map((_) => _.trim())
+    .filter((_) => _ !== "");
 
   // Prepare paths
   const relativePostFolder = `${config.THING_PATHS[answers.type]}/${year}`;
@@ -60,7 +64,8 @@ const askQuestions = async () => {
   let frontmatter = {
     timestamp,
     title: answers.title,
-    isDraft: answers.isDraft,
+    isDraft: false,
+    tags: postTags,
   };
 
   if (answers.type === "movie") {

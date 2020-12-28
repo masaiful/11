@@ -5,8 +5,9 @@ draft: {{ isDraft }}
 title: {{ title }}
 date: {{ timestamp }}
 tags:
-    - tag
-
+    {% for tag in tags -%}
+    - {{ tag }}
+    {% endfor %}
 imdb: {{ imdb }}
 year: {{ year }}
 rating: {{ rating }}

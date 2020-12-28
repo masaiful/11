@@ -6,6 +6,8 @@ title: {{ title }}
 link: {{ link }}
 date: {{ timestamp }}
 tags:
-    - tag
+    {% for tag in tags -%}
+    - {{ tag }}
+    {% endfor %}
 ---
 
