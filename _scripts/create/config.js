@@ -9,7 +9,7 @@ const THING_PATHS = {
   post: "../../posts",
   link: "../../links",
   movie: "../../media",
-  // quote: "../../quotes",
+  quote: "../../quotes",
   // music: "../../music",
   // book: "../../books",
 };
