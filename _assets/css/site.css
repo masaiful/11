@@ -780,7 +780,7 @@ label[for="dark-mode"] {
   background-color: var(--color-text-tertiary);
   border-radius: calc(var(--rounding-radius) * 3);
   display: inline-block;
-  height: 16px;
+  height: 17px;
   position: relative;
   top: 2px;
   width: 30px;
