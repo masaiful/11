@@ -269,7 +269,7 @@ article blockquote::before {
   display: block;
   width: 1em;
   height: 1em;
-  left: -0.60em;
+  left: -0.6em;
   top: 10px;
   font-size: calc(var(--font-size-base) * 2.5);
   color: var(--color-highlight);
@@ -815,28 +815,26 @@ label[for="dark-mode"] span:nth-of-type(2) {
   font-weight: 600;
 }
 .list-of-things-with-count li {
-  border-radius: var(--rounding-radius);
-  border: 1px solid var(--color-text-tertiary);
-  cursor: pointer;
   display: inline-block;
-  line-height: normal;
-  margin-right: calc(var(--root-spacing) / 8);
-  padding: 0 0 0 calc(var(--root-spacing) / 4);
-}
-.list-of-things-with-count li:hover {
-  background: var(--color-highlight-light);
 }
 .list-of-things-with-count li a {
+  border: 1px solid var(--color-text-tertiary);
+  border-radius: var(--rounding-radius);
   color: var(--color-text);
+  padding: 0 0 0 calc(var(--root-spacing) / 4);
 }
 .list-of-things-with-count li span {
   border-left: 1px dotted var(--color-text-tertiary);
-  display: inline-block;
   text-align: center;
   padding: 0 calc(var(--root-spacing) / 4);
   color: var(--color-text-tertiary);
 }
+.list-of-things-with-count li a:hover {
+  background: var(--color-highlight-light);
+  border-radius: var(--rounding-radius);
+}
 .list-of-things-with-count li:hover span {
+  border-left: 1px dotted var(--color-text);
   color: var(--color-text);
 }
 

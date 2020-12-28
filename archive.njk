@@ -23,37 +23,38 @@ eleventyExcludeFromCollections: true
       <li>
         <a href="/links" title="All links">
           <strong>Links</strong>
+          <span>{{ collections.links | length }}</span>
         </a>
-        <span>{{ collections.links | length }}</span>
       </li>
       <li>
         <a href="/media" title="All media">
           <strong>Media</strong>
+          <span>{{ collections.media | length }}</span>
         </a>
-        <span>{{ collections.media | length }}</span>
+
       </li>
       <li>
         <a href="/tags/favorite things" title="Favorite Things">
           <strong>Favorite Things</strong>
+          <span>
+            {% set special1 = collections.tags | where("name", "favorite things") %}
+            {{ special1.count }}
+          </span>
         </a>
-        <span>
-          {% set special1 = collections.tags | where("name", "favorite things") %}
-          {{ special1.count }}
-        </span>
       </li>
       <li>
         <a href="/tags/the worst" title="The Worst">
           <strong>The Worst</strong>
+          <span>
+            {% set special2 = collections.tags | where("name", "the worst") %}
+            {{ special2.count }}
+          </span>
         </a>
-        <span>
-          {% set special2 = collections.tags | where("name", "the worst") %}
-          {{ special2.count }}
-        </span>
       </li>
       {% for year, posts in collections.thingsByYear %}
         <li>
-          <a href="/{{ year }}" title="Posts from {{ year }}">{{ year }}</a>
-          <span>{{ posts | length }}</span>
+          <a href="/{{ year }}" title="Posts from {{ year }}">{{ year }}
+            <span>{{ posts | length }}</span></a>
         </li>
       {% endfor %}
     </ul>
@@ -66,8 +67,10 @@ eleventyExcludeFromCollections: true
     <ul class="list-of-things-with-count">
       {%- for tag in collections.tags | sort(false, true, "name") %}
         <li>
-          <a href="/tags/{{ tag.name | lower }}" title="Posts tagged {{ tag.name | lower }}">{{ tag.name }}</a>
-          <span>{{ tag.count }}</span>
+          <a href="/tags/{{ tag.name | lower }}" title="Posts tagged {{ tag.name | lower }}">
+            {{ tag.name }}
+            <span>{{ tag.count }}</span>
+          </a>
         </li>
       {% endfor -%}
     </ul>
