@@ -839,6 +839,9 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 
 /* SONGS */
+.songs section:first-child {
+  margin-bottom: var(--root-spacing);
+}
 .songs article ul {
   margin: 0;
   padding: 0;
@@ -852,13 +855,13 @@ label[for="dark-mode"] span:nth-of-type(2) {
 .songs article ul li:last-child {
   border-bottom: 0;
 }
+.songs article ul li a {
+  border-bottom-width: 2px;
+}
 .songs article ul li > * {
   display: grid;
   grid-template-columns: 50% 25% auto;
   width: 100%;
-}
-.songs article ul li > * > span:first-child {
-  font-weight: 600;
 }
 .songs article ul li > * > small {
   color: var(--color-text-secondary);
@@ -866,6 +869,15 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 .songs article ul li div {
   border-bottom: 1px dotted var(--color-text-tertiary);
+}
+.songs #search {
+  display: grid;
+  grid-template-columns: auto 5em 5em;
+}
+.songs #search span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* BLOGROLL */
@@ -875,6 +887,24 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 .blogroll article ul li span {
   color: var(--color-text-secondary);
+}
+
+/* LIST.JS */
+.sort {
+  padding: 0 calc(var(--root-spacing) / 4);
+}
+.sort.asc,
+.sort.desc {
+  background-color: var(--color-highlight-light);
+  border-radius: var(--rounding-radius);
+}
+.sort.asc::after {
+  content: "⤴";
+  padding-left: 3px;
+}
+.sort.desc::after {
+  content: "⤵";
+  padding-left: 3px;
 }
 
 /* RESPONSIVE SHIT */
@@ -888,8 +918,11 @@ label[for="dark-mode"] span:nth-of-type(2) {
   article.links.single {
     font-size: large;
   }
+  .songs article ul li a {
+    border-bottom-width: 1px;
+  }
   .songs article ul li > * {
-    grid-template-columns: 40% auto;
+    grid-template-columns: 60% auto;
   }
   .songs article ul li > * > small {
     font-size: smaller;

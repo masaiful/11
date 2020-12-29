@@ -12,25 +12,50 @@ pageClass: songs
   I Like</span>
 </h2>
 
-<article>
-<ul>
-  {% for song in songs %}
-    <li>
-      {% if song.link %}
-        <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
-      {% else %}
-        <div>
-      {% endif %}
-          <span>"{{ song.track }}"</span>
-          <span><span>by</span> {{ song.artist }}</span>
-          <br/>
-          <small><span>Notes:</span> {{ song.notes }}</small>
-      {% if song.link %}
-        </a>
-      {% else %}
-      </div>
-      {% endif %}
-  </li>
-{% endfor %}
-</ul>
+<article id="songs-list">
+
+<section id="search">
+  <noscript>
+    Search won&#8217;t work since Javascript&#8217;s disabled 🙁
+  </noscript>
+  <input type="search" class="search" placeholder="search..." autofocus="autofocus"/>
+  <span class="sort" data-sort="track">Track</span>
+  <span class="sort" data-sort="artist">Artist</span>
+</section>
+
+<section>
+  <ul class="list">
+    {% for song in songs %}
+      <li>
+        {% if song.link %}
+          <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
+          {% else %}
+            <div>
+            {% endif %}
+            <strong class="track">{{ song.track }}</strong>
+            <span class="artist"><span>by</span>
+              {{ song.artist }}</span>
+            <br/>
+            <small class="notes">
+              <span>Notes:</span>
+              {{ song.notes }}</small>
+            {% if song.link %}
+            </a>
+          {% else %}
+          </div>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
 </article>
+
+<script type="text/javascript" src="/assets/js/list.js"></script>
+<script>
+(() => {
+  var songList = new List("songs-list", {
+    valueNames: ["track", "artist", "notes"]
+  });
+})();
+</script>
