@@ -873,6 +873,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
 .songs #search {
   display: grid;
   grid-template-columns: auto 5em 5em;
+  grid-gap: calc(var(--root-spacing) / 2);
 }
 .songs #search span {
   display: flex;
