@@ -264,7 +264,7 @@ article blockquote {
   margin-left: 1.5em;
 }
 article blockquote::before {
-  content: "“";
+  content: "\201C";
   position: absolute;
   display: block;
   width: 1em;
@@ -372,7 +372,7 @@ article footer ul li {
   display: inline-block;
 }
 article footer ul li:not(:last-child):after {
-  content: "·";
+  content: "\2219";
 }
 article footer time > span {
   display: none;
@@ -381,7 +381,7 @@ article footer time {
   color: var(--color-text-tertiary);
 }
 article footer time::before {
-  content: "··· ";
+  content: "\2219\2219\2219 ";
 }
 article hr {
   border: 0;
@@ -398,7 +398,7 @@ article .update strong {
   text-transform: uppercase;
 }
 article .update strong::after {
-  content: " ·";
+  content: " \2219";
 }
 
 article .footnotes {
@@ -504,7 +504,7 @@ article.links footer {
   display: inline;
 }
 article.links footer::before {
-  content: "··· ";
+  content: "\2219\2219\2219 ";
 }
 article.links footer ul li {
   margin: 0;
@@ -638,7 +638,7 @@ article.links.single {
 }
 .stars::before {
   --percent: calc(var(--rating) / 5 * 100%);
-  content: "★★★★★";
+  content: "\2605\2605\2605\2605\2605";
   letter-spacing: 2px;
   background: linear-gradient(
     90deg,
@@ -651,7 +651,7 @@ article.links.single {
 }
 .stars-superlative::before {
   --percent: calc(var(--rating) / 5 * 100%);
-  content: "★★★★★";
+  content: "\2605\2605\2605\2605\2605";
   letter-spacing: 2px;
   background: linear-gradient(
     90deg,
@@ -786,7 +786,7 @@ label[for="dark-mode"] span:nth-of-type(1) {
 }
 
 label[for="dark-mode"] span:nth-of-type(1)::before {
-  content: "🌞";
+  content: "\1F31E";
   position: absolute;
   font-size: 125%;
   top: -4px;
@@ -805,7 +805,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
   ~ .container
   label[for="dark-mode"]
   span:nth-of-type(1)::before {
-  content: "🌛";
+    content: "\1F31B";
 }
 
 /**
