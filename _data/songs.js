@@ -25,7 +25,27 @@ Via Catherine <3
 Last Night The Moon Came
 John Hassell
 https://www.youtube.com/watch?v=-7IRnin9gF0
-Via Catherine <3
+Via Catherine
+---
+Last Night The Moon Came
+John Hassell
+https://www.youtube.com/watch?v=-7IRnin9gF0
+Via Catherine
+---
+Goodbye (feat. Lyse)
+Feder
+https://www.youtube.com/watch?v=Mptdcx36qZU
+dance
+---
+Self Esteem Fund
+Portal
+https://www.youtube.com/watch?v=IyPb-8OjWVk&list=PLfNuUkrofniHGBgcGbDnQGklQnqrxkMI4&index=3
+soundtrack, games, moody
+---
+Gun
+Emiliana Torrini
+https://www.youtube.com/watch?v=j29Xwh9_RXE
+moody
 `;
 
 /**
