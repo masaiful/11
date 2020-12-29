@@ -838,23 +838,25 @@ label[for="dark-mode"] span:nth-of-type(2) {
   color: var(--color-text);
 }
 
-.lists .list-of-things-with-count {
-  font-size: xx-large;
+/* SONGS */
+.songs table tr td:nth-of-type(1) {
+  width: var(--root-spacing);
 }
-.list-songs tr:nth-child(odd) td:first-child a {
+.songs table tr td:nth-of-type(1) a {
   border-bottom: 0;
 }
-.list-songs tr:nth-child(odd) td:first-child {
-  text-align: center;
-}
-.list-songs tr:nth-child(odd) td {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-.list-songs tr:nth-child(even) td {
+.songs table tr th:nth-of-type(4),
+.songs table tr td:nth-of-type(4) {
   color: var(--color-text-secondary);
-  font-size: smaller;
-  padding-top: 0;
+}
+
+/* BLOGROLL */
+.blogroll article ul li {
+  font-size: x-large;
+  line-height: var(--line-height);
+}
+.blogroll article ul li span {
+  color: var(--color-text-secondary);
 }
 
 /* RESPONSIVE SHIT */
@@ -867,6 +869,10 @@ label[for="dark-mode"] span:nth-of-type(2) {
   }
   article.links.single {
     font-size: large;
+  }
+  .songs table tr th:nth-of-type(4),
+  .songs table tr td:nth-of-type(4) {
+    display: none;
   }
 }
 

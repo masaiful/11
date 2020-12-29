@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: "blogroll/"
+title: Sites I Love
+pageClass: blogroll
+---
+
+<h2 class="compilation-title">
+  A List of Sites I Love Visiting
+</h2>
+
+<article>
+  <ul>
+    {% for site in blogroll %}
+      <li>
+        <a href="{{ site.url }}" title="{{ site.name }}">{{ site.name }}</a>
+        {% if site.notes %}
+          <span>({{ site.notes }})</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</article>

@@ -31,7 +31,6 @@ eleventyExcludeFromCollections: true
           <strong>Media</strong>
           <span>{{ collections.media | length }}</span>
         </a>
-
       </li>
       <li>
         <a href="/tags/favorite things" title="Favorite Things">
@@ -48,6 +47,22 @@ eleventyExcludeFromCollections: true
           <span>
             {% set special2 = collections.tags | where("name", "the worst") %}
             {{ special2.count }}
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="/songs" title="Songs I Like">
+          <strong>Songs</strong>
+          <span>
+            {{ songs | length }}
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="/blogroll" title="Sites I Like">
+          <strong>Blogroll</strong>
+          <span>
+            {{ blogroll | length }}
           </span>
         </a>
       </li>

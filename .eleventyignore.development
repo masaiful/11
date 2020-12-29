@@ -3,10 +3,21 @@ misc/**
 README.md
 
 archive.njk
-year.njk
 feed.xml.njk
 search-data.json.njk
 sitemap.xml.njk
 tags.njk
+year.njk
+
 links/index.njk
 media/index.njk
+quotes/index.njk
+
+posts/2018/**
+posts/2019/**
+
+media/2018/**
+media/2019/**
+
+links/2018/**
+links/2019/**
