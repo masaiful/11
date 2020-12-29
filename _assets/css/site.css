@@ -961,4 +961,14 @@ label[for="dark-mode"] span:nth-of-type(2) {
     width: 100%;
     margin-top: 95%;
   }
+  .songs article ul li {
+    margin: 0.5em 0;
+  }
+  .songs article ul li > * {
+    display: block;
+  }
+  .songs article ul li > * > small,
+  .songs article ul li > * > span {
+    display: block;
+  }
 }
