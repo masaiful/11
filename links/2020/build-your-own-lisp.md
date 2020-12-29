@@ -13,5 +13,4 @@ tags:
 
 ---
 
-Learn C _and_ build a basic Lisp #VALUE
-
+Learn C _and_ build a basic Lisp #VALUE 😍

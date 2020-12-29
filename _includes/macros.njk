@@ -84,9 +84,11 @@
           {% endif %}
           {% if post.data.rating %}
             &middot;
-            <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
-              <span>{{ post.data.rating }}</span>
-            </span>
+            <a href="/media">
+              <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
+                <span>{{ post.data.rating }}</span>
+              </span>
+            </a>
           {% endif %}
         </span>
         {% if post.data.draft %}
