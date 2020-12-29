@@ -13,30 +13,24 @@ pageClass: songs
 </h2>
 
 <article>
-  <table>
-    <thead>
-      <tr>
-        <th></th>
-        <th>Track</th>
-        <th>Artist</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for song in songs %}
-        <tr>
-          <td>
-            {% if song.link %}
-              <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
-                🎧
-              </a>
-            {% endif %}
-          </td>
-          <td>{{ song.track }}</td>
-          <td>{{ song.artist }}</td>
-          <td>{{ song.notes }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<ul>
+  {% for song in songs %}
+    <li>
+      {% if song.link %}
+        <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
+      {% else %}
+        <div>
+      {% endif %}
+          <span>"{{ song.track }}"</span>
+          <span><span>by</span> {{ song.artist }}</span>
+          <br/>
+          <small><span>Notes:</span> {{ song.notes }}</small>
+      {% if song.link %}
+        </a>
+      {% else %}
+      </div>
+      {% endif %}
+  </li>
+{% endfor %}
+</ul>
 </article>
