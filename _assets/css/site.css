@@ -857,6 +857,9 @@ label[for="dark-mode"] span:nth-of-type(2) {
   grid-template-columns: 50% 25% auto;
   width: 100%;
 }
+.songs article ul li > * > span:first-child {
+  font-weight: 600;
+}
 .songs article ul li > * > small {
   color: var(--color-text-secondary);
   font-size: large;
