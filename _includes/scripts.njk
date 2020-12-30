@@ -130,11 +130,11 @@
 
   (() => {
     // Set the title appropriately.
-    if (window.location.hostname in [
+    if ([
       "log.nikhil.io",
       "log.nikhil.lol",
       "log.nikhil.fish",
-    ]) {
+    ].includes(window.location.hostname)) {
       document.querySelector("h1 a").innerText = window.location.hostname;
     }
 
