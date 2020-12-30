@@ -13,6 +13,14 @@ comics, technology, computers
 Mr. Lovenstein
 https://www.mrlovenstein.com/
 comics, absurd
+---
+Erick Erickson's Confessions of a Political Junkie
+https://ewerickson.substack.com
+politics
+---
+Letters from an American
+https://heathercoxrichardson.substack.com
+politics
 `;
 
 /**
