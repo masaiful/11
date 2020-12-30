@@ -38,7 +38,7 @@
             r && t.append(e)
           }
           if ("video" === t.nodeName.toLowerCase() && !t.getAttribute("data-src") && t.children) {
-            for (var a = t.children, o = void 0, i = 0; i <= a.length - 1; i++) 
+            for (var a = t.children, o = void 0, i = 0; i <= a.length - 1; i++)
               (o = a[i].getAttribute("data-src")) && (a[i].src = o);
             t.load()
           }
@@ -46,7 +46,7 @@
           t.getAttribute("data-src") && (t.src = t.getAttribute("data-src")),
           t.getAttribute("data-srcset") && t.setAttribute("srcset", t.getAttribute("data-srcset"));
           var n = ",";
-          if (t.getAttribute("data-background-delimiter") && (n = t.getAttribute("data-background-delimiter")), t.getAttribute("data-background-image")) 
+          if (t.getAttribute("data-background-delimiter") && (n = t.getAttribute("data-background-delimiter")), t.getAttribute("data-background-image"))
             t.style.backgroundImage = "url('" + t
               .getAttribute("data-background-image")
               .split(n)
@@ -110,11 +110,11 @@
         rootMargin: n,
         threshold: d
       }));
-      for (var c, l = v(o, i), b = 0; b < l.length; b++) 
+      for (var c, l = v(o, i), b = 0; b < l.length; b++)
         (c = l[b]).getAttribute("data-placeholder-background") && (c.style.background = c.getAttribute("data-placeholder-background"));
       return {
         observe: function () {
-          for (var t = v(o, i), e = 0; e < t.length; e++) 
+          for (var t = v(o, i), e = 0; e < t.length; e++)
             m(t[e]) || (
               s
               ? s.observe(t[e])
@@ -129,6 +129,15 @@
   });
 
   (() => {
+    // Set the title appropriately.
+    if (window.location.hostname in [
+      "log.nikhil.io",
+      "log.nikhil.lol",
+      "log.nikhil.fish",
+    ]) {
+      document.querySelector("h1 a").innerText = window.location.hostname;
+    }
+
     // Lazy-load images and videos
     const observer = lozad(".lazy", {threshold: 0.1});
     observer.observe();

@@ -261,7 +261,7 @@ article kbd {
 }
 article blockquote {
   position: relative;
-  margin-left: 1.5em;
+  margin-left: calc(var(--root-spacing) * 1.5);
 }
 article blockquote::before {
   content: "\201C";
@@ -269,15 +269,22 @@ article blockquote::before {
   display: block;
   width: 1em;
   height: 1em;
-  left: -0.6em;
+  left: -0.7em;
   top: 10px;
   font-size: calc(var(--font-size-base) * 2.5);
   color: var(--color-highlight);
 }
+article figure > figcaption::before {
+  color: var(--color-text-tertiary);
+  content: "\2012";
+  left: -1.5em;
+  position: absolute;
+}
 article figure > figcaption {
+  position: relative;
   color: var(--color-text-secondary);
   margin: var(--root-spacing);
-  margin-left: 0.6em;
+  margin-left: calc(var(--root-spacing) * 1.5);
 }
 article figure > figcaption a {
   border-bottom-color: var(--color-text-tertiary);

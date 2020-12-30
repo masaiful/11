@@ -17,7 +17,7 @@ const md = require("markdown-it")({
     classNameContainer: null,
     classNameAttribution: null,
     marker: "--",
-    removeMarker: false,
+    removeMarker: true,
   });
 
 module.exports = md;
