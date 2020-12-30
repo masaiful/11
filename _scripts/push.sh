@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Use this instead of Nodegit. It's big and unwieldy.
+
 MISC_ASSET_PATH=$(grep "const MISC_PATH" _scripts/eleventy/config.js | cut -d\" -f2)
 
 # Now sync the static assets
