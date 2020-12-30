@@ -11,5 +11,5 @@ tags:
     - favorite things
 ---
 
-"Am I truly controlling _anything_?"
+"Am I truly controlling _anything_?" ([cached](https://static-log.nikhil.io/w/werner-herzog-hotel-yelp.m4a))
 
