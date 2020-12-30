@@ -9,9 +9,9 @@ tags:
     - politics
     - the worst
     - funny
-    
+
 ---
 
 ![](/misc/p/pig-assholes.jpeg)
 
-From a while ago: "[_Rump Faker: Is imitation calamari made from pig rectum? A charming urban legend gets its start._](https://slate.com/human-interest/2013/01/calamari-made-of-pig-rectum-the-this-american-life-rumor-isnt-true-but-its-fascinating.html)"
+From a while ago: "[Rump Faker: Is imitation calamari made from pig rectum? A charming urban legend gets its start.](https://slate.com/human-interest/2013/01/calamari-made-of-pig-rectum-the-this-american-life-rumor-isnt-true-but-its-fascinating.html)"
