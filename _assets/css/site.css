@@ -5,7 +5,7 @@
   --article-spacing-factor: 4; /* Times root-spacing */
   --line-height: 150%;
   --rounding-radius: 5px;
-  --border-thickness: 3px;
+  --border-thickness: 2px;
   --transition-duration: 0.5s;
 
   /* Fonts */
@@ -946,8 +946,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
 
 @media all and (max-width: 500px) {
   :root {
-    --article-spacing-factor: 2.5;
-    --border-thickness: 2px;
+    --article-spacing-factor: 3;
     --font-size-base: 16px;
   }
   body > * > header > nav ul li:nth-of-type(3) {

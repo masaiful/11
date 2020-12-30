@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: Pig Rectum, not Calamari
+title: Pig Rectums, not Calamari
 date: 2020-12-22 18:25:10
 tags:
     - shitkraken

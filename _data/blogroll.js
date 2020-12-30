@@ -21,6 +21,10 @@ politics
 Letters from an American
 https://heathercoxrichardson.substack.com
 politics
+---
+Daring Fireball
+https://daringfireball.net
+technology, politics
 `;
 
 /**
