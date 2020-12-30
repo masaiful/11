@@ -13,7 +13,7 @@ tags:
 
 ---
 
-I hope Dominion's lawyers don't underestimate the Elite Strike-Force Team's [Star Witness](/links/0e81febd1ec25329a489cdd23337daeb)' Karen-Energy 😬
+I hope Dominion's lawyers don't underestimate the Elite Strike-Force Team's [Star Witness](/links/0e81febd1ec25329a489cdd23337daeb)' What-Do-You-Mean-I-Have-To-Make-An-Appointment-Online Energy 😬
 
 > “You gained international infamy earlier this month as Rudy Giuliani’s so-called ‘star witness’ who could supposedly corroborate outlandish accusations that Dominion has somehow rigged or otherwise improperly influenced the outcome of the Nov. 2020 U.S. presidential election,” attorneys Thomas Clare and Megan Meier wrote. “Without a shred of corroborating evidence, you have claimed that you witnessed several different versions of voter fraud—ranging from one story involving a van, to other accusations that votes were counted multiple times. You published these statements even though you knew all along that your attacks on Dominion have no basis in reality.”
 >

@@ -22,7 +22,7 @@ She then [proceeded to attend a WH Party](https://www.axios.com/jenna-ellis-trum
 
 > "She had the nerve to show up at the senior staff Christmas party knowing everyone was furious with her for constantly stirring Trump up with nonsense," said a senior administration official.
 
-Because she sat [right next to](https://www.businessinsider.com/rudy-giuliani-fart-on-camera-confirmed-by-michigan-state-representative-2020-12) the Fearless Team Leader, and because I am a child:
+Because she sat [right next to](https://www.businessinsider.com/rudy-giuliani-fart-on-camera-confirmed-by-michigan-state-representative-2020-12) the Fearless Team Leader, and because [I am a child](/links/95e7dc0d6d6a5bb8844ecccfdd370403):
 
 > We can’t rule out that [Rudy’s fart](https://www.businessinsider.com/rudy-giuliani-fart-on-camera-confirmed-by-michigan-state-representative-2020-12) gave Jenna Ellis Covid
 >
