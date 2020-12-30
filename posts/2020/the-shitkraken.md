@@ -10,6 +10,7 @@ tags:
     - sad
     - shitkraken
     - the worst
+
 ---
 
 To the surprise of no one (well, _normal_ people), "[The Kraken](/tags/shitkraken)", authored by an ex-member of the "Elite Strike-Force Team", turned out to be a "truly awful" and unmistakably QAnon-laced lawsuit full of basic formatting, spelling, and grammatical errors that would "drive a proofreader to drink."
