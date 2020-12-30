@@ -101,7 +101,7 @@ let PASSTHROUGH = [
 ];
 
 /**
- * If we're not in a production context OR if we're not using a separate bukcet
+ * If we're not in a production context OR if we're not using a separate bucket
  * for our assets, include the misc assets folder in the built output.
  */
 if (MISC_REMOTE_PREFIX === null || !process.env.CI) {

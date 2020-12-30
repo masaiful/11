@@ -498,8 +498,8 @@ article.links header,
 article.links header h2,
 article.links .content,
 article.links .content > p:only-child,
-article.links .content p:not(:only-child):first-child,
-article.links .content p:not(:only-child):last-child,
+article.links .content > p:not(:only-child):first-child,
+article.links .content > p:not(:only-child):last-child,
 article.links footer {
   display: inline;
 }

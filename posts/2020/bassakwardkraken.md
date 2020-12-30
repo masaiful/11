@@ -3,7 +3,7 @@ category: posts
 draft: false
 
 title: Bassakwardkraken
-date: 2020-12-29 18:37:46
+date: 2020-12-5 00:00:00
 tags:
     - shitkraken
     - politics
@@ -20,5 +20,7 @@ So when she tried to argue that "pernicious" algorithms in Dominion's voting mac
 > “**If I had a Nicole** for every mistake I’ve made in life, I could retire,” Powell’s email to a reporter said. “Wish I had you as a proofreader at 1 a.m.”
 
 > “In addition, counsel had internet and computer problems that delayed our communications, in addition to what can only be called ‘operator errors’ by lead counsel late night that caused the omission of the list of authorities and a substantive misstatement thoughtfully identified by CNBC this morning, which the contemporaneously filed brief corrects,” Powell wrote.
+>
+> -- Kevin Breuninger, [Sidney Powell amends court filing that mistakenly said Georgia votes were flipped from Biden to Trump](https://www.cnbc.com/2020/12/04/sidney-powell-amends-court-filing-that-said-georgia-votes-were-flipped-to-trump.html), CNBC
 
 [^algorithms]: The _really_ sophisticated ones that count things.

@@ -13,7 +13,7 @@ tags:
     - politics
 ---
 
-Operation [#shitkraken](/tags/shitkraken) appears to limping along quite well. 
+Operation [#shitkraken](/tags/shitkraken) appears to limping along quite well.
 
 /misc/r/rudy-carrone.mp4
 
@@ -23,3 +23,10 @@ Imagine my surprise when she was found to be "[not credible](https://www.washing
 
 [^duchess]: With a certificate of completion from the prestigious ITT Tech.
 [^mckinnon]: I'm glad others [are as worried as I am](https://twitter.com/BigManPauly/status/1334563526598340610) about how Kate McKinnon could possibly do Mr. Guiliani _and_ Ms. Carone.
+
+**Update**
+
+Even though both the Fearless Leader and his Elite Sidekick have COVID, she won't quarantine unless her God Emperor tells her to:
+
+> "I would take it seriously if it came from Trump, because Trump cares about American lives," she said, adding that if fringe networks that regularly traffic in coronavirus misinformation such as One America News or Newsmax "told me to go get tested, I would do it."
+> -- "[Viral Michigan witness won't quarantine after Rudy Giuliani and Jenna Ellis test positive for COVID](https://www.salon.com/2020/12/09/viral-michigan-witness-wont-quarantine-after-rudy-giuliani-and-jenna-ellis-test-positive-for-covid/)"
