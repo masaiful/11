@@ -11,6 +11,7 @@ tags:
     - programming
     - the worst
     - funny
+    - quotes
 
 ---
 

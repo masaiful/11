@@ -4,7 +4,8 @@
   {% if tags.length > 0 %}
     <p>Tagged:</p>
     <ul>
-      {% for tag in tags %}
+      {% set sortedTags = tags | sort %}
+      {% for tag in sortedTags %}
         <li>
           <a href="/tags/{{tag | urlencode}}" title="Posts tagged {{ tag }}">{{ tag }}</a>
         </li>
