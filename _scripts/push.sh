@@ -13,7 +13,8 @@ fi
 DATE=$(date "+%Y-%m-%dT%H.%M.%S")
 
 # Only building and pushing misc assets. Site is deployed by CircleCI.
-yarn build:misc
+echo "Pushing misc assets"
+yarn borg
 yarn push:misc
 
 # Then commit stuff to Github. This kicks off a CI/CD build.

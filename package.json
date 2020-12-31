@@ -11,7 +11,7 @@
     "build:misc": "node _scripts/build-misc.js",
     "push:misc": "node _scripts/push-misc.js",
     "organize:misc": "node _scripts/organize-misc.js",
-    "borg": "npm-run-all organize:misc build:misc",
+    "borg": "npm-run-all organize:misc build:misc make-misc-manifest",
     "build:site": "npx eleventy",
     "clean": "rimraf _site",
     "compress:site": "node _scripts/compress-site.js",
