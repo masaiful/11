@@ -469,6 +469,16 @@ article .footnote-backref:hover {
   border: 1px dotted var(--color-highlight);
 }
 
+/* QUOTES TYPE */
+article.quotes footer > a:nth-child(1) {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+article.quotes.single {
+  font-size: x-large;
+  line-height: var(--line-height);
+}
+
 /* LINK TYPE */
 article.links {
   line-height: calc(var(--line-height) + 20%);

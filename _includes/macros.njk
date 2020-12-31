@@ -122,6 +122,10 @@
     {% endif %}
 
     <footer>
+      {% if page.url != post.url %}
+      <a href="{{ post.url }}" title="Link to quote">#</a>
+      {% endif %}
+
       {{ postTags(post.data.tags) }}
       {% if page.url == post.url %}
         <time datetime="{{ post.data.date | toISODateString }}">

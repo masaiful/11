@@ -1,5 +1,5 @@
 ---
-category: posts
+category: quotes
 draft: false
 
 title: How to Drive in Iowan Winters
