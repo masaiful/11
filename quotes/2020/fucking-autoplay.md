@@ -7,6 +7,8 @@ date: 2020-12-30 15:49:59
 tags:
     - twitter
     - tech hell
+    - web development
+    - programming
     - the worst
     - funny
 
