@@ -20,17 +20,17 @@ tags:
 
 First came by this remarkable generation of the DOOM guy's face:
 
-![Bas Uterwijk - Doom Guy](/misc/bas-uterwijk-doom.jpg)
+![Bas Uterwijk - Doom Guy](/misc/b/bas-uterwijk-doom.jpg)
 
 And here are Alexander, Caesar, Zuck, and Jesus.
 
-![Bas Uterwijk - Alexander](/misc/bas-uterwijk-alexander.jpg)
+![Bas Uterwijk - Alexander](/misc/b/bas-uterwijk-alexander.jpg)
 
-![Bas Uterwijk - Caesar](/misc/bas-uterwijk-caesar.jpg)
+![Bas Uterwijk - Caesar](/misc/b/bas-uterwijk-caesar.jpg)
 
-![Bas Uterwijk - Zuck](/misc/bas-uterwijk-zuck.jpg)
+![Bas Uterwijk - Zuck](/misc/b/bas-uterwijk-zuck.jpg)
 
-![Bas Uterwijk - Jesus](/misc/bas-uterwijk-jesus.jpg)
+![Bas Uterwijk - Jesus](/misc/b/bas-uterwijk-jesus.jpg)
 
 More of his work [on Instagram](https://www.instagram.com/ganbrood/).
 
