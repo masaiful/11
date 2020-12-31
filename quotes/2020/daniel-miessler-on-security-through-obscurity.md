@@ -9,9 +9,13 @@ tags:
     - technology
     - quotes
     - security
-    
+
 ---
 
 > Security by Obscurity is when you hide how a security measure works, not when you keep some part of it a secret.
 >
-> -- [Daniel Miessler](https://danielmiessler.com/blog/no-moving-your-ssh-port-isnt-security-by-obscurity/)
+> -- Daniel Miessler, "[No, Moving Your SSH Port Isn’t Security by Obscurity
+](https://danielmiessler.com/blog/no-moving-your-ssh-port-isnt-security-by-obscurity/)"
+
+This should be read and re-read. After which one should take a few days between reading it again before saying anything on the subject.
+
