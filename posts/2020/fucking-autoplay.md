@@ -1,8 +1,8 @@
 ---
-category: quotes
+category: posts
 draft: false
 
-title: fucking-autoplay
+title: On Auto-Fucking-Play
 date: 2020-12-30 15:49:59
 tags:
     - twitter

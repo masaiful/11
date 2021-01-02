@@ -13,6 +13,7 @@ const md = require("markdown-it")({
   .use(require("markdown-it-prism"))
   .use(require("markdown-it-sup"))
   .use(require("markdown-it-sub"))
+  .use(require("markdown-it-attrs"))
   .use(require("markdown-it-attribution"), {
     classNameContainer: null,
     classNameAttribution: null,

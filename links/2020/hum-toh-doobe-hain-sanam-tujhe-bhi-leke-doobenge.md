@@ -2,7 +2,7 @@
 category: links
 draft: false
 
-title: '"Hum toh doobe hain sanam, tujhe bhi leke doobenge."'
+title: On Mutually Assured Destruction
 link: https://www.youtube.com/watch?v=nJRA3CucTAE
 date: 2020-10-10 17:50:36
 tags:
@@ -11,4 +11,6 @@ tags:
     - funny
 ---
 
-👏👏👏
+> "Hum toh doobe hain sanam, tujhe bhi leke doobenge."
+> 
+> -- [Afghan Cricket Team Captain Gulbadin Naib warning Bangladesh](https://www.youtube.com/watch?v=nJRA3CucTAE)

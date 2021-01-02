@@ -469,48 +469,7 @@ article .footnote-backref:hover {
   border: 1px dotted var(--color-highlight);
 }
 
-/* QUOTES TYPE */
-article.quotes footer > a:nth-child(1) {
-  display: inline-block;
-  margin-right: 0.5em;
-}
-article.quotes.single {
-  font-size: x-large;
-  line-height: var(--line-height);
-}
-
-/* LINK TYPE */
-article.links {
-  line-height: calc(var(--line-height) + 20%);
-  display: grid;
-  grid-template-columns: calc(var(--root-spacing) * 1.5) auto;
-  margin-left: calc(var(--root-spacing) * -1.5);
-}
-article.links header {
-  display: grid;
-  grid-template-columns: 3rem auto;
-}
-article.links header {
-  display: inline-block;
-}
-article.links header a {
-  border-bottom: var(--border-thickness) solid var(--color-highlight);
-  font-weight: 600;
-}
-article.links .links-permalink {
-  color: var(--color-text-tertiary);
-  text-align: left;
-}
-article.links .links-permalink a {
-  text-decoration: none;
-  color: var(--color-text-tertiary);
-  font-weight: 600;
-  border-bottom: none;
-}
-article.links .links-permalink a:hover {
-  color: var(--color-text);
-}
-/* Inline a few things */
+/* LINKS TYPE */
 article.links header,
 article.links header h2,
 article.links .content,
@@ -520,24 +479,16 @@ article.links .content > p:not(:only-child):last-child,
 article.links footer {
   display: inline;
 }
-article.links footer::before {
-  content: "\2219\2219\2219 ";
+article.links header + footer::before {
+  content: "\2219\2219\2219  ";
 }
-article.links footer ul li {
-  margin: 0;
+article.links header h2 a {
+  border-bottom: var(--border-thickness) solid var(--color-highlight);
+  font-weight: 600;
 }
-article.links .content p + p::before {
-  content: "";
-  display: block;
-  margin-top: var(--root-spacing);
+article.links > footer > a:last-child::before {
+  content: "\2219\2219\2219  ";
 }
-article.links.single {
-  font-size: x-large;
-}
-/* Make a 'cluster' of links */
-/* .index article.links + article.links {
-  margin-top: calc(var(--root-spacing) * -0.5 * var(--article-spacing-factor));
-} */
 
 /* MEDIA TYPE */
 .media-year {
@@ -678,6 +629,11 @@ article.links.single {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+article.quotes.single,
+article.links.single {
+  line-height: var(--line-height);
+  font-size: x-large;
 }
 
 /* SEARCH AND RESULTS */
@@ -838,12 +794,12 @@ label[for="dark-mode"] span:nth-of-type(2) {
   border: 1px solid var(--color-text-tertiary);
   border-radius: var(--rounding-radius);
   color: var(--color-text);
-  padding: 0 0 0 calc(var(--root-spacing) / 4);
+  padding: 0 calc(var(--root-spacing) / 4);
 }
 .list-of-things-with-count li span {
   border-left: 1px dotted var(--color-text-tertiary);
   text-align: center;
-  padding: 0 calc(var(--root-spacing) / 4);
+  padding: 0 0 0 calc(var(--root-spacing) / 4);
   color: var(--color-text-tertiary);
 }
 .list-of-things-with-count li a:hover {
@@ -853,6 +809,20 @@ label[for="dark-mode"] span:nth-of-type(2) {
 .list-of-things-with-count li:hover span {
   border-left: 1px dotted var(--color-text);
   color: var(--color-text);
+}
+
+/* BOOKMARKS */
+.bookmarks ul li {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--root-spacing);
+}
+.bookmarks ul li a {
+  color: var(--color-text);
+}
+.bookmarks h3 {
+  font-weight: 800;
+  color: var(--color-highlight);
+  margin: calc(var(--root-spacing) * 1) 0;
 }
 
 /* SONGS */

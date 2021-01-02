@@ -1,6 +1,6 @@
 ---
 date: 2018-05-05 18:32:23
-category: quotes
+category: posts
 title: Oliver Burkeman on Hasty, Short-Term Thinking
 tags:
     - oliver burkeman

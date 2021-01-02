@@ -10,6 +10,8 @@ tags:
     - watches
     - how it is made
     - youtube
+    - technology
     
 ---
 
+They use a [pantograph](https://en.wikipedia.org/wiki/Pantograph) to etch things out, after which they '[tampograph](/posts/ed0d20283d615a669f19bceede90a5a3)' the logo (at 1:45.)

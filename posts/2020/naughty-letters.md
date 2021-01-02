@@ -10,7 +10,7 @@ tags:
     - lists
 ---
 
-Here's [a community-maintained "List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)" across various languages on Github. I was curious about a naïve frequency distribution of consonants across the [English-language corpus](https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en) (NSFW, obviously) and wrote [a small script](https://static-log.nikhil.io/n/naughty-letters.py). Here are the results:
+Here's [a community-maintained "List of Dirty, Naughty, Obscene, and Otherwise Bad Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words)" across various languages on Github. I was curious about a naïve frequency distribution of consonants across the [English-language corpus](https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en) (NSFW, obviously) and wrote [a small script](/misc/n/naughty-letters.py). Here are the results:
 
 | Letter | Count |
 |--------|-------|

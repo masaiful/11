@@ -1,6 +1,6 @@
 ---
 date: 2018-07-06 17:06:41
-category: quotes
+category: posts
 title: Child Endangerment
 tags:
     - hollywood movies

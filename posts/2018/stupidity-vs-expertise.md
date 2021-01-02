@@ -1,6 +1,6 @@
 ---
 date: 2018-08-23 20:51:41
-category: quotes
+category: posts
 title: Stupidity vs Expertise
 tags:
     - mark twain

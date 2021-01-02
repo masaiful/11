@@ -1,7 +1,7 @@
 ---
 date: 2019-05-11 00:15:27
 title: JavaScript Delenda Est
-category: quotes
+category: posts
 tags:
     - computers
     - programming

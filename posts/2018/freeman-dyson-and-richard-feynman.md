@@ -1,6 +1,6 @@
 ---
 date: 2018-04-26 19:19:22
-category: quotes
+category: posts
 title: Freeman Dyson on Richard Feynman
 tags:
     - science

@@ -10,7 +10,7 @@ tags:
     - pandemic
 ---
 
-I wish they would blare portions of [Tom Cruise's COVID meltdown](https://static-log.nikhil.io/t/tom-cruise-covid.mp4) at all grocery stores in [my lovely state](https://www.kcci.com/article/iowa-covid-19-cases-deaths-december-17/35002185). Someone on /r/desmoines posted an [anti-masker patriot at our Costco](https://www.reddit.com/r/desmoines/comments/kf5v5g/anti_masker_at_des_moines_costco_on_121620/) who could use this message.
+I wish they would blare portions of [Tom Cruise's COVID meltdown](misc/t/tom-cruise-covid.mp4) at all grocery stores in [my lovely state](https://www.kcci.com/article/iowa-covid-19-cases-deaths-december-17/35002185). Someone on /r/desmoines posted an [anti-masker patriot at our Costco](https://www.reddit.com/r/desmoines/comments/kf5v5g/anti_masker_at_des_moines_costco_on_121620/) who could use this message.
 
 > I’m on the phone with every f–king studio at night, insurance companies, producers, and they’re looking at us and using us to make their movies. We are creating thousands of jobs you motherf–kers.
 > 

@@ -165,11 +165,9 @@ module.exports = {
       "posts/**/*.md",
       "links/**/*.md",
       "media/**/*.md",
-      "quotes/**/*.md",
     ],
     links: ["links/**/*.md"],
     media: ["media/**/*.md"],
     posts: ["posts/**/*.md"],
-    quotes: ["quotes/**/*.md"],
   },
 };

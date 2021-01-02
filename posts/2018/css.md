@@ -1,6 +1,6 @@
 ---
 date: 2018-08-10 10:38:35
-category: quotes
+category: posts
 title: Desperation
 tags:
     - tech hell

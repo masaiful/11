@@ -966,11 +966,12 @@ const generate = (content) => {
     .split("---")
     .map((_) => _.split("\n"))
     .map((_) => ({
-      track: _[1],
+      track: _[1] || null,
       artist: _[2],
       link: _[3],
-      notes: _[4],
+      notes: _[4] || null,
     }))
+    .filter((_) => _.track !== null)
     // The first element is for illustration only!
     .slice(1);
 

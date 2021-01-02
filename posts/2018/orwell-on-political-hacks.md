@@ -1,6 +1,6 @@
 ---
 date: 2018-05-06 16:29:58
-category: quotes
+category: posts
 title: Orwell
 tags:
     - george orwell

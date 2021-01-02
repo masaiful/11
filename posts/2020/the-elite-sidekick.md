@@ -11,7 +11,7 @@ tags:
 
 ---
 
-'Reporters' at the Failing NYTimes explore: "[How Is Trump’s Lawyer Jenna Ellis ‘Elite Strike Force’ Material?](https://www.nytimes.com/2020/12/03/us/politics/jenna-ellis-trump.html)" ([cached](https://static-log.nikhil.io/j/jenna-ellis-trump.html)) I should just copypasta the whole thing but here we go:
+'Reporters' at the Failing NYTimes explore: "[How Is Trump’s Lawyer Jenna Ellis ‘Elite Strike Force’ Material?](https://www.nytimes.com/2020/12/03/us/politics/jenna-ellis-trump.html)" ([cached](/misc/j/jenna-ellis-trump.html)) I should just copypasta the whole thing but here we go:
 
 > Since she graduated law school in 2011, **nothing in her record in the courtroom** [...] **shows any time spent litigating election law cases**.
 >

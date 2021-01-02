@@ -1,6 +1,6 @@
 ---
 date: 2018-08-03 07:30:58
-category: quotes
+category: posts
 title: Linux and Switching
 tags:
     - linux

@@ -8,8 +8,9 @@ const staticVideoPattern = RegExp(
   "g",
 );
 
+// 👉 NOTE: This will require that every asset have an extension!
 const miscLinkPattern = RegExp(
-  String.raw`<a href="(\/${config.MISC_PATH}.*)">`,
+  String.raw`<a href="(\/${config.MISC_PATH}\/.*\.\w+)">`,
   "g",
 );
 
@@ -46,11 +47,6 @@ const formatUpdates = async (content, outputPath) => {
 const embedVideo = async (content, outputPath) => {
   if (outputPath && outputPath.endsWith(".html")) {
     let matches = content.match(staticVideoPattern);
-    // let foo = content.match(miscLinkPattern);
-
-    // if (foo) {
-    //   console.log('foo :>> ', foo);
-    // }
 
     if (!matches) {
       return content;
@@ -86,6 +82,49 @@ const embedVideo = async (content, outputPath) => {
         `;
 
       content = content.replace(nodeMatch, embedCode);
+    });
+
+    return content;
+  }
+
+  return content;
+};
+
+/**
+ * Replace this:
+ *
+ *      <a href="/misc/foo/bar">Some text<a>
+ *
+ * with this if in a CI context:
+ *
+ *      <a href="https://static-log.nikhil.io/misc/foo/bar">Some text<a>
+ *
+ */
+const replaceMiscLink = async (content, outputPath) => {
+  if (outputPath && outputPath.endsWith(".html")) {
+    let matches = content.match(miscLinkPattern);
+
+    if (!matches) {
+      return content;
+    }
+
+    matches.forEach(() => {
+      let [nodeMatch, path] = miscLinkPattern.exec(content);
+      let replacement;
+
+      if (config.MISC_REMOTE_PREFIX && process.env.CI) {
+        console.log(
+          `🔗  Will expand ${matches.length} link${
+            matches.length > 1 ? "s" : ""
+          } in ${outputPath}`,
+        );
+
+        replacement = path.replace(
+          `/${config.MISC_PATH}`,
+          `${config.MISC_REMOTE_PREFIX}`,
+        );
+        content = content.replace(path, replacement);
+      }
     });
 
     return content;
@@ -156,6 +195,7 @@ const noTransform = (content) => content;
 
 module.exports = {
   embedVideo,
+  replaceMiscLink,
   formatUpdates,
 
   /**

@@ -22,7 +22,7 @@ Watched with CK. This was Hitchcock's favorite movie:
 
 -- [Patricia Hitchcock](https://the.hitchcock.zone/wiki/Patricia_Hitchcock_-_quotes#:~:text=This%20was%20my%20father's%20favourite,idea%20what%20he%20is%20like.)
 
-There's this exchange:
+And then there's this exchange 🤣
 
 > CHARLIE
 > Oh, what's the matter with you two ? Do you always have to talk about killing people?

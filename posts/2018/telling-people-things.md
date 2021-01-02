@@ -1,6 +1,6 @@
 ---
 date: 2018-06-24 13:56:59
-category: quotes
+category: posts
 title: Telling People Things
 tags:
     - tech hell

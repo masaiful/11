@@ -1,12 +1,11 @@
 ---
-category: quotes
+category: posts
 draft: false
 
-title: Anthony Bourdain on Garlic
+title: On Garlic
 date: 2020-12-31 09:17:51
 tags:
     - quotes
-    - quote
     - anthony bourdain
     - food
     - cooking
