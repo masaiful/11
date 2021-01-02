@@ -18,4 +18,4 @@ tags:
 >
 > It’s no longer clear whether Trump’s base is lashing out on its own, or whether the statements by Trump, Missouri Sen. Josh Hawley, Texas Sen. Ted Cruz, Estes and a vast army of other GOP officials are what’s inciting Trump supporters to take vigilante action. What is certain is that the rhetoric is out of control. These are, of course, representatives of the party that claims to support a “pro-life” agenda — even while their words are moving ever closer to driving families from their homes and getting someone killed.
 
-([cached](https://static-log.nikhil.io/misc/s/someone-is-going-to-get-killed-if-republicans-dont-tone-down-their-incitement.html))
+([cached](/misc/s/someone-is-going-to-get-killed-if-republicans-dont-tone-down-their-incitement.html))

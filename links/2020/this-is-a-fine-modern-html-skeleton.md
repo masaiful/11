@@ -11,4 +11,4 @@ tags:
     - templates
 ---
 
-by Josh Comeau. Saving [here](https://static-log.nikhil.io/h/html-template.txt) to refer to later. Stripping out Twitter because 🤷‍♂️
+by Josh Comeau. Saving [here](/misc/h/html-template.txt) to refer to later. Stripping out Twitter because 🤷‍♂️

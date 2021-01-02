@@ -12,4 +12,4 @@ tags:
     - favorite things
 ---
 
-Had to [cache](https://static-log.nikhil.io/p/piers-morgan.html) it because this is just lovely stuff. Pretty sure I had a mini-blackout when I read the _Trainspotting_ part 💯
+Had to [cache](/misc/p/piers-morgan.html) it because this is just lovely stuff. Pretty sure I had a mini-blackout when I read the _Trainspotting_ part 💯

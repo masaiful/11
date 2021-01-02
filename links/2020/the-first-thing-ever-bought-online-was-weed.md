@@ -20,4 +20,4 @@ As the article clarifies:
 
 > The first online sale that we'd recognize as such today, complete with credit card information and the United States Postal Service, wasn't until 1994. On August 11 that year, Dan Kohn sold a copy of the Sting album Ten Summoner's Tales to a man in Philadelphia for $12.48 plus shipping, paid via encrypted credit card. Kohn later bragged, "Even if the N.S.A. was listening in, they couldn't get his credit card number."
 
-([cached](https://static-log.nikhil.io/misc/w/weed-internet.html))
+([cached](/misc/w/weed-internet.html))

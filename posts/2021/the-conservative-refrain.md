@@ -14,4 +14,4 @@ tags:
 
 /misc/w/why-am-i-persecuted.mp4
 
-And [here's the 10-hour version](https://www.youtube.com/watch?v=FQJrem2w6oo) (of course) for when [a batshit-crazy, cultist conservative](/misc/s/social-media-persecution.png) whinges a little more than usual.
+And [here's the 10-hour version](https://www.youtube.com/watch?v=FQJrem2w6oo) (of course) for when [a batshit-crazy, cultist conservative](/misc/s/social-media-persecution.png) whinges about freedom and liberty and censorship and free markets and privatization and regulation and "corporations are people" a little more than usual.

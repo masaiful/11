@@ -25,4 +25,4 @@ On this event:
 I often wonder what [people like him](https://twitter.com/Breznican/status/866861079023857664) would think of our times.
 
 [^fred_rogers_movie]: This is the article [the movie](https://en.wikipedia.org/wiki/A_Beautiful_Day_in_the_Neighborhood) is based on.
-[^cached]: [Cached](/misc/c/can-you-say-hero.html) Yes, at seventy years old and 143 pounds, Mister Rogers still fights, and indeed, early this year, when television handed him its highest honor, he responded by telling television—gently, of course—to just shut up for once, and television listened.
+[^cached]: [Cached](/misc/c/can-you-say-hero.html). "Yes, at seventy years old and 143 pounds, Mister Rogers still fights, and indeed, early this year, when television handed him its highest honor, he responded by telling television—gently, of course—to just shut up for once, and television listened."

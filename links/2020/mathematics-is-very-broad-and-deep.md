@@ -12,4 +12,4 @@ tags:
     
 ---
 
-That's from 2010. Here's [the 2020 revision](https://static-log.nikhil.io/m/msc-2020.pdf).
+That's from 2010. Here's [the 2020 revision](/misc/m/msc-2020.pdf).
