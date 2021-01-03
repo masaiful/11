@@ -120,9 +120,10 @@ const replaceMiscLink = async (content, outputPath) => {
         );
 
         replacement = path.replace(
-          `/${config.MISC_PATH}`,
+          /\/${config.MISC_PATH}/g,
           `${config.MISC_REMOTE_PREFIX}`,
         );
+
         content = content.replace(path, replacement);
       }
     });

@@ -157,6 +157,7 @@ const rule = (state, silent) => {
           `${LOCAL_MISC_PREFIX}`,
           fullPathReplacement,
         );
+
         webPOptimizedPath = webPOptimizedPath.replace(
           `${LOCAL_MISC_PREFIX}`,
           fullPathReplacement,
