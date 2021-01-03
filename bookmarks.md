@@ -19,6 +19,8 @@ technology
 * [Mr. Lovenstein](https://www.mrlovenstein.com/)
 comics, absurd
 
+* [Channelate by Ryan Hudson](http://www.channelate.com/)
+
 </section>
 
 <section>
@@ -54,13 +56,28 @@ tumblelog
 
 <section>
 
-### Books
+### Books and Other Relatively Long Things
 
 * [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
 This is absolutely lovely stuff
 
 * [Seeing Theory](https://seeing-theory.brown.edu/index.html)
 Absolutely lovely introduction to Probability and Statistics
+
+* [Introduction to Theoretical Computer Science](https://introtcs.org/public/)
+
+* [Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
+
+* [Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson1/index.html)
+Because everyone's an expert after 2020
+
+* [Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
+With the accompanying [problem sets](https://cses.fi/problemset/)
+
+* [Operating Systems from 0 to 1](https://github.com/tuhdo/os01/blob/master/Operating_Systems_From_0_to_1.pdf)
+[Github Repo](https://github.com/tuhdo/os01). This is still a WIP.
+
+* [Mathematical Foundations of Computing](/misc/m/Mathematical-Foundations-of-Computing.pdf)
 
 </section>
 </div>

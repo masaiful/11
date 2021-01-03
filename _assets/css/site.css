@@ -295,8 +295,6 @@ article figure > figcaption a:hover {
   border-bottom-color: var(--color-highlight);
 }
 article code {
-  border: 1px dotted var(--color-text-tertiary);
-  border-radius: var(--rounding-radius);
   padding: 0 calc(var(--root-spacing) / 6);
 }
 article ul {
@@ -396,6 +394,7 @@ article hr {
   border-top: 1px dotted var(--color-text-tertiary);
 }
 
+/* Update to article */
 article .update {
   color: var(--color-highlight);
   font-size: smaller;
@@ -408,6 +407,7 @@ article .update strong::after {
   content: " \2219";
 }
 
+/* Footnotes */
 article .footnotes {
   border-top: 1px dotted var(--color-text-tertiary);
   color: var(--color-text-secondary);
@@ -471,21 +471,15 @@ article .footnote-backref:hover {
 
 /* LINKS TYPE */
 article.links header,
-article.links header h2,
-article.links .content,
-article.links .content > p:only-child,
-article.links .content > p:not(:only-child):first-child,
-article.links .content > p:not(:only-child):last-child,
-article.links footer {
+article.links header h2, 
+article.links header + footer {
   display: inline;
-}
-article.links header + footer::before {
-  content: "\2219\2219\2219  ";
 }
 article.links header h2 a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
   font-weight: 600;
 }
+article.links header + footer::before,
 article.links > footer > a:last-child::before {
   content: "\2219\2219\2219  ";
 }

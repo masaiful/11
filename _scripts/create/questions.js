@@ -24,7 +24,7 @@ const basic = [
   //   default: false,
   // },
   helpers.makeBasicQuestion(
-    "Title (Movie Name, Link Title, etc):",
+    "Title (like Movie Name or Link Title):",
     "title",
     "Enter a post title!",
   ),

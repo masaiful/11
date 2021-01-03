@@ -17,9 +17,7 @@ tags:
 > -- [Bio on the Marlborough Gallery](https://www.marlboroughnewyork.com/artists/tomas-sanchez#tab:slideshow)
 
 ![](/misc/t/tomas-sanchez-1.jpg)
-
 ![](/misc/t/tomas-sanchez-2.jpg)
-
 ![](/misc/t/tomas-sanchez-3.jpg)
 
 Here he is [on Instagram](https://www.instagram.com/tomassanchezstudio/).

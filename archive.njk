@@ -36,8 +36,8 @@ eleventyExcludeFromCollections: true
         <a href="/tags/favorite things" title="Favorite Things">
           <strong>Favorite Things</strong>
           <span>
-            {% set special1 = collections.tags | where("name", "favorite things") %}
-            {{ special1.count }}
+            {% set special = collections.tags | where("name", "favorite things") %}
+            {{ special.count }}
           </span>
         </a>
       </li>
@@ -45,8 +45,17 @@ eleventyExcludeFromCollections: true
         <a href="/tags/the worst" title="The Worst">
           <strong>The Worst</strong>
           <span>
-            {% set special2 = collections.tags | where("name", "the worst") %}
-            {{ special2.count }}
+            {% set special = collections.tags | where("name", "the worst") %}
+            {{ special.count }}
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="/tags/todo" title="Todo">
+          <strong>Todo</strong>
+          <span>
+            {% set special = collections.tags | where("name", "todo") %}
+            {{ special.count }}
           </span>
         </a>
       </li>

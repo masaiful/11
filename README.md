@@ -4,8 +4,6 @@ My personal log powered by the awesome [11ty.js](https://www.11ty.dev/) and depl
 
 ## Usage
 
-### Environment
-
 Create `.env` with these
 
 ```
@@ -14,7 +12,7 @@ ALGOLIA_API_KEY="foobar"
 OMDB_API_KEY="foobar"
 ```
 
-### Commands
+Then, 
 
 ```bash
 # Install dependencies
@@ -42,8 +40,6 @@ yarn borg
 # bucket (that has versioning enabled.)
 yarn push
 ```
-
-See `package.json` for more commands.
 
 ## Resources
 

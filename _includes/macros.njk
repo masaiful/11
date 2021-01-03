@@ -28,68 +28,29 @@
 
   <article class="{{ postType }}{% if page.url == post.url %} single{% endif %}">
 
-    {% if post.data.category == "links" %}
-
-      <header>
-        <h2>
-          <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
-            {{ post.data.title | smarty }}
-          </a>
-
-          {% if post.data.draft %}
-            <span class="draft">Draft</span>
-          {% endif %}
-        </h2>
-      </header>
-
-    {% elseif post.data.category == "media" %}
-
-      {% set linkArticleTo = post.url %}
-      <header>
-        <h2>
-          {% if page.url != post.url %}
-            <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
-            {% endif %}
-            {{ post.data.title | smarty }}
-            {% if page.url != post.url %}
-            </a>
-          {% endif %}
-          {% if post.data.year %}
-            <span class="media-year">
-              ({{ post.data.year }})
-            </span>
-          {% endif %}
-          {% if post.data.imdb %}
-            <span class="media-imdb">
-              &middot;
-              <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}">IMDb</a>
-            </span>
-          {% endif %}
-          {% if post.data.rating %}
-            &middot;
-            <a href="/media">
-              <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
-                <span>{{ post.data.rating }}</span>
-              </span>
-            </a>
-          {% endif %}
-        </span>
-        {% if post.data.draft %}
-          <span class="draft">Draft</span>
-        {% endif %}
-      </h2>
-    </header>
-
-  {% else %}
-
-    {% set linkArticleTo = post.url %}
     <header>
       <h2>
-        {% if page.url != post.url %}
-          <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
-          {% endif %}
+        <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
           {{ post.data.title | smarty }}
-          {% if page.url != post.url %}
+        </a>
+
+        {% if post.data.year %}
+          <span class="media-year">
+            ({{ post.data.year }})
+          </span>
+        {% endif %}
+        {% if post.data.imdb %}
+          <span class="media-imdb">
+            &middot;
+            <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}">IMDb</a>
+          </span>
+        {% endif %}
+        {% if post.data.rating %}
+          &middot;
+          <a href="/media">
+            <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
+              <span>{{ post.data.rating }}</span>
+            </span>
           </a>
         {% endif %}
 
@@ -99,24 +60,22 @@
       </h2>
     </header>
 
-  {% endif %}
-
-  {% if post.templateContent %}
-    {{ post.templateContent | safe }}
-  {% endif %}
-
-  <footer>
-    {{ postTags(post.data.tags) }}
-    {% if page.url == post.url %}
-      <time datetime="{{ post.data.date | toISODateString }}">
-        <span>Posted</span>
-        {{ post.data.date | date("do MMMM yyyy") | safe }}
-      </time>
+    {% if post.templateContent %}
+      {{ post.templateContent | safe }}
     {% endif %}
-    {% if page.url != post.url and postType == "links" %}
-      <a href="{{ post.url }}" title="Permalink to {{ post.data.title }}">#</a>
-    {% endif %}
-  </footer>
 
-</article>
+    <footer>
+      {{ postTags(post.data.tags) }}
+      {% if page.url == post.url %}
+        <time datetime="{{ post.data.date | toISODateString }}">
+          <span>Posted</span>
+          {{ post.data.date | date("do MMMM yyyy") | safe }}
+        </time>
+      {% endif %}
+      {% if page.url != post.url and postType == "links" %}
+        <a href="{{ post.url }}" title="Permalink to {{ post.data.title }}">#</a>
+      {% endif %}
+    </footer>
+
+  </article>
 {% endmacro %}

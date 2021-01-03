@@ -8,6 +8,7 @@ tags:
     - comics
     - favorite things
     - death
+    - ramin nazer
 ---
 
 [Ramin Nazer](https://raminnazer.com/) on some models he entertains of [what happens to us after we die](https://raminnazer.com/pages/after-you-die). A few of my favorites

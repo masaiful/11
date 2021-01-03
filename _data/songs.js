@@ -9,6 +9,10 @@ Clint Mansell
 https://www.youtube.com/watch?v=3NOzIqV_XLg
 
 ---
+Pilgrimage
+Om
+https://www.youtube.com/watch?v=Rc-NIGzUmEM
+---
 A Tune for Jack
 Lemon Jelly
 https://www.youtube.com/watch?v=T9pd_Al9mxw
@@ -953,6 +957,18 @@ The Night Josh Tillman Came To Our Apartment
 Father John Misty
 https://www.youtube.com/watch?v=iY37fixfN_A
 funny, via Catherine <3
+---
+Innocence and Wrath
+Celtic Frost
+https://www.youtube.com/watch?v=3NTUdV7rjSU&list=PLqytfNFx9GhyGzobFyQDpeX5A1v-LNVoj&index=1
+---
+Orchestrated Incident
+Gramatik
+https://www.youtube.com/watch?v=KK2zeLbKlnc
+---
+Around
+Noir & Haze
+https://www.youtube.com/watch?v=7bMYhJ_UqnE
 `;
 
 /**
@@ -971,9 +987,7 @@ const generate = (content) => {
       link: _[3],
       notes: _[4] || null,
     }))
-    .filter((_) => _.track !== null)
-    // The first element is for illustration only!
-    .slice(1);
+    .filter((_) => _.track !== null);
 
   return ret;
 };
