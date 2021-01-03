@@ -165,7 +165,6 @@ module.exports = {
       "posts/**/*.md",
       "links/**/*.md",
       "media/**/*.md",
-      "snippets/**/*.md",
     ],
     links: ["links/**/*.md"],
     media: ["media/**/*.md"],
