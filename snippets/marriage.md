@@ -1,5 +1,5 @@
 ---
-category: posts
+category: snippets
 draft: false
 
 title: What's the most common mistake people make when choosing their spouse? (self.AskMen)

@@ -1,5 +1,5 @@
 ---
-category: posts
+category: snippets
 draft: false
 
 title: What are Left and Right critiques of Liberalism?
@@ -8,7 +8,7 @@ date: 2021-01-02 17:56:56
 tags:
     - politics
     - reddit
-    
+
 ---
 
 Well, we could go on forever listing various critiques from both the Left and the Right, so I'll just cover a few and maybe other people will stop by and list more.

@@ -1,5 +1,5 @@
 ---
-category: posts
+category: snippets
 draft: false
 
 title: Obi-Wan

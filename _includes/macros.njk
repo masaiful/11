@@ -22,7 +22,7 @@
   {% endif %}
 
   {% set linkArticleTo = post.url %}
-  {% if postType == "links" %}
+  {% if postType == "links" or postType == "snippets" %}
     {% set linkArticleTo = post.data.link %}
   {% endif %}
 
