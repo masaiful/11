@@ -2,7 +2,6 @@ _templates
 misc/**
 README.md
 
-archive.njk
 feed.xml.njk
 search-data.json.njk
 sitemap.xml.njk

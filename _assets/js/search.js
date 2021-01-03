@@ -47,9 +47,10 @@
             let rendered = Mustache.render(resultsTemplate, {
               results: searchResults.hits,
             });
+
             document.querySelector("#search-results").innerHTML = rendered;
 
-            if (searchResults.hits.length == 1) {
+            if (searchResults.hits.length === 1) {
               document.querySelector("h1 a").innerText = "one post";
             } else {
               document.querySelector("h1 a").innerText =
@@ -57,13 +58,16 @@
             }
 
             // AARGH MUSTACHE!
-            tagList = document.getElementsByClassName(
-              "archive-search-result-tag",
-            );
+            tagList = document.querySelectorAll(".search-result-tag");
+
             for (let i = tagList.length - 1; i >= 0; i--) {
               tagList[i].href = tagList[i].href
-                .replace("%3Cem%3E", "")
-                .replace("%3C/em%3E", "");
+                .replaceAll("%3Cem%3E", "")
+                .replaceAll("%3C/em%3E", "");
+              
+              tagList[i].title = tagList[i].title
+                .replaceAll("%3Cem%3E", "")
+                .replaceAll("%3C/em%3E", "");
             }
           } else {
             document.querySelector("#search-results").innerHTML =

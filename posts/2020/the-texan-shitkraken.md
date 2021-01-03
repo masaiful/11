@@ -25,7 +25,7 @@ One can dream! He ends with a plea (emphasis mine):
 
 > I’m really tired of the **Republican Party beclowning itself for a losing candidate out of fear for that candidate’s voters**. That is all this is and delusions of fools notwithstanding, despite all sorts of stupid arguments being wrapped in pomp and “equal protection” phraseology, the election is over and Joe Biden will be President-Elect officially next week.
 >
-> Guys, come on — you’re just going [to spark crazy to violence](/links/22544f50b3b05520921768d56ad5036b) [sic] at this point. The election wasn’t stolen and most of you know it and those of you who don’t know it need to, at some point, realize you’ve been lied to. And frankly, Ken Paxton needs to work on repentance for a whole lot of stuff.
+> Guys, come on — you’re just going [to spark crazy to violence](/links/22544f50b3b05520921768d56ad5036b) [sic] at this point. **The election wasn’t stolen and most of you know it and those of you who don’t know it need to, at some point, realize you’ve been lied to**. And frankly, Ken Paxton needs to work on repentance for a whole lot of stuff.
 >
 > -- Erick-Woods Erickson, "[About the Texas Lawsuit](https://ewerickson.substack.com/p/about-the-texas-lawsuit)", _Erick Erickson's Confessions of a Political Junkie_
 
