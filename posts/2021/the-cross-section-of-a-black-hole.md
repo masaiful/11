@@ -14,6 +14,6 @@ tags:
     
 ---
 
-I don't get it but it's awesome. Here's [the full graphic](/misc/b/black-hole-cross-section.pdf).
+Here's [the full graphic](/misc/b/black-hole-cross-section.pdf). Watch [anything by PBS SpaceTime](https://www.google.com/search?q=pbs+space+time+black+holes) on the subject 💯
 
 ![The Cross-Section of a Black Hole](/misc/b/black-hole-cross-section.png)

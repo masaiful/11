@@ -10,7 +10,7 @@ const staticVideoPattern = RegExp(
 
 // 👉 NOTE: This will require that every asset have an extension!
 const miscLinkPattern = RegExp(
-  String.raw`<a href="(\/${config.MISC_PATH}\/.*\.\w+)">`,
+  String.raw`<a href="(\/${config.MISC_PATH}\/.*\.\w+)"(\stitle=.*)?>`,
   "g",
 );
 

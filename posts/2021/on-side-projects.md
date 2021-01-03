@@ -13,7 +13,7 @@ tags:
 > 
 > There was one very profound idea in this book that goes like this:
 > 
-> "If you are no longer interested in a project you started, maybe you already got what you came for".
+> **"If you are no longer interested in a project you started, maybe you already got what you came for"**.
 > 
 > In essence, maybe it’s not the finishing of the project you came for but maybe the learning or understanding of how it could be done if it were to be done.
 > 
