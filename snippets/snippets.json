@@ -1,0 +1,5 @@
+{
+  "layout": "post.njk",
+  "category": "snippets",
+  "permalink": "snippets/{{ page.fileSlug }}/"
+}

@@ -6,7 +6,6 @@ archive.njk
 feed.xml.njk
 search-data.json.njk
 sitemap.xml.njk
-tags.njk
 year.njk
 
 links/index.njk

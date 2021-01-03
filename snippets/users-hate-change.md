@@ -1,4 +1,15 @@
-# 'Users hate change'
+---
+category: snippets
+draft: false
+
+title: Users hate change
+link: https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc
+date: 2021-01-02 17:56:56
+tags:
+    - design
+    - technology
+
+---
 
 This week NN Group released a [video](https://www.nngroup.com/videos/users-hate-change/) by Jakob Nielsen in which he attempts to help designers deal with the problem of customers being resistant to their new site/product redesign. The argument goes thusly:
 
@@ -39,7 +50,3 @@ The idea of EPP is thus: when you have a product that works, and an existing cus
 In this way a team/organisation builds up a protfolio of products, all of them profitable, all of them long-lived. After the vast majority of customers leave an old product for '2.0' then when only a small minority remain you can sunset the old product, perhaps offering customers a free upgrade path, or just leave it running indefinitely as it's marginal cost of maintenance is now essentially zero.
 
 This treats your customers like adults, gives them the freedom of choice and empowers them to use that choice in order to best satisfy their own needs.
-
----
-
-https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc

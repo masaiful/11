@@ -1,5 +1,13 @@
 ---
-layout: default
+category: snippets
+draft: false
+
+title: Truisms
+link: https://www.moma.org/collection/works/63755
+date: 2021-01-02 17:56:56
+tags:
+    - art
+
 ---
 
 ```
@@ -513,7 +521,3 @@ YOUR ACTIONS AE POINTLESS IF NO ONE NOTICES
 
 YOUR OLDEST FEARS ARE THE WORST ONES
 ```
-
----
-
-[Source](https://www.moma.org/collection/works/63755)

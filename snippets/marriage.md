@@ -1,4 +1,15 @@
-## What's the most common mistake people make when choosing their spouse? (self.AskMen)
+---
+category: posts
+draft: false
+
+title: What's the most common mistake people make when choosing their spouse? (self.AskMen)
+link: https://np.reddit.com/r/AskMen/comments/52h1h8/whats_the_most_common_mistake_people_make_when/d7kyny9/?context=3
+date: 2021-01-02 17:56:56
+tags:
+    - life
+    - reddit
+
+---
 
 Child of divorce, professional who dealt with divorcing couples for many years, Adult who went through a divorce, remarried and volunteer counseling/mentoring for couples today.
 
@@ -24,7 +35,3 @@ Here are the most common mistakes I've seen (my own as well as collectively) in 
 
 
 Marriage is not easy.  It requires a lot of work sometimes, even when you are both on the same page, have great communication, great sex (which will happen very easily if the rest of the relationship is healthy by the way) and great chemistry.  People get sick, they get laid off, their family members die, children get sick, get hurt in accidents, friends have affairs, get divorced...life is challenging and it impacts our relationships, sometimes in ways we're not expecting or prepared for.  If you're not willing to value your marriage above everything else in your life, its going to be really hard for it to survive the day in and day out challenges of living.
-
----
-
-https://np.reddit.com/r/AskMen/comments/52h1h8/whats_the_most_common_mistake_people_make_when/d7kyny9/?context=3

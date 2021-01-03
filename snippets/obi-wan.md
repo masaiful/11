@@ -1,4 +1,16 @@
-## Obi Wan
+---
+category: posts
+draft: false
+
+title: Obi-Wan
+link: https://www.reddit.com/r/PrequelMemes/comments/kogbqm/this_is_obiwan_kenobi_full_passage_in_the_comments/ghqscnu/?utm_source=reddit&utm_medium=web2x&context=3
+date: 2021-01-02 17:56:56
+tags:
+    - star wars
+    - sci-fi
+    - reddit
+
+---
 
 I’ve started reading the RotS novelisation and it’s already so good. Full credit to [Matthew Stover](https://en.wikipedia.org/wiki/Matthew_Stover):
 
@@ -27,7 +39,3 @@ Being named to the Council came as a complete surprise; even now, he is sometime
 He is the ultimate Jedi.
 
 And he is proud to be Anakin Skywalker's best friend."
-
----
-
-https://www.reddit.com/r/PrequelMemes/comments/kogbqm/this_is_obiwan_kenobi_full_passage_in_the_comments/ghqscnu/?utm_source=reddit&utm_medium=web2x&context=3

@@ -570,6 +570,17 @@ article.links > footer > a:last-child::before {
   display: none;
 }
 
+/* SNIPPETS */
+.snippets article ul {
+  font-size: x-large;
+  line-height: var(--line-height);
+  list-style-type: none;
+  margin-left: 0;
+}
+.snippets article ul li {
+  margin-bottom: calc(var(--root-spacing) * 2);
+}
+
 /* MISCELLANEOUS */
 .compilation-title {
   color: var(--color-highlight);

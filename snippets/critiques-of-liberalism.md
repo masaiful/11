@@ -1,10 +1,15 @@
 ---
-layout: default
-tags:
-    - todo
----
+category: posts
+draft: false
 
-<article>
+title: What are Left and Right critiques of Liberalism?
+link: https://old.reddit.com/r/AskSocialScience/comments/5lzwla/what_are_left_and_right_critiques_of_liberalism/dbztarp/
+date: 2021-01-02 17:56:56
+tags:
+    - politics
+    - reddit
+    
+---
 
 Well, we could go on forever listing various critiques from both the Left and the Right, so I'll just cover a few and maybe other people will stop by and list more.
 
@@ -37,9 +42,3 @@ By this I don't mean actual philosophical [pragmatism](https://plato.stanford.ed
 This is what has its roots in Hegel, and we can see it in people like Taylor and Sandel, cited [here](https://plato.stanford.edu/entries/communitarianism/). The broadest possible way of describing what's going on here is that there are different principles fit for different societies, depending on the character of those societies. So if a society has illiberal traditions, it typically doesn't make sense to come in with a liberal steamroller and tell them that they're doing everything wrong and that they have to change. We might think morality simply doesn't work this way, either because there's no such universal morality in the first place, or because the way morality works requires it getting a certain foothold in the individual's life in a way that makes sense to that individual and not all people in all societies will be amenable to liberalism, or whatever. Another facet of this critique (especially from Sandel) echoes the feminist point above: the idea is that it makes no sense to conceive of the individual outside the context of their society, and to talk about the rights and choices of that individual in any meaningful sense.
 
 If you want any more detail on any of these answers, let me know. I'm not sure how much you know about liberalism: I've assumed a fair amount of knowledge on your part, and thus left out much of the details in terms of what parts of liberalism these critiques are attacking and how they hurt, insofar as they succeed. I'd be happy to fill that out, or anything else that needs filling out.
-
----
-
-https://old.reddit.com/r/AskSocialScience/comments/5lzwla/what_are_left_and_right_critiques_of_liberalism/dbztarp/
-
-<article>

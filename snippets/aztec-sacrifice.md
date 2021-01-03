@@ -1,4 +1,15 @@
-## How many people were really being sacrificed every year in the Aztec Empire before the Spanish arrived? I’ve heard claims it was in the tens of thousands or much lower.
+---
+category: posts
+draft: false
+
+title: How many people were really being sacrificed every year in the Aztec Empire before the Spanish arrived? I’ve heard claims it was in the tens of thousands or much lower.
+link: https://old.reddit.com/r/AskHistorians/comments/95d6b2/how_many_people_were_really_being_sacrificed/e3w87bi/
+date: 2021-01-02 17:56:56
+tags:
+    - history
+    - reddit
+
+---
 
 I'll try and cover a few of your specific points, starting with the fact *Apocalypto* did not intend to portray the Aztecs, but the Maya. The film does (poorly) mash in some aspects of Aztec sacrifice, if only to further its goal of being colonialist apologia and torture porn. Fortunately, the sheer awfulness of the movie makes it a good jumping off point to talk about actual practices of sacrifice.
 
@@ -45,7 +56,3 @@ The problem is that our actual reports of captives taken do not support those nu
 The end result is that we have no reason to accept Harner's proposition that 1% of the total population of Mesoamerica was sacrificed every year, particularly since the late Postclassic is marked by a substantial increase in population as the same time he and Harris are proposing a life of cannibalistic subsistence. The Aztecs certainly focused on and increased the rate and importance of human sacrifice beyond what had been previously seen in Mesoamerica. None of the actual ecological or dietary data suggest their society needed to rely on cannibalism, and the focus on that aspect of their society tends to overlook other ways in which the Aztecs were a highly organized and functional pre-modern agricultural society, whose population boomed and whose marketplaces were stocked with non-people foodstuffs. 
 
 Aztec sacrifice was a complicated and, to the modern Western view, bizarre practice, but it was not the sole aspect of Aztec society. It was, however, neither as alien to practices found in Afro-Eurasia, nor a perfect analogy to them. It wasn't sadists fattening up captives in cages; the practice had a logic to it. Aztec sacrificed evolved from a general pattern of sacrifice in Mesoamerica going back millennia, and the religious and social aspects of Aztec sacrifice were adapted to the realities of their time.
-
----
-
-https://old.reddit.com/r/AskHistorians/comments/95d6b2/how_many_people_were_really_being_sacrificed/e3w87bi/
