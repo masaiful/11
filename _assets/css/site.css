@@ -788,7 +788,7 @@ label[for="dark-mode"] {
 }
 
 label[for="dark-mode"]:hover {
-  border: 3px solid var(--color-highlight);
+  border: 2px solid var(--color-highlight);
 }
 
 label[for="dark-mode"] span:nth-of-type(1) {
