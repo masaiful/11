@@ -470,18 +470,21 @@ article .footnote-backref:hover {
 }
 
 /* LINKS TYPE */
-article.links header,
-article.links header h2, 
-article.links header + footer {
+article.links > header,
+article.links > header h2, 
+article.links > header + footer {
   display: inline;
 }
-article.links header h2 a {
+article.links > header h2 a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
   font-weight: 600;
 }
-article.links header + footer::before,
+article.links > header + footer::before,
 article.links > footer > a:last-child::before {
   content: "\2219\2219\2219  ";
+}
+article.links > p:only-child {
+  color: red;
 }
 
 /* MEDIA TYPE */
