@@ -14,4 +14,4 @@ tags:
     
 ---
 
-Here's how [the author made that list](https://www.linisnil.com/articles/scraping-roger-ebert-reviews-and-amazon/). I've cached it [here](/misc/e/ebert-amazon-list.html).
+Here's how [the author made that list](https://www.linisnil.com/articles/scraping-roger-ebert-reviews-and-amazon/). Here's [a cached version](/misc/e/ebert-amazon-list.html).

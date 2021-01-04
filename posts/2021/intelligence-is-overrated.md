@@ -1,9 +1,9 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Intelligence is Overrated
-date: 2021-01-02 15:12:23
+date: 2021-01-03 15:12:23
 tags:
     - mensa
     - comics

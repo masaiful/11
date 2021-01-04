@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: Too Dumb to Stop
+title: Grit
 date: 2021-01-02 21:12:07
 tags:
     - inspirational

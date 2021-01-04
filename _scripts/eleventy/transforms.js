@@ -113,15 +113,15 @@ const replaceMiscLink = async (content, outputPath) => {
       let replacement;
 
       if (config.MISC_REMOTE_PREFIX && process.env.CI) {
+        replacement = path.replace(
+          RegExp(String.raw`\/${config.MISC_PATH}`, "g"),
+          `${config.MISC_REMOTE_PREFIX}`,
+        );
+
         console.log(
           `🔗  Will expand ${matches.length} link${
             matches.length > 1 ? "s" : ""
           } in ${outputPath}`,
-        );
-
-        replacement = path.replace(
-          /\/${config.MISC_PATH}/g,
-          `${config.MISC_REMOTE_PREFIX}`,
         );
 
         content = content.replace(path, replacement);

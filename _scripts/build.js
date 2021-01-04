@@ -3,13 +3,22 @@ const process = require("process");
 const { spawn } = require("child_process");
 const { yellow, italic, red } = require("chalk");
 
+process.env.ELEVENTY_ENV = "production";
+
 console.log(yellow(`⏳ Preparing`, italic("production"), "ignore list"));
 fs.copyFileSync("./.eleventyignore.production", "./.eleventyignore");
 
 console.log(yellow(`⏳ Building site`));
 const p = spawn(
   "npx",
-  ["npm-run-all", "clean", "organize:misc", "build:misc", "build:site"],
+  [
+    "npm-run-all",
+    "clean",
+    "organize:misc",
+    "build:misc",
+    "build:site",
+    "build:css",
+  ],
   { shell: true },
 );
 

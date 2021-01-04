@@ -22,4 +22,4 @@ Source: [tirthayatra.org](https://www.tirthayatra.org/)
 
 ![Srirangam Temple 1](/misc/s/srirangam-2.jpg)
 
-by [@renji_snapshot](https://www.flickr.com/photos/renji_snapshot/33698055525). More information and history [here](https://www.tirthayatra.org/srirangam-temple/).
+by [@renji_snapshot](https://www.flickr.com/photos/renji_snapshot/33698055525). Here's [more information and history](https://www.tirthayatra.org/srirangam-temple/).

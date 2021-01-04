@@ -3,6 +3,8 @@ const process = require("process");
 const { spawn } = require("child_process");
 const { yellow, italic, red } = require("chalk");
 
+process.env.ELEVENTY_ENV = "development";
+
 console.log(yellow(`⏳ Preparing`, italic("development"), "ignore list"));
 fs.copyFileSync("./.eleventyignore.development", "./.eleventyignore");
 

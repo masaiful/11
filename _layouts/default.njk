@@ -25,10 +25,15 @@
 
     <link rel="apple-touch-icon" href="/assets/img/favicon.svg">
     <link rel="shortcut icon" href="/assets/img/favicon.svg">
+
+    {% if site.environment == "production" %}
+    <link rel="stylesheet" href="/assets/css/site.css">
+    {% else %}
     <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <link rel="stylesheet" href="/assets/css/code.css">
+    {% endif %}
   </head>
 
   <body{% if pageClass %} class="{{ pageClass }}" {% endif %}>

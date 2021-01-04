@@ -123,94 +123,77 @@ const rule = (state, silent) => {
      * </picture>
      */
 
-    let token = state.push("picture_open", "picture", 1);
-    token.attrs = [
-      ["class", "lazy"],
-      ["data-alt", alt],
-      ["data-path", primary], // See token.attrs[2][1] below!
-    ];
-
-    /**
-     * It might be possible to have another domain/bucket serve up the misc
-     * files. Perform a path replacement appropriately. If the remote
-     * URI/prefix exists, use it. If not, supply the absolute path to the
-     * misc file.
-     */
-    let fullPathReplacement = MISC_REMOTE_PREFIX
+    let optimizedPathReplacement = MISC_REMOTE_PREFIX
       ? `${MISC_REMOTE_PREFIX}/${config.MISC_OPTIMIZED_FOLDER}`
       : `${LOCAL_MISC_PREFIX}/${config.MISC_OPTIMIZED_FOLDER}`;
 
-    // Don't want GIFs as a source since Sharp won't even process them!
-    if (!primary.endsWith(".gif")) {
-      let normalOptimizedPath = primary;
-      let webPOptimizedPath = primary
-        .replace(/\.jpg/i, ".webp")
-        .replace(/\.jpeg/i, ".webp")
-        .replace(/\.png/i, ".webp");
+    let normalPathReplacement = MISC_REMOTE_PREFIX
+      ? `${MISC_REMOTE_PREFIX}`
+      : `${LOCAL_MISC_PREFIX}`;
 
-      /**
-       * Just use local files when working locally <3 Replace with optimized
-       * assets in a production context.
-       */
-      if (process.env.CI) {
-        normalOptimizedPath = normalOptimizedPath.replace(
+    let imagePath = primary;
+
+    if (process.env.CI) {
+      if (!primary.endsWith(".gif")) {
+        imagePath = imagePath.replace(
           `${LOCAL_MISC_PREFIX}`,
-          fullPathReplacement,
+          optimizedPathReplacement,
         );
-
-        webPOptimizedPath = webPOptimizedPath.replace(
+      } else {
+        imagePath = imagePath.replace(
           `${LOCAL_MISC_PREFIX}`,
-          fullPathReplacement,
+          normalPathReplacement,
         );
       }
-
-      /**
-       * Nasty but whatever. Refers to the `data-path` attribute above
-       * this block. Cannot use the cached WebP image since mobile
-       * browsers offer it as a download instead of showing it.
-       */
-      token.attrs[2][1] = normalOptimizedPath;
-
-      if (process.env.CI) {
-        token = state.push("picture_source_webp", "source", 0);
-        token.attrs = [
-          ["type", "image/webp"],
-          ["srcset", webPOptimizedPath],
-        ];
-      }
-
-      token = state.push("picture_source_other", "source", 0);
-      token.attrs = [["srcset", normalOptimizedPath]];
     }
 
-    /* Original Implementation */
-    // sources.forEach((s, i) => {
-    //   token = state.push("picture_source", "source", 0);
-    //   const attrs = [["srcwqset", s]];
-    //   if (media[i]) attrs.push(["media", media[i]]);
-    //   token.attrs = attrs;
-    // });
+    // <picture class="lazy" data-alt data-path>
+    let token = state.push("picture_open", "picture", 1);
 
-    if (!primary.endsWith(".gif")) {
-      token = state.push("noscript_open", "noscript", 1);
+    token.attrs = [
+      ["class", "lazy"],
+      ["data-alt", alt],
+      ["data-path", imagePath],
+    ];
+
+    /**
+     * <source type="image/webp" srcset />
+     * 
+     * ONLY for non-GIFs
+     * ONLY when local (i.e. not in CI context)
+     */
+    if (!primary.endsWith(".gif") && process.env.CI) {
+      token = state.push("picture_source_webp", "source", 0);
+      token.attrs = [
+        ["type", "image/webp"],
+        [
+          "srcset",
+          imagePath
+            .replace(/\.jpg/i, ".webp")
+            .replace(/\.jpeg/i, ".webp")
+            .replace(/\.png/i, ".webp"),
+        ],
+      ];
     }
 
-    token = state.push("picture_img", "img", 0);
-    let imageSrc = primary;
+    // <source srcset /> for all images
+    token = state.push("picture_source", "source", 0);
+    token.attrs = [["srcset", imagePath]];
 
-    if (!primary.endsWith(".gif") || process.env.CI) {
-      imageSrc = primary.replace(`${LOCAL_MISC_PREFIX}`, fullPathReplacement);
-    }
+    // <noscript>
+    token = state.push("noscript_open", "noscript", 1);
 
-    const imgAttrs = [["src", imageSrc]];
-    if (alt) imgAttrs.push(["alt", alt]);
-    if (title) imgAttrs.push(["title", title]);
-    token.attrs = imgAttrs;
+    // <img src alt />
+    token = state.push("picture_noscript_img", "img", 0);
+    token.attrs = [
+      ["alt", alt],
+      ["src", imagePath],
+    ];
 
-    if (!primary.endsWith(".gif")) {
-      token = state.push("noscript_close", "noscript", -1);
-    }
+    // </noscript>
+    token = state.push("noscript_open", "noscript", -1);
 
+    // </picture>
     token = state.push("picture_close", "picture", -1);
   }
 
