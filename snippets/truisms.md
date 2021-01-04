@@ -2,16 +2,14 @@
 category: snippets
 draft: false
 
-title: Truisms
+title: TRUISMS (1978-1983)
 link: https://www.moma.org/collection/works/63755
 date: 2021-01-02 17:56:56
 tags:
     - art
+    - lists
 
 ---
-
-```
-TRUISMS (1978-1983)
 
 JENNY HOLZER
 
@@ -520,4 +518,3 @@ YOU SHOULD STUDY AS MUCH AS POSSIBLE
 YOUR ACTIONS AE POINTLESS IF NO ONE NOTICES
 
 YOUR OLDEST FEARS ARE THE WORST ONES
-```

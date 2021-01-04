@@ -20,9 +20,9 @@ title: Here & There
 <script type="text/javascript" src="/assets/js/macy.js"></script>
 <script type="text/javascript">
   (() => {
-    Macy({
+    const macyInstance = Macy({
       container: '#links-list',
-      trueOrder: false,
+      trueOrder: true,
       waitForImages: false,
       margin: 24,
       columns: 3,
@@ -31,5 +31,9 @@ title: Here & There
         700: 1
       }
     });
+
+    macyInstance.runOnImageLoad(function () {
+      macyInstance.recalculate(true);
+    }, true);
   })();
 </script>

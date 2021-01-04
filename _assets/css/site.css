@@ -571,6 +571,10 @@ article.links > footer > a:last-child::before {
 }
 
 /* SNIPPETS */
+.snippets h2 a {
+  color: var(--color-text);
+  border-bottom: var(--border-thickness) solid var(--color-highlight);
+}
 .snippets article ul {
   font-size: x-large;
   line-height: var(--line-height);
