@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: How many people were really being sacrificed every year in the Aztec Empire before the Spanish arrived? I’ve heard claims it was in the tens of thousands or much lower.
 link: https://old.reddit.com/r/AskHistorians/comments/95d6b2/how_many_people_were_really_being_sacrificed/e3w87bi/
+source: 400-rabbits on Reddit
 date: 2021-01-02 17:56:56
 tags:
     - history

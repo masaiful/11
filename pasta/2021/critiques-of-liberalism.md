@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: What are Left and Right critiques of Liberalism?
 link: https://old.reddit.com/r/AskSocialScience/comments/5lzwla/what_are_left_and_right_critiques_of_liberalism/dbztarp/
+source: "TychoCelchuuu on Reddit"
 date: 2021-01-02 17:56:56
 tags:
     - politics

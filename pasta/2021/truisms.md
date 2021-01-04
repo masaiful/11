@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: TRUISMS (1978-1983)
 link: https://www.moma.org/collection/works/63755
+source: MoMA
 date: 2021-01-02 17:56:56
 tags:
     - art

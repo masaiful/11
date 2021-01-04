@@ -3,7 +3,7 @@ category: links
 draft: false
 
 title: '"TRUISMS (1978 - 1983)" by Jenny Holzer'
-link: /snippets/truisms/
+link: /pasta/truisms/
 date: 2021-01-02 18:18:50
 tags:
     - lists

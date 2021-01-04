@@ -16,17 +16,19 @@
 
 {% macro singlePost(post) %}
 
+  {% set isSingle = page.url == post.url %}
+
   {% set postType = post.data.category %}
   {% if "quotes" in post.data.tags %}
     {% set postType = "quotes" %}
   {% endif %}
 
   {% set linkArticleTo = post.url %}
-  {% if postType == "links" or postType == "snippets" %}
+  {% if postType == "links" %}
     {% set linkArticleTo = post.data.link %}
   {% endif %}
 
-  <article class="{{ postType }}{% if page.url == post.url %} single{% endif %}">
+  <article class="{{ postType }}{% if isSingle %} single{% endif %}">
 
     <header>
       <h2>
@@ -42,16 +44,29 @@
         {% if post.data.imdb %}
           <span class="media-imdb">
             &middot;
-            <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}">IMDb</a>
+            <a class="imdb" href="https://www.imdb.com/title/{{ post.data.imdb }}" title="View this media's IMDb page">IMDb</a>
           </span>
         {% endif %}
         {% if post.data.rating %}
           &middot;
-          <a href="/media">
+          <a href="/media" title="All Media">
             <span class="{% if post.data.rating === "A+" %}stars-superlative{% else %}stars{% endif %}" style="--rating: {{ post.data.rating | gradeToNumber }};" aria-label="Rated {{ post.data.rating | gradeToNumber }} out of 5">
               <span>{{ post.data.rating }}</span>
             </span>
           </a>
+        {% endif %}
+        {% if post.data.category == "pasta" %}
+          <span class="author">
+            by
+            <a href="{{ post.data.link }}" title="Link to original post">
+              {{ post.data.source }}
+            </a>
+          </span>
+          {% if isSingle %}
+            <a href="/pasta" title="All pasta">
+              All Pasta
+            </a>
+          {% endif %}
         {% endif %}
 
         {% if post.data.draft %}
@@ -60,19 +75,23 @@
       </h2>
     </header>
 
-    {% if post.templateContent %}
+    {% if post.templateContent and post.data.category != "pasta" %}
+      {{ post.templateContent | safe }}
+    {% endif %}
+
+    {% if post.data.category == "pasta" and isSingle %}
       {{ post.templateContent | safe }}
     {% endif %}
 
     <footer>
       {{ postTags(post.data.tags) }}
-      {% if page.url == post.url %}
+      {% if isSingle %}
         <time datetime="{{ post.data.date | toISODateString }}">
           <span>Posted</span>
           {{ post.data.date | date("do MMMM yyyy") | safe }}
         </time>
       {% endif %}
-      {% if page.url != post.url and postType == "links" %}
+      {% if not isSingle and postType == "links" %}
         <a href="{{ post.url }}" title="Permalink to {{ post.data.title }}">#</a>
       {% endif %}
     </footer>

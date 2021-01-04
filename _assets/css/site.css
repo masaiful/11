@@ -211,6 +211,7 @@ article header .draft {
   background-color: var(--color-highlight);
   border-radius: var(--rounding-radius);
   color: white;
+  font-size: smaller;
   padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
   margin-left: calc(var(--root-spacing) / 4);
 }
@@ -316,6 +317,7 @@ article table {
 }
 article table thead tr th {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
+  font-weight: 600;
   padding: calc(var(--root-spacing) / 4) calc(var(--root-spacing) / 2);
   vertical-align: top;
 }
@@ -469,19 +471,47 @@ article .footnote-backref:hover {
   border: 1px dotted var(--color-highlight);
 }
 
-/* LINKS TYPE */
+/* LINKS and PASTA TYPES */
 article.links > header,
-article.links > header h2, 
-article.links > header + footer {
+article.links > header h2,
+article.links > header + footer,
+article.pasta > header,
+article.pasta > header h2,
+article.pasta > header + footer {
   display: inline;
 }
-article.links > header h2 a {
+article.links > header h2 a,
+article.pasta > header h2 a {
   border-bottom: var(--border-thickness) solid var(--color-highlight);
   font-weight: 600;
 }
 article.links > header + footer::before,
-article.links > footer > a:last-child::before {
+article.links > footer > a:last-child::before,
+article.pasta > header + footer::before,
+article.pasta > footer > a:last-child::before {
   content: "\2219\2219\2219  ";
+}
+
+/* PASTA TYPE */
+article.pasta h2 a[href="/pasta"] {
+  background-color: var(--color-highlight);
+  border-bottom: 0;
+  border-radius: var(--rounding-radius);
+  color: white;
+  font-size: smaller;
+  padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
+  margin-left: calc(var(--root-spacing) / 2);
+}
+article.pasta h2 a[href="/pasta"]:hover {
+  background-color: var(--color-highlight-light);
+}
+article.pasta h2 .author {
+  color: var(--color-text-tertiary);
+  font-weight: normal;
+}
+article.pasta h2 .author a {
+  color: var(--color-text-tertiary);
+  border-bottom-color: var(--color-text-tertiary);
 }
 
 /* MEDIA TYPE */
@@ -519,31 +549,31 @@ article.links > footer > a:last-child::before {
 }
 
 /* ARCHIVE */
-#archive section {
+.archive section {
   padding-bottom: var(--root-spacing);
   margin-bottom: var(--root-spacing);
   border-bottom: 1px dotted var(--color-text-tertiary);
 }
-#archive section > header {
+.archive section > header {
   display: none;
 }
-#archive section:last-child {
+.archive section:last-of-type {
   margin-bottom: 0;
   border-bottom: none;
 }
-#archive #years {
+.archive #years {
   padding-bottom: calc(var(--root-spacing) / 2);
 }
-#archive #years ul li {
+.archive #years ul li {
   margin-bottom: calc(var(--root-spacing) / 2);
 }
-#archive #tags {
+.archive #tags {
   font-size: smaller;
 }
-#archive #counts {
+.archive #counts {
   color: var(--color-text-tertiary);
 }
-#archive noscript {
+.archive noscript {
   display: block;
   margin-bottom: var(--root-spacing);
 }
@@ -570,19 +600,27 @@ article.links > footer > a:last-child::before {
   display: none;
 }
 
-/* SNIPPETS */
-.snippets h2 a {
-  color: var(--color-text);
-  border-bottom: var(--border-thickness) solid var(--color-highlight);
-}
-.snippets article ul {
+/* pasta */
+.pasta-list article ul {
   font-size: x-large;
   line-height: var(--line-height);
   list-style-type: none;
   margin-left: 0;
 }
-.snippets article ul li {
+.pasta-list article ul li {
+  color: var(--color-text-tertiary);
   margin-bottom: calc(var(--root-spacing) * 2);
+}
+.pasta-list article ul li a:nth-of-type(2) {
+  border-bottom-color: var(--color-text-tertiary);
+  border-bottom-style: dotted;
+  color: var(--color-text-tertiary);
+}
+.pasta-list article ul li a:nth-of-type(2):hover {
+  color: var(--color-text);
+}
+.pasta-list.single h2 a {
+  border-bottom: 0!important;
 }
 
 /* MISCELLANEOUS */
@@ -602,7 +640,7 @@ article.links > footer > a:last-child::before {
   border-radius: var(--rounding-radius);
   background: var(--color-highlight);
   color: white;
-  padding: calc(var(--root-spacing) / 4);
+  padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
 }
 .stars,
 .stars-superlative {
@@ -638,11 +676,6 @@ article.links > footer > a:last-child::before {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-article.quotes.single,
-article.links.single {
-  line-height: var(--line-height);
-  font-size: x-large;
 }
 
 /* SEARCH AND RESULTS */
@@ -744,7 +777,7 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 }
 
 label[for="dark-mode"] {
-  border: 3px solid var(--color-text-tertiary);
+  border: 2px solid var(--color-text-tertiary);
   border-radius: calc(var(--rounding-radius) * 5);
   cursor: pointer;
   display: inline-block;
@@ -790,7 +823,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
   ~ .container
   label[for="dark-mode"]
   span:nth-of-type(1)::before {
-    content: "\1F31B";
+  content: "\1F31B";
 }
 
 /**
@@ -858,7 +891,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
   border-bottom: 0;
 }
 .songs article ul li a {
-  border-bottom-width: 2px;
+  border-bottom: 1px dotted var(--color-text-tertiary);
 }
 .songs article ul li:last-child a {
   border-bottom: 0;
@@ -879,11 +912,15 @@ label[for="dark-mode"] span:nth-of-type(2) {
   display: grid;
   grid-template-columns: auto 5em 5em;
   grid-gap: calc(var(--root-spacing) / 2);
+  border-bottom: 1px dotted var(--color-text-tertiary);
+  padding: 1em 0;
 }
 .songs #search span {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px dotted var(--color-text-tertiary);
+  border-radius: var(--rounding-radius);
 }
 
 /* BLOGROLL */
@@ -922,11 +959,9 @@ label[for="dark-mode"] span:nth-of-type(2) {
   article .footnotes {
     width: 100%;
   }
+  article.quotes.single,
   article.links.single {
     font-size: large;
-  }
-  .songs article ul li a {
-    border-bottom-width: 1px;
   }
   .songs article ul li > * {
     grid-template-columns: 60% auto;
@@ -959,8 +994,11 @@ label[for="dark-mode"] span:nth-of-type(2) {
     width: 100%;
     margin-top: 95%;
   }
-  .songs article ul li {
-    margin: 0.5em 0;
+  .songs #search {
+    grid-template-columns: auto 4em 4em;
+  }
+  .songs article ul li a {
+    padding: calc(var(--root-spacing) / 4) 0;
   }
   .songs article ul li > * {
     display: block;

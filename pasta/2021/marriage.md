@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: What's the most common mistake people make when choosing their spouse?
 link: https://np.reddit.com/r/AskMen/comments/52h1h8/whats_the_most_common_mistake_people_make_when/d7kyny9/?context=3
+source: LaTuFu on Reddit
 date: 2021-01-02 17:56:56
 tags:
     - life

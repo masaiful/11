@@ -9,7 +9,6 @@ tags:
     - science
     - nature
     - infographic
-    - wtf
     
 ---
 

@@ -21,6 +21,9 @@ comics, absurd
 
 * [Channelate by Ryan Hudson](http://www.channelate.com/)
 
+* [Ampersand](http://leftycartoons.com/)
+Political Cartoons by Barry Deutsch
+
 </section>
 
 <section>

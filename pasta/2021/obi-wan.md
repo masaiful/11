@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: Obi-Wan
 link: https://www.reddit.com/r/PrequelMemes/comments/kogbqm/this_is_obiwan_kenobi_full_passage_in_the_comments/ghqscnu/?utm_source=reddit&utm_medium=web2x&context=3
+source: "@SneakyNinja4872 on Reddit"
 date: 2021-01-02 17:56:56
 tags:
     - star wars

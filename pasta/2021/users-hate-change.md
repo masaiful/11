@@ -1,9 +1,10 @@
 ---
-category: snippets
+category: pasta
 draft: false
 
 title: Users hate change
 link: https://gist.github.com/sleepyfox/a4d311ffcdc4fd908ec97d1c245e57dc
+source: "@sleepyfox on Github"
 date: 2021-01-02 17:56:56
 tags:
     - design

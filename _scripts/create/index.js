@@ -50,7 +50,7 @@ const askQuestions = async () => {
 
   // Prepare paths
   const relativePostFolder = `${config.THING_PATHS[answers.type]}/${year}`;
-  const postFolder = `${__dirname}/${relativePostFolder}`;
+  let postFolder = `${__dirname}/${relativePostFolder}`;
   let postFile = `${slugify(answers.title)}.md`;
   const templatePath = `${__dirname}/${config.TEMPLATES_PATH}/${answers.type}.njk`;
 
@@ -111,6 +111,16 @@ const askQuestions = async () => {
     frontmatter = {
       ...frontmatter,
       link: linkAnswers.link,
+    };
+  }
+
+  if (answers.type === "pasta") {
+    const pastaAnswers = await inquirer.prompt(questions.pasta);
+
+    frontmatter = {
+      ...frontmatter,
+      link: pastaAnswers.link,
+      source: pastaAnswers.source,
     };
   }
 

@@ -57,27 +57,27 @@ const year = helpers.makeBasicQuestion(
   "Which year did it come out?",
 );
 
-const movie = [rating];
-
-const book = [
-  helpers.makeBasicQuestion("Author:", "author", "Who's the author yo?"),
-  year,
-  rating,
-];
-
-const music = [
-  helpers.makeBasicQuestion("Artist:", "artist", "Who's the artist yo?"),
-  rating,
-];
-
-const link = [helpers.makeBasicQuestion("Link:", "link", "Enter a link, yo!")];
-
 module.exports = {
   basic,
-  book,
-  link,
-  movie,
-  music,
+
+  /**
+   * These are extensions of the basic questions above!
+   */
+  book: [
+    helpers.makeBasicQuestion("Author:", "author", "Who's the author yo?"),
+    year,
+    rating,
+  ],
+  link: [helpers.makeBasicQuestion("Link:", "link", "Enter a link, yo!")],
+  movie: [rating],
+  music: [
+    helpers.makeBasicQuestion("Artist:", "artist", "Who's the artist yo?"),
+    rating,
+  ],
   rating,
+  pasta: [
+    helpers.makeBasicQuestion("Link:", "link", "Enter a link, yo!"),
+    helpers.makeBasicQuestion("Source:", "source", "Enter a source!"),
+  ],
   year,
 };

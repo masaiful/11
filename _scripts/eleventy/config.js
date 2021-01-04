@@ -165,10 +165,11 @@ module.exports = {
       "posts/**/*.md",
       "links/**/*.md",
       "media/**/*.md",
+      "pasta/**/*.md",
     ],
     links: ["links/**/*.md"],
     media: ["media/**/*.md"],
     posts: ["posts/**/*.md"],
-    snippets: ["snippets/**/*.md"],
+    pasta: ["pasta/**/*.md"],
   },
 };

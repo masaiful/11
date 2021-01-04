@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: "pasta/index.html"
+title: pasta
+pageClass: pasta-list
+---
+
+<h2 class="compilation-title">
+  Some Long Copypasta
+</h2>
+
+<article>
+  <ul>
+    {% for thing in collections.pasta | reverse %}
+      <li>
+        <a href="{{ thing.url }}" title="{{ thing.data.title }}">
+          {{ thing.data.title }}
+        </a>
+        by
+        <a href="{{ thing.data.link }}" title="Link to original source">
+          {{ thing.data.source }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>
