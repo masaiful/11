@@ -405,9 +405,6 @@ article .update strong {
   font-weight: 600;
   text-transform: uppercase;
 }
-article .update strong::after {
-  content: " \2219";
-}
 
 /* Footnotes */
 article .footnotes {
@@ -1008,8 +1005,6 @@ label[for="dark-mode"] span:nth-of-type(2) {
     display: block;
   }
 }
-
-
 
 .table-wrapper {
   overflow: auto;
