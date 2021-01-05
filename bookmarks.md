@@ -55,6 +55,8 @@ tumblelog
 
 * [Dadhacker](https://dadhacker-125488.ingress-alpha.easywp.com/)
 
+* [Adrian Roselli's Blog](https://adrianroselli.com)
+
 </section>
 
 <section>

@@ -19,6 +19,55 @@ const updatePattern = RegExp(
   "g",
 );
 
+/**
+ * These are to add table container div's for mobile...
+ */
+const tableStartPattern = /\<table\>/g;
+
+const tableEndPattern = /\<\/table\>/g;
+
+const wrapTableStart = async (content, outputPath) => {
+  if (outputPath && outputPath.endsWith(".html")) {
+    let matches = content.match(tableStartPattern);
+
+    if (!matches) {
+      return content;
+    }
+
+    matches.forEach(() => {
+      let [nodeMatch] = tableStartPattern.exec(content);
+      let tableWithWrapper = `<div class="table-wrapper"><table>`;
+
+      content = content.replace(nodeMatch, tableWithWrapper);
+    });
+
+    return content;
+  }
+
+  return content;
+};
+
+const wrapTableEnd = async (content, outputPath) => {
+  if (outputPath && outputPath.endsWith(".html")) {
+    let matches = content.match(tableEndPattern);
+
+    if (!matches) {
+      return content;
+    }
+
+    matches.forEach(() => {
+      let [nodeMatch] = tableEndPattern.exec(content);
+      let tableWithWrapper = `</table></div>`;
+
+      content = content.replace(nodeMatch, tableWithWrapper);
+    });
+
+    return content;
+  }
+
+  return content;
+};
+
 const formatUpdates = async (content, outputPath) => {
   if (outputPath && outputPath.endsWith(".html")) {
     let matches = content.match(updatePattern);
@@ -198,6 +247,8 @@ module.exports = {
   embedVideo,
   replaceMiscLink,
   formatUpdates,
+  wrapTableStart,
+  wrapTableEnd,
 
   /**
    * When running locally, beautify the HTML so it's easier to inspect the

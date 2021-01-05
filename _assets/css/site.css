@@ -620,7 +620,7 @@ article.pasta h2 .author a {
   color: var(--color-text);
 }
 .pasta-list.single h2 a {
-  border-bottom: 0!important;
+  border-bottom: 0 !important;
 }
 
 /* MISCELLANEOUS */
@@ -1007,4 +1007,15 @@ label[for="dark-mode"] span:nth-of-type(2) {
   .songs article ul li > * > span {
     display: block;
   }
+}
+
+
+
+.table-wrapper {
+  overflow: auto;
+}
+
+.table-wrapper table {
+  margin: 0;
+  border: none;
 }
