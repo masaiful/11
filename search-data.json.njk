@@ -15,7 +15,9 @@ eleventyExcludeFromCollections: true
 
       {# TODO: Remove &quot; and the like... #}
       {%- set content_first_pass = post.templateContent | striptags(false) | escape -%}
-      {%- set content_secondpass = content_first_pass.val | dump -%}
+
+      {# Algolia only allows for 10KB record size #}
+      {%- set content_secondpass = content_first_pass.val | dump | truncate(800, true, "") -%}
 
       {%- if post.data.title == '' -%}
       "title": "{{ content_secondpass }}",
