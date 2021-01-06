@@ -13,10 +13,9 @@ eleventyExcludeFromCollections: true
       "humanTimestamp": "{{ post.data.date | date("do MMMM yyyy") }}",
       "timestamp": "{{ post.date | toISODateString }}",
 
-      {# TODO: Remove &quot; and the like... #}
       {%- set content_first_pass = post.templateContent | striptags(false) | escape -%}
 
-      {# Algolia only allows for 10KB record size. We mostly search for things by tags and titles anyway... #}
+      {# Algolia only allows for 10KB record size. Minimize the noise. #}
       {%- set content_secondpass = content_first_pass.val | makeSearchString -%}
 
       {%- if post.data.title == '' -%}

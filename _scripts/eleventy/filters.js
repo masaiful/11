@@ -9,14 +9,12 @@ const toDate = require("date-fns/toDate");
 const config = require("./config");
 const data = require("./filters__data");
 
+// Removes unnecessary noise/crap in searchable content
 const makeSearchString = (rawText) =>
   Array.from(
     // Dedupe!
     new Set(
       rawText
-        // We get this from JSON.dump()
-        .replace(/&quot;/g, "")
-
         // Make things easier to work with. Turn to lowercase and make an array
         .toLowerCase()
         .split(" ")
