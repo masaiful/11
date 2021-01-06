@@ -7,6 +7,31 @@ const stringify = require("javascript-stringify").stringify;
 const toDate = require("date-fns/toDate");
 
 const config = require("./config");
+const data = require("./filters__data");
+
+const makeSearchString = (rawText) =>
+  Array.from(
+    // Dedupe!
+    new Set(
+      rawText
+        // We get this from JSON.dump()
+        .replace(/&quot;/g, "")
+
+        // Make things easier to work with. Turn to lowercase and make an array
+        .toLowerCase()
+        .split(" ")
+        .filter((_) => _.trim() !== "")
+
+        // Remove all punctuation
+        .map((_) => _.replace(data.PUNCTUATION_REGEX, ""))
+
+        // Remove all numbers including stuff like "1990s"
+        .filter((_) => !_.match(/(\d(\w+)?)+/g, ""))
+
+        // Now filter out the stop words
+        .filter((_) => !data.STOP_WORDS.includes(_)),
+    ),
+  ).join(" ");
 
 module.exports = {
   // https://github.com/11ty/eleventy/issues/266#issuecomment-505359994
@@ -17,6 +42,7 @@ module.exports = {
   },
   date: (dateString, formatString) => format(toDate(dateString), formatString),
   gradeToNumber: (grade) => config.GRADE_TO_NUMBER[grade],
+  makeSearchString,
   numberToWords: (n) => numberConverter.toWords(n),
   postYear: (dateString) => format(toDate(dateString), "yyyy"),
   smarty: (s) => smartquotes(s),

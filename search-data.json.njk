@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
       {%- set content_first_pass = post.templateContent | striptags(false) | escape -%}
 
       {# Algolia only allows for 10KB record size. We mostly search for things by tags and titles anyway... #}
-      {%- set content_secondpass = content_first_pass.val | dump | truncate(800, true, "") -%}
+      {%- set content_secondpass = content_first_pass.val | makeSearchString -%}
 
       {%- if post.data.title == '' -%}
       "title": "{{ content_secondpass }}",
