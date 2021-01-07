@@ -20,11 +20,18 @@ tags:
 
 ![Fucking hell](/misc/a/america-2021-3.jpeg)
 
+> The ultimate in White privilege is when you’ve broken in to the Speaker’s Lobby, you’ve broken down the windows, and you’re trying to break in to the floor of the House, you’re 12” from a gun, and you’re still not dead.
+> 
+> -- [@JSSPalding](https://twitter.com/JSSpalding/status/1346935326426599424)
+
 ![Fucking hell](/misc/a/america-2021-5.jpeg)
 
-Via [@igorbobic's thread](https://twitter.com/igorbobic/status/1346911809274478594)
+
+Via [@igorbobic's thread](https://twitter.com/igorbobic/status/1346911809274478594):
 
 /misc/a/america-2021-4.mp4
+
+Some _real_ perspective:
 
 > the olay body wash at CVS has better security
 > 
