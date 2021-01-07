@@ -12,8 +12,4 @@ tags:
     
 ---
 
-It's run by the fine folk at [Loganberry Books](http://www.loganberrybooks.com/), costs a nominal $[4 per submission](http://w1.loganberrybooks.com/stumpthebookseller/?page_id=8), and has a very admirable 50%+ success rate. Via CK ♥️
-
-**Update**
-
-Here's [my submission](http://w1.loganberrybooks.com/stumpthebookseller/?p=8078) 🤞
+It's run by the fine folk at [Loganberry Books](http://www.loganberrybooks.com/), costs a nominal $[4 per submission](http://w1.loganberrybooks.com/stumpthebookseller/?page_id=8), and has a very admirable 50%+ success rate. Here's [my submission](http://w1.loganberrybooks.com/stumpthebookseller/?p=8078) 🤞 Via CK ♥️
