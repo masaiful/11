@@ -15,7 +15,7 @@ tags:
 
 > Lord of our lives and sovereign of our beloved nation, we deplore the desecration of the United States Capitol building, the shedding of innocent blood, the loss of life, and the quagmire of dysfunction that threaten our democracy.
 > 
-> These tragedies have reminded us that words matter and that the power of life and death is in the tongue. We have been warned that **eternal vigilance continues to be freedom's price**.
+> These tragedies have reminded us that **words matter and that the power of life and death is in the tongue**. We have been warned that **eternal vigilance continues to be freedom's price**.
 > 
 > Lord, you have helped us remember that **we need to see in each other a common humanity that reflects your image**.
 > 
