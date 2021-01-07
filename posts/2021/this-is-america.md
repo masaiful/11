@@ -31,6 +31,12 @@ Via [@igorbobic's thread](https://twitter.com/igorbobic/status/13469118092744785
 
 /misc/a/america-2021-4.mp4
 
+> Brittany Packnett Cunningham on Trump supporters rioting & looting the U.S. Capitol building: "This is the literal example of white supremacy."
+> 
+> -- [@monolithic87](https://twitter.com/monolithic87/status/1347059317061652480)
+
+/misc/a/america-2021-blm.mp4
+
 Some _real_ perspective:
 
 > the olay body wash at CVS has better security
