@@ -27,4 +27,6 @@ tags:
 > 
 > -- Dr. Barry Black, Chaplain of the Senate, [CBS News](https://twitter.com/CBSNews/status/1347103638964072449) (emphases mine)
 
+That being said, I would _not_ want to be on this gentleman's lawn right now.
+
 /misc/a/america-2021-6.mp4
