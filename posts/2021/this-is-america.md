@@ -2,7 +2,7 @@
 category: posts
 draft: false
 
-title: This Is America (Right Now)
+title: This Is America - Hopefully Not For Long
 date: 2021-01-06 15:16:20
 tags:
     - politics
