@@ -18,4 +18,10 @@ tags:
 >
 > -- [@JordanOnRecord](https://twitter.com/JordanOnRecord/status/1346931938955812866/photo/1)
 
-![Fucking hell](/misc/a/america-2021-3.jpg)
+![Fucking hell](/misc/a/america-2021-3.jpeg)
+
+![Fucking hell](/misc/a/america-2021-5.jpeg)
+
+Via [@igorbobic's thread](https://twitter.com/igorbobic/status/1346911809274478594)
+
+/misc/a/america-2021-4.mp4
