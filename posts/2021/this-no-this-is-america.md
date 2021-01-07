@@ -25,6 +25,6 @@ tags:
 > 
 > Bless and keep us. Drive far from us all wrong desires, incline our hearts to do your will and guide our feet on the path of peace. And God bless America. We pray in your sovereign name, amen.
 > 
-> -- [CBS News](https://twitter.com/CBSNews/status/1347103638964072449) (emphases mine)
+> -- Dr. Barry Black, Chaplain of the Senate, [CBS News](https://twitter.com/CBSNews/status/1347103638964072449) (emphases mine)
 
 /misc/a/america-2021-6.mp4
