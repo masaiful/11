@@ -27,6 +27,6 @@ tags:
 > 
 > -- Dr. Barry Black, Chaplain of the Senate, [CBS News](https://twitter.com/CBSNews/status/1347103638964072449) (emphases mine)
 
-That being said:
+And please get _off_ this gentleman's lawn and _out_ of his city.
 
 /misc/a/america-2021-6.mp4
