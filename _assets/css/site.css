@@ -23,19 +23,21 @@
   --font-weight-article-light: 400;
   --font-weight-article-dark: 300;
 
-  --color-light-background: #fff;
-  --color-light-text: #111;
-  --color-light-text-secondary: #999;
-  --color-light-text-tertiary: #ddd;
-  --color-light-highlight: #ffbe0d;
-  --color-light-highlight-light: rgba(254, 227, 91, 0.87);
+  --color-white: #fff;
 
-  --color-dark-background: #101010;
+  --color-light-background: #f9f5d7;
+  --color-light-text: #111;
+  --color-light-text-secondary: #7c6f64;
+  --color-light-text-tertiary: #bdae93;
+  --color-light-highlight: #cc241d;
+  --color-light-highlight-light: #ebdbb2;
+
+  --color-dark-background: #1d2021;
   --color-dark-text: #fff;
-  --color-dark-text-secondary: #999;
-  --color-dark-text-tertiary: #666;
-  --color-dark-highlight: #ff0000;
-  --color-dark-highlight-light: #ff3300;
+  --color-dark-text-secondary: #928374;
+  --color-dark-text-tertiary: #665c54;
+  --color-dark-highlight: #cc241d;
+  --color-dark-highlight-light: #fb4934;
 }
 
 @keyframes fadeIn {
@@ -112,7 +114,6 @@ a {
 }
 a:hover {
   background: var(--color-highlight-light);
-  color: var(--color-text);
 }
 
 body > * > header > nav {
@@ -121,13 +122,13 @@ body > * > header > nav {
   margin-bottom: calc(var(--root-spacing) * var(--article-spacing-factor));
 }
 body > * > header > nav h1 a {
-  color: var(--color-text);
-  background: var(--color-highlight-light);
+  color: var(--color-white);
+  background: var(--color-highlight);
   font-weight: 800;
 }
-body > * > header > nav h1 a:hover {
-  background: var(--color-highlight);
-}
+/* body > * > header > nav h1 a:hover {
+  background: var(--color-highlight-light);
+} */
 body > * > header > nav ul {
   text-align: right;
   text-transform: lowercase;
