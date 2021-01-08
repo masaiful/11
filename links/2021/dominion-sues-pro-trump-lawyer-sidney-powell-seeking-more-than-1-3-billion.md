@@ -25,9 +25,7 @@ You don't say.
 >
 > No such video ever materialized.
 
-_Shocked.jpg_
-
-Reddit user @Cycad
+`Shocked.jpg`. Reddit user [@Cycad](https://www.reddit.com/r/politics/comments/kt37mk/dominion_sues_protrump_lawyer_sidney_powell/gijkcfi?utm_source=share&utm_medium=web2x&context=3):
 
 > Turns out the real Kraken was the enemies we made along the way...
 

@@ -300,7 +300,7 @@ article code {
 }
 article ul {
   list-style-type: disc;
-  margin-left: var(--root-spacing);
+  margin-left: calc(var(--root-spacing) * 2.5);
 }
 article ul li {
   margin-bottom: calc(var(--root-spacing) / 2);
