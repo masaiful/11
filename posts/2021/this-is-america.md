@@ -38,6 +38,8 @@ Via [@igorbobic's thread](https://twitter.com/igorbobic/status/13469118092744785
 
 /misc/a/america-2021-blm.mp4
 
+/misc/a/america-2021-office.mp4
+
 Some _real_ perspective:
 
 > the olay body wash at CVS has better security
