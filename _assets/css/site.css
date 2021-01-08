@@ -294,6 +294,7 @@ article figure > figcaption a {
   font-weight: 600;
 }
 article figure > figcaption a:hover {
+  color: var(--color-text);
   border-bottom-color: var(--color-highlight);
 }
 article code {
@@ -365,6 +366,9 @@ article footer a {
   border-bottom: none;
   font-weight: 400;
   line-height: calc(var(--line-height) / 1.5);
+}
+article footer a:hover {
+  color: var(--color-text);
 }
 article footer > p {
   display: none;

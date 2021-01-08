@@ -12,7 +12,7 @@ ALGOLIA_API_KEY="foobar"
 OMDB_API_KEY="foobar"
 ```
 
-Then, 
+Then,
 
 ```bash
 # Install dependencies
@@ -31,7 +31,7 @@ yarn start
 yarn new
 
 # Drop any assets in to misc/ and run this to organize
-# them and optimize where appropriate 
+# them and optimize where appropriate
 yarn borg
 
 # Push changes. The log itself is pushed here, which
@@ -43,4 +43,6 @@ yarn push
 
 ## Resources
 
-* [TurnDown](https://domchristie.github.io/turndown) turns HTML &rarr; Markdown.
+- [TurnDown](https://domchristie.github.io/turndown) turns HTML &rarr; Markdown.
+- [Gruvbox Palette](https://github.com/morhetz/gruvbox#palette)
+
