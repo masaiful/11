@@ -936,8 +936,11 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 .sort.asc,
 .sort.desc {
-  background-color: var(--color-highlight-light);
+  background-color: var(--color-highlight);
   border-radius: var(--rounding-radius);
+}
+.sort:hover {
+  background-color: var(--color-highlight-light);
 }
 .sort.asc::after {
   content: "⤴";
@@ -1006,11 +1009,11 @@ label[for="dark-mode"] span:nth-of-type(2) {
   }
 }
 
-.table-wrapper {
+article .table-wrapper {
   overflow: auto;
 }
 
-.table-wrapper table {
+article .table-wrapper table {
   margin: 0;
   border: none;
 }
