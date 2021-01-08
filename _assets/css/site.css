@@ -306,7 +306,7 @@ article ul li {
   margin-bottom: calc(var(--root-spacing) / 2);
 }
 article ol {
-  margin-left: var(--root-spacing);
+  margin-left: calc(var(--root-spacing) * 2.5);
 }
 article ol li {
   margin-bottom: calc(var(--root-spacing) / 2);
