@@ -15,6 +15,8 @@ tags:
 
 ![Fucking hell](/misc/a/america-2021-2.jpg)
 
+![Fucking hell](/misc/a/america-2021-camancho.jpeg)
+
 > During the four years of the Civil War, the confederates never got closer to Washington than Fort Stevens. Until today, when insurrectionist supporters of @realDonaldTrump paraded through the U.S. Capitol Building carrying the Confederate battle flag.
 >
 > -- [@JordanOnRecord](https://twitter.com/JordanOnRecord/status/1346931938955812866/photo/1)
@@ -29,7 +31,7 @@ tags:
 
 ![Fucking hell](/misc/a/america-2021-6.jpg)
 
-![Fucking hell](/misc/a/america-2021-camancho.jpeg)
+![Fucking hell](/misc/a/america-2021-7.jpg)
 
 Via [@igorbobic's thread](https://twitter.com/igorbobic/status/1346911809274478594):
 
