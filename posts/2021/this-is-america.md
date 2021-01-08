@@ -7,6 +7,7 @@ date: 2021-01-06 15:16:20
 tags:
     - politics
     - sad
+    - the worst
 
 ---
 
@@ -25,6 +26,8 @@ tags:
 > -- [@JSSPalding](https://twitter.com/JSSpalding/status/1346935326426599424)
 
 ![Fucking hell](/misc/a/america-2021-5.jpeg)
+
+![Fucking hell](/misc/a/america-2021-6.jpg)
 
 ![Fucking hell](/misc/a/america-2021-camancho.jpeg)
 
