@@ -29,6 +29,12 @@ tags:
 
 ![Fucking hell](/misc/a/america-2021-5.jpeg)
 
+> Call the zip ties by their correct name: The guys were carrying flex cuffs, the plastic double restraints often used by police in mass arrest situations. They walked through the Senate chamber with a sense of purpose. They were not dressed in silly costumes but kitted out in full paramilitary regalia: helmets, armor, camo, holsters with sidearms. At least one had a semi-automatic rifle and 11 Molotov cocktails. At least one, unlike nearly every other right-wing rioter photographed that day, wore a mask that obscured his face.
+>
+> These are the same guys who, when the windows of the Capitol were broken and entry secured, went in first with what I’d call military-ish precision. They moved with purpose, to the offices of major figures like Nancy Pelosi and then to the Senate floor. What was that purpose? It wasn’t to pose for photos. It was to use those flex cuffs on someone.
+>
+> -- Dan Kois, "[They Were Out for Blood: The men who carried zip ties as they stormed the Capitol weren’t clowning around.](https://slate.com/news-and-politics/2021/01/was-there-a-plan-for-hostages-or-killings-at-the-capitol.html?via=rss_socialflow_twitter)"
+
 ![Fucking hell](/misc/a/america-2021-6.jpg)
 
 ![Fucking hell](/misc/a/america-2021-7.jpg)

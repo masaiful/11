@@ -2,7 +2,7 @@
 category: links
 draft: false
 
-title: YouVotedForThis.com is a lovely collection of Brexit repurcussions.
+title: YouVotedForThis.com is a lovely collection of Brexit repercussions.
 link: https://youvotedforthis.com/
 date: 2020-11-14 11:31:04
 tags:
