@@ -22,7 +22,8 @@
     "update-algolia": "node _scripts/update-algolia.js",
     "new": "node _scripts/create",
     "serve": "npx eleventy --watch --serve --port 9000",
-    "start": "node _scripts/start.js"
+    "start": "node _scripts/start.js",
+    "sync": "git pull && yarn pull:misc"
   },
   "author": "Nikhil Anand",
   "license": "MIT",
