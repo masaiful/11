@@ -1019,6 +1019,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
 }
 
 article .table-wrapper {
+  margin: var(--root-spacing) 0;
   overflow: auto;
 }
 

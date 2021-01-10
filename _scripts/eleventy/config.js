@@ -95,6 +95,7 @@ const BUCKET_NAME = "log.nikhil.io";
  */
 let PASSTHROUGH = [
   "robots.txt",
+  "google4d4e4460a3403133.html",
   {
     [ASSET_PATH]: ASSET_PATH_IN_BUILT_SITE,
   },
