@@ -14,5 +14,5 @@ tags:
 
 > once you reach a certain age if you pull an all-nighter, you die
 >
-> [@FeelingEuphoric](https://twitter.com/FeelingEuphoric/status/1347849710531473408)
+> -- [@FeelingEuphoric](https://twitter.com/FeelingEuphoric/status/1347849710531473408)
 
