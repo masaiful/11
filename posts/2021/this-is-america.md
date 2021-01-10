@@ -51,6 +51,10 @@ Via [@igorbobic's thread](https://twitter.com/igorbobic/status/13469118092744785
 
 /misc/a/america-2021-office.mp4
 
+![Fucking hell](/misc/a/america-2021-10.jpeg)
+
+![Fucking hell](/misc/a/america-2021-11.jpeg)
+
 Some _real_ perspective:
 
 > the olay body wash at CVS has better security
@@ -62,6 +66,12 @@ and
 > Can’t believe the creators of the monster have lost control of the monster, is there any precedent for this in books or film
 >
 > -- [@DanAmira](https://twitter.com/DanAmira/status/1346904343413465090)
+
+and
+
+> “May we never forget the brave Wal-Martyrs, Gravy Seals, Green Buffets, Meal Team Six, Delta Farce, and every other Walmart Warrior of the 1st Methanized Infantile Division who fought in the Great American Inbredsurrection”
+>
+> -- Unknown, via VM
 
 See also: [Nachkommen](/posts/f7f500f59e795184a53b0c9a36815534)
 
