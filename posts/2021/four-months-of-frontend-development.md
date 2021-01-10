@@ -12,7 +12,7 @@ tags:
 
 ---
 
-Mostly `node_modules`. This is a new personal record. Will go six months the next time 🎸
+This is a new personal record. Will go six months the next time 🎸
 
 ![/misc/t/trash-record-1.png](/misc/t/trash-record-1.png)
 

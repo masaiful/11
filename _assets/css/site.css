@@ -27,8 +27,8 @@
 
   --color-light-background: #fff;
   --color-light-text: #282828;
-  --color-light-text-secondary: #665c54;
-  --color-light-text-tertiary: #bdae93;
+  --color-light-text-secondary: #999;
+  --color-light-text-tertiary: #ccc;
   --color-light-highlight: #d65d0e;
   --color-light-highlight-light: #ebdbb2;
 
@@ -125,6 +125,7 @@ body > * > header > nav h1 a {
   color: var(--color-white);
   background: var(--color-highlight);
   font-weight: 800;
+  padding: 0 calc(var(--root-spacing) / 4);
 }
 /* body > * > header > nav h1 a:hover {
   background: var(--color-highlight-light);
