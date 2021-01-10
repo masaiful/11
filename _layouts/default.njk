@@ -16,9 +16,6 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ site.url }}/assets/img/og-image.png">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    {% if site.environment == "production" %}
-    <meta name="google-site-verification" content="zZ8S_r0B6ZCxgP_yPsKkCxHhirltYL_hS-liqhjjlg8">
-    {% endif %}
 
     <title>
       {% if title %}{{ title }}
@@ -39,7 +36,7 @@
     {% endif %}
   </head>
 
-  <body{% if pageClass %} class="{{ pageClass }}" {% endif %}>
+  <body{% if pageClass %} class="{{ pageClass }}"{% endif %}>
     <input type="checkbox" id="dark-mode"/>
     <div class="container">
       {% include "header.njk" %}
@@ -51,3 +48,4 @@
     </div>
   </body>
 </html>
+
