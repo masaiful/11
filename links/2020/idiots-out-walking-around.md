@@ -17,4 +17,3 @@ tags:
 > Reynolds said election victories for Republicans in the state this week show Iowans support her approach. "It was a validation of our balanced response to COVID-19, one that is mindful of both public health and economic health," Reynolds said.
 
 Because political victories, not cases or deaths, should inform and 'validate' one's strategy when dealing with a raging pandemic.
-
