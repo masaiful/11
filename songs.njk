@@ -2,13 +2,13 @@
 layout: default
 permalink: "songs/"
 title: Songs I Like
-pageClass: songs
+pageClass: compilation songs
 ---
 
-<h2 class="compilation-title">
+<h2>
   A List of
-  <span class="compilation-count">{{ songs | length }}
-    Songs</span>
+  <strong>{{ songs | length }}
+    Songs</strong>
   I Like</span>
 </h2>
 
@@ -29,20 +29,13 @@ pageClass: songs
       <li>
         {% if song.link %}
           <a href="{{ song.link }}" title="Listen to {{ song.track | superSafeString }} by {{ song.artist | superSafeString }}">
-          {% else %}
-            <div>
-            {% endif %}
-            <strong class="track">{{ song.track }}</strong>
-            <span class="artist"><span>by</span>
-              {{ song.artist }}</span>
-            <br/>
-            <small class="notes">
-              <span>Notes:</span>
-              {{ song.notes }}</small>
-            {% if song.link %}
-            </a>
-          {% else %}
-          </div>
+          {% endif %}
+          <strong class="track">{{ song.track }}</strong>
+          by
+          <span class="artist">{{ song.artist }}</span>
+          {% if song.notes %}<span class="notes">({{ song.notes }})</span>{% endif %}
+          {% if song.link %}
+          </a>
         {% endif %}
       </li>
     {% endfor %}

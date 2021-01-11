@@ -21,9 +21,9 @@ eleventyExcludeFromCollections: true
 
 {% from "macros.njk" import singlePost %}
 
-<h1 class="compilation-title">
-  <strong class="compilation-count">{{ collections.thingsByYear[year] | length | numberToWords }}</strong> things from <strong>{{ year }}</strong>
-</h1>
+<h2>
+  <strong>{{ collections.thingsByYear[year] | length | numberToWords }}</strong> things from <strong>{{ year }}</strong>
+</h2>
 
 {% for post in collections.thingsByYear[year] | reverse %}
   {{ singlePost(post) }}

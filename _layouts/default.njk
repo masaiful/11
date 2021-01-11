@@ -36,9 +36,9 @@
     {% endif %}
   </head>
 
-  <body{% if pageClass %} class="{{ pageClass }}"{% endif %}>
+  <body>
     <input type="checkbox" id="dark-mode"/>
-    <div class="container">
+    <div class="container{% if pageClass %} {{ pageClass }}{% endif %}">
       {% include "header.njk" %}
       <main>
         {{ content | safe }}

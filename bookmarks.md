@@ -3,10 +3,10 @@ layout: default
 draft: false
 
 title: Bookmarks
-pageClass: bookmarks
+pageClass: compilation bookmarks
 ---
 
-## A List of Sites I Like Visiting {.compilation-title}
+## A List of Sites I Like Visiting
 
 <div id="bookmark-list">
 <section>
