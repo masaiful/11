@@ -11,10 +11,11 @@ tags:
     - iowa
     - weather
     - music
+    - bros
 
 ---
 
-Taken _completely_ out of context, for [the letter itself](/misc/f/flaubert-letter.gif) is... gnarly stuff.
+Taken _completely_ out of context, for [the letter itself](/misc/f/flaubert-letter.gif) is a lot of bro-y "locker room talk."
 
 > My mind is dried up, exhausted. I'm disgusted to be back in this damned country where you see the sun in the sky about as often as a diamond in a pig's asshole.
 >
