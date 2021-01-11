@@ -14,6 +14,6 @@ tags:
 
 ---
 
-> My mind is dried up, exhausted. I'm disgusted to be back in this damned countrywhere you see the sun in the sky about as often as a diamond in a pig's asshole.
+> My mind is dried up, exhausted. I'm disgusted to be back in this damned country where you see the sun in the sky about as often as a diamond in a pig's asshole.
 >
 > -- Gustave Flaubert, Letter to Ernest Chevalier, 14^th^ November 1840

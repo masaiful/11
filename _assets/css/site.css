@@ -303,7 +303,7 @@ article code {
 }
 article ul {
   list-style-type: disc;
-  margin-left: calc(var(--root-spacing) * 2.5);
+  margin-left: calc(var(--root-spacing) * 1.125);
 }
 article ul li {
   margin-bottom: calc(var(--root-spacing) / 2);
