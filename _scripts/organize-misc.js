@@ -10,6 +10,7 @@ const IGNORED_PATHS = [
   config.MISC_THUMBNAIL_FOLDER,
   "manifest.json",
   "index.css",
+  "listing.html",
   "index.html",
   "error.html",
   "s3-bucket*",
