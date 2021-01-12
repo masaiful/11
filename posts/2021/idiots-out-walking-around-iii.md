@@ -23,6 +23,6 @@ At the Iowa Statehouse. Via [State Senator Joe Bolkcom](https://twitter.com/JoeB
 
 ![Idiots Out Walking Around](/misc/i/iowa-idiots-3.jpeg)
 
-![Idiots Out Walking Around](/misc/f/freedom-cart.png)
-
 /misc/i/iowa-idiots-facts-over-fear.mp4
+
+![Idiots Out Walking Around](/misc/f/freedom-cart.png)
