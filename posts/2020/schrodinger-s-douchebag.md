@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: Schrodinger's Douchebag
 date: 2020-12-24 09:44:34

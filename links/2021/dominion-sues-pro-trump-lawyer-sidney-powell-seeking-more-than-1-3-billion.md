@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: '"Dominion sues pro-Trump lawyer Sidney Powell, seeking more than $1.3 billion"'
 link: https://www.washingtonpost.com/politics/dominion-sues-pro-trump-lawyer-sidney-powell-seeking-more-than-13-billion/2021/01/08/ebe5dbe0-5106-11eb-b96e-0e54447b23a1_story.html

@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: "\"Pennsylvania AG calls Texas' Ted Cruz a 'sad sack' after Trump asks the senator to argue election case\""
 link: https://www.sacurrent.com/the-daily/archives/2020/12/10/pennsylvania-ag-calls-texas-ted-cruz-a-sad-sack-after-trump-asks-the-senator-to-argue-election-case

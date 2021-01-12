@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: 'Twitter permanently suspends account of Sidney Powell, ex-member of the "Elite Strike-Force Team".'
 link: https://thehill.com/policy/technology/533424-twitter-permanently-suspends-michael-flynn-sidney-powell-and-others

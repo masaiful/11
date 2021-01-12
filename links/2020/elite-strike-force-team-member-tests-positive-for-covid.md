@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: Elite Strike Force Team Sidekick tests positive for COVID.
 link: https://www.nytimes.com/2020/12/08/world/jenna-ellis-trump-covid.html

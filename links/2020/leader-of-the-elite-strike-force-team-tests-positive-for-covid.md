@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: Fearless Leader of the Elite Strike Force Team tests positive for COVID.
 link: https://www.nytimes.com/2020/12/06/world/rudy-giuliani-covid.html

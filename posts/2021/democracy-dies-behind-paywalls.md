@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: Democracy Dies Behind Paywalls
 date: 2021-01-05 09:23:09

@@ -51,4 +51,6 @@ module.exports = {
   uuidWithNoSpaces: (s) => uuidv5(s, uuidv5.URL).replace(/-/g, ""),
   where: (listOfObjects, keyName, valueToSearch) =>
     listOfObjects.filter((_) => _[keyName] === valueToSearch)[0] || null,
+  notDrafts: (listOfThings) => listOfThings.filter((_) => !_.data.draft),
+  onlyDrafts: (listOfThings) => listOfThings.filter((_) => _.data.draft),
 };

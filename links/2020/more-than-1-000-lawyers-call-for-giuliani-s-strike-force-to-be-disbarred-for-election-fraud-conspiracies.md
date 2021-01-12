@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: "More than 1,000 lawyers call for Giuliani’s ‘strike force’ to be disbarred for election fraud conspiracies."
 link: https://www.independent.co.uk/news/world/americas/us-election-2020/trump-lawyers-giuliani-letter-b1767790.html

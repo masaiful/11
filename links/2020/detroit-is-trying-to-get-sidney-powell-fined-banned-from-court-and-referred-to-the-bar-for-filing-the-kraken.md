@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: "\"Detroit Is Trying to Get Sidney Powell Fined, Banned from Court, and Referred to the Bar for Filing the ‘Kraken’\""
 link: https://lawandcrime.com/2020-election/detroit-is-trying-to-get-sidney-powell-fined-banned-from-court-and-referred-to-the-bar-for-filing-the-kraken/

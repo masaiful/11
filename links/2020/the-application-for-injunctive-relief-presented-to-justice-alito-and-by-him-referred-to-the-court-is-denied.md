@@ -1,6 +1,6 @@
 ---
 category: links
-draft: false
+draft: true
 
 title: '"The application for injunctive relief presented to Justice Alito and by him referred to the Court is denied."'
 link: https://www.esquire.com/news-politics/politics/a34909554/supreme-court-reject-republican-pennsylvania-election-case/

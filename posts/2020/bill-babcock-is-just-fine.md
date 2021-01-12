@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: Mister Babcock is Just Fine
 date: 2020-12-14 19:14:05

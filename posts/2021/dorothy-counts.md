@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: Dorothy Counts
 date: 2021-01-04 13:37:14

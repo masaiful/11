@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: A Kraken of Shit
 date: 2020-11-30 18:53:52
