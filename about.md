@@ -9,6 +9,6 @@ I am [Nikhil](https://nikhil.io). This is [a log of sorts](https://www.clickhole
 
 That's a drawing of me by the singularly talented [Mark Vollenweider](https://www.markjvollenweider.com) of Iowa City.
 
-Absolutely _none_ of the views expressed here reflect those of any of my employers OK?
+Absolutely none of the views expressed here reflect those of any of my employers.
 
 <!-- Last built {{ "" | timestamp }} -->
