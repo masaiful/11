@@ -1,12 +1,13 @@
 ---
 category: posts
-draft: false
+draft: true
 
 title: Idiots Out Walking Around - III
 date: 2021-01-11 16:56:50
 tags:
     - iowa
     - covid
+    - politics
     - pandemic
     - sad
     - the worst
