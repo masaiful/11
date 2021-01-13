@@ -25,9 +25,12 @@ pageClass: compilation tags
 {% set numberOfThings = collections[tag] | length %}
 
 <h2>
-  <strong>{{ numberOfThings | numberToWords }}</strong> thing{% if numberOfThings > 1 %}s{% endif %} tagged <strong>“{{ tag }}”</strong>
+  <strong>{{ numberOfThings | numberToWords }}</strong>
+  thing{% if numberOfThings > 1 %}s{% endif %}
+  tagged
+  <strong>“{{ tag }}”</strong>
 </h2>
 
-{% for post in collections[tag] | reverse %}
+{% for post in collections[tag] | reverse | filterDraftsIfProduction %}
   {{ singlePost(post) }}
 {% endfor %}

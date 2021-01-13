@@ -1,9 +1,9 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: What Do We REALLY Learn?
-date: 2021-01-08 19:21:26
+date: 2021-01-12 18:21:26
 tags:
     - movies
     - hollywood movies
@@ -13,7 +13,6 @@ tags:
 
 ---
 
-Via CO. Succinct and appropriate for a gamut of events (like attempted insurrections carried out by "The Best People.")
+Via CO. Succinct and appropriate for a gamut of events.
 
 /misc/w/what-do-we-learn.mp4
-

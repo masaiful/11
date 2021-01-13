@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 {
   "data": [
-  {%- for post in collections.things | notDrafts -%}
+  {%- for post in collections.things | exceptDrafts -%}
     {
       "objectID": "{{ post.fileSlug | uuid }}",
       {%- if post.data.rating -%}
