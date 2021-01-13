@@ -3,8 +3,8 @@ permalink: /search-data.json
 eleventyExcludeFromCollections: true
 ---
 {
-  "data": [
-  {%- for post in collections.things -%}
+  "data":
+  [{%- for post in collections.things -%}
     {
       "objectID": "{{ post.fileSlug | uuid }}",
       {%- if post.data.rating -%}
@@ -29,5 +29,11 @@ eleventyExcludeFromCollections: true
       "category": "{{ post.data.category }}",
       "url": "{{ post.url }}"
     }{%- if not loop.last -%}, {% endif -%}
-  {% endfor -%}
-]}
+  {% endfor -%}],
+  "dataToDelete": [{%- for post in collections.all | onlyDrafts -%}
+    {
+      "objectID": "{{ post.fileSlug | uuid }}",
+      "url": "{{ post.url }}"
+    }{%- if not loop.last -%}, {% endif -%}
+  {% endfor -%}]
+}

@@ -22,8 +22,10 @@ fs.readFile(SEARCH_DATA_FILE, async (e, data) => {
     process.exit(1);
   }
 
+  const searchData = JSON.parse(data);
+
   // Parse the search data
-  const searchObjects = JSON.parse(data)["data"];
+  const searchObjects = searchData["data"];
   console.log(
     chalk.yellow(`Going to try and post ${searchObjects.length} objects`),
   );
@@ -37,6 +39,34 @@ fs.readFile(SEARCH_DATA_FILE, async (e, data) => {
       chalk.green("posts"),
     );
   } catch (e) {
-    console.log(chalk.red("Error updating search index"), e);
+    console.log(chalk.red("Error updating search index"), chalk.red(e));
+  }
+
+  // Remove any drafts from the search index
+  const objectIDsToDelete = searchData["dataToDelete"].map((_) => _.objectID);
+
+  if (objectIDsToDelete.length > 0) {
+    console.log(
+      chalk.yellow(
+        `Going to try and remove ${objectIDsToDelete.length} objects`,
+      ),
+    );
+
+    try {
+      const { objectIDs } = await algoliaIndex.deleteObjects(objectIDsToDelete);
+
+      console.log(
+        chalk.green("Removed"),
+        chalk.green.bold(objectIDs.length),
+        chalk.green("posts from index"),
+      );
+    } catch (e) {
+      console.log(
+        chalk.red("Error removing"),
+        chalk.red.bold(objectIDsToDelete.length),
+        chalk.red("from the index"),
+        chalk.red(e),
+      );
+    }
   }
 });

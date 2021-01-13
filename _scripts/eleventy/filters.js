@@ -53,6 +53,8 @@ module.exports = {
   uuidWithNoSpaces: (s) => uuidv5(s, uuidv5.URL).replace(/-/g, ""),
   where: (listOfObjects, keyName, valueToSearch) =>
     listOfObjects.filter((_) => _[keyName] === valueToSearch)[0] || null,
+  onlyDrafts: (listOfThings) =>
+    listOfThings.filter((_) => helpers.postIsADraft(_)),
   filterCollectionForProduction: (listOfThings) =>
     helpers.filterCollectionForProduction(listOfThings),
 };
