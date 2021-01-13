@@ -24,7 +24,11 @@ getAllTags = (collection) => {
   let tagList = [];
   let tagMap = {};
 
-  collection.getAll().forEach((item) => {
+  const all = helpers.filterCollectionForProduction(
+    collection.getFilteredByGlob(config.COLLECTIONS.things),
+  );
+
+  all.forEach((item) => {
     if ("tags" in item.data) {
       let tags = item.data.tags;
 
@@ -35,6 +39,8 @@ getAllTags = (collection) => {
           case "nav":
           case "post":
           case "posts":
+          case "tags":
+          case "things":
             return false;
         }
 
@@ -64,15 +70,19 @@ getAllTags = (collection) => {
 getAllThingsByYear = (collection) => {
   let postsByYear = {};
 
-  collection.getFilteredByGlob(config.COLLECTIONS.things).map((item) => {
-    let year = item.date.getFullYear();
+  helpers
+    .filterCollectionForProduction(
+      collection.getFilteredByGlob(config.COLLECTIONS.things),
+    )
+    .map((item) => {
+      let year = item.date.getFullYear();
 
-    if (!postsByYear.hasOwnProperty(year)) {
-      postsByYear[year] = [];
-    } else {
-      postsByYear[year].push(item);
-    }
-  });
+      if (!postsByYear.hasOwnProperty(year)) {
+        postsByYear[year] = [];
+      } else {
+        postsByYear[year].push(item);
+      }
+    });
 
   return postsByYear;
 };
@@ -94,23 +104,27 @@ getYearAndMonthFrequencies = (collection) => {
     11: 0,
   };
 
-  collection.getFilteredByGlob(config.COLLECTIONS.things).map((item) => {
-    const year = item.date.getFullYear();
-    const month = item.date.getMonth();
+  helpers
+    .filterCollectionForProduction(
+      collection.getFilteredByGlob(config.COLLECTIONS.things),
+    )
+    .map((item) => {
+      const year = item.date.getFullYear();
+      const month = item.date.getMonth();
 
-    // TODO: Weird conditional?
-    if (item.data.title) {
-      if (!yearAndMonthMap.hasOwnProperty(year)) {
-        yearAndMonthMap[year] = {
-          months: Object.assign({}, months),
-          total: 0,
-        };
-      } else {
-        yearAndMonthMap[year]["total"] += 1;
-        yearAndMonthMap[year]["months"][month] += 1;
+      // TODO: Weird conditional?
+      if (item.data.title) {
+        if (!yearAndMonthMap.hasOwnProperty(year)) {
+          yearAndMonthMap[year] = {
+            months: Object.assign({}, months),
+            total: 0,
+          };
+        } else {
+          yearAndMonthMap[year]["total"] += 1;
+          yearAndMonthMap[year]["months"][month] += 1;
+        }
       }
-    }
-  });
+    });
 
   return yearAndMonthMap;
 };

@@ -24,9 +24,14 @@ module.exports = (eleventyConfig) => {
   });
 
   Object.keys(config.COLLECTIONS).map((collectionName) =>
-    eleventyConfig.addCollection(collectionName, (collection) =>
-      helpers.filterCollection(collection, config.COLLECTIONS[collectionName]),
-    ),
+    eleventyConfig.addCollection(collectionName, (collection) => {
+      const pathPatterns = config.COLLECTIONS[collectionName];
+      const ret = helpers.filterCollectionForProduction(
+        collection.getFilteredByGlob(pathPatterns)
+      );
+
+      return ret;
+    })
   );
 
   // Special collections outside of the usual globs...

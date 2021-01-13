@@ -10,12 +10,11 @@ const postIsADraft = (p) => p.data.draft === true;
 const postIsPinned = (p) => p.data.pinned === true;
 
 /**
- * Simple helper that takes a `collection` object and filters it by `glob`, and
- * then by draft or future post status.
+ * Simple helper that takes a `collection` object and filters it by draft or
+ * future post status.
  */
-const filterCollection = (collection, glob) =>
+const filterCollectionForProduction = (collection) =>
   collection
-    .getFilteredByGlob(glob)
     .filter((_) => (process.env.CI ? !postIsFromTheFuture(_) : _))
     .filter((_) => (process.env.CI ? !postIsADraft(_) : _));
 
@@ -23,5 +22,5 @@ module.exports = {
   postIsADraft,
   postIsFromTheFuture,
   postIsPinned,
-  filterCollection,
+  filterCollectionForProduction,
 };

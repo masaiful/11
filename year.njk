@@ -28,6 +28,6 @@ pageClass: compilation year
   <strong>{{ year }}</strong>
 </h2>
 
-{% for post in collections.thingsByYear[year] | reverse | filterDraftsIfProduction %}
+{% for post in collections.thingsByYear[year] | reverse %}
   {{ singlePost(post) }}
 {% endfor %}

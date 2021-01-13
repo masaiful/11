@@ -22,7 +22,8 @@ pageClass: compilation tags
 
 {% from "macros.njk" import singlePost %}
 
-{% set numberOfThings = collections[tag] | length %}
+{% set things = collections[tag] | reverse | filterCollectionForProduction %}
+{% set numberOfThings = things | length %}
 
 <h2>
   <strong>{{ numberOfThings | numberToWords }}</strong>
@@ -31,6 +32,6 @@ pageClass: compilation tags
   <strong>“{{ tag }}”</strong>
 </h2>
 
-{% for post in collections[tag] | reverse | filterDraftsIfProduction %}
+{% for post in things %}
   {{ singlePost(post) }}
 {% endfor %}

@@ -8,6 +8,7 @@ const stringify = require("javascript-stringify").stringify;
 const toDate = require("date-fns/toDate");
 
 const config = require("./config");
+const helpers = require("./helpers");
 const data = require("./filters__data");
 
 // Removes unnecessary noise/crap in searchable content
@@ -52,8 +53,6 @@ module.exports = {
   uuidWithNoSpaces: (s) => uuidv5(s, uuidv5.URL).replace(/-/g, ""),
   where: (listOfObjects, keyName, valueToSearch) =>
     listOfObjects.filter((_) => _[keyName] === valueToSearch)[0] || null,
-  exceptDrafts: (listOfThings) => listOfThings.filter((_) => !_.data.draft),
-  onlyDrafts: (listOfThings) => listOfThings.filter((_) => _.data.draft),
-  filterDraftsIfProduction: (listOfThings) =>
-    process.env.CI ? listOfThings.filter((_) => !_.data.draft) : listOfThings,
+  filterCollectionForProduction: (listOfThings) =>
+    helpers.filterCollectionForProduction(listOfThings),
 };
