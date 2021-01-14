@@ -64,7 +64,6 @@ tumblelog
 ### Books and Other Relatively Long Things
 
 * [Crafting Interpreters](http://craftinginterpreters.com/contents.html)
-This is absolutely lovely stuff
 
 * [Seeing Theory](https://seeing-theory.brown.edu/index.html)
 Absolutely lovely introduction to Probability and Statistics
