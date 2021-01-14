@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: An Attorney Of Scant Accomplishment - The Elite Sidekick
 date: 2020-12-5 00:00:00

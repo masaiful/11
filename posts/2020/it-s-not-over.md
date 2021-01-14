@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: It's Not Over
 date: 2020-12-14 18:15:28

@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Staying Out of It
 date: 2020-09-24 17:16:11

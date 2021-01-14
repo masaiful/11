@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: “I think Chinese all look alike. How can you tell? If some Chow shows up, you can be anybody and you can vote.”
 link: https://twitter.com/IsaacDovere/status/1334481562193317888

@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: '"Nachkommen"'
 date: 2021-01-02 15:51:28

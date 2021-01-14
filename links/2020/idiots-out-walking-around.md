@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: Idiots Out Walking Around
 link: https://www.iowapublicradio.org/health/2020-11-05/reynolds-urges-iowans-to-slow-spread-of-covid-19-announces-no-new-mitigation-measures?utm_source=Twitter&utm_medium=social&utm_campaign=IowaPublicRadio

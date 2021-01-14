@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: "\"Someone is going to get killed' if Republicans don't tone down their incitement\""
 link: https://www.stltoday.com/opinion/editorial/editorial-someone-is-going-to-get-killed-if-republicans-dont-tone-down-their-incitement/article_e48582ff-f2d7-5652-8d09-d63bd2b59334.html

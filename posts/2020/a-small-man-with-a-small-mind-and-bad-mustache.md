@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: '"A Small Man with a Small Mind and Bad Mustache"'
 date: 2020-12-05 21:45:47

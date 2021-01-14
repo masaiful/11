@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Positive, Nonseditious, Non-Facist Outlets
 date: 2021-01-11 17:19:14

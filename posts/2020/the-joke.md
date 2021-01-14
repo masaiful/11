@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: The Joke
 date: 2020-12-11 15:10:30

@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: The Strike-Force Leader's Emissions, Remixed.
 link: https://www.youtube.com/watch?v=ewCevOTnCJs

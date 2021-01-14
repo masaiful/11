@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: The Work of Ron Cobb
 date: 2021-01-04 18:14:00

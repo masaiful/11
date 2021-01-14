@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: They Pushed Me Out And Maced Me
 date: 2021-01-07 16:27:01

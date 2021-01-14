@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Bassakwardkraken
 date: 2020-12-5 00:00:00

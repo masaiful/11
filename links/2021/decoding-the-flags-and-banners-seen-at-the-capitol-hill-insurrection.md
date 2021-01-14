@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: 'Decoding the flags and banners seen at the Capitol Hill insurrection'
 link: https://qz.com/1953366/decoding-the-pro-trump-insurrectionist-flags-and-banners/

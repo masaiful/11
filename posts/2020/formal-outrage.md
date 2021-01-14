@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Highly Informed Outrage
 date: 2020-11-26 11:02:57

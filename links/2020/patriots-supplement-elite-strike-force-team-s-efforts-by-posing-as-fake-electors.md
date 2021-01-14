@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: Patriots supplement Elite Strike Force Team's efforts by posing as Fake Electors.
 link: https://www.azcentral.com/story/news/politics/elections/2020/12/14/arizona-groups-fake-electors-try-cast-11-electoral-votes-trump/6536056002/

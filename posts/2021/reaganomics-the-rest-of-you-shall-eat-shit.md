@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: "Reaganomics: The Rest of You Shall Eat Shit"
 date: 2021-01-05 16:24:01

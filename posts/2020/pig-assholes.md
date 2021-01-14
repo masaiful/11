@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Pig Rectums, not Calamari
 date: 2020-12-22 18:25:10

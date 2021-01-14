@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: On Moochers
 date: 2021-01-02 11:19:57

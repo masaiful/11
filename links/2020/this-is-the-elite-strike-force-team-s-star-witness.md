@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: Behold the Elite Strike-Force Team's Star Witness.
 link: https://twitter.com/ryanjreilly/status/1334311448340795396

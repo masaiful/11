@@ -1,6 +1,6 @@
 ---
 category: links
-draft: true
+draft: false
 
 title: Tim Kendall testifies
 link: https://static-log.nikhil.io/t/tim-kendall-testimony.pdf

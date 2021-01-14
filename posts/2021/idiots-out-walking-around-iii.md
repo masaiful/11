@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: Idiots Out Walking Around - III
 date: 2021-01-11 16:56:50

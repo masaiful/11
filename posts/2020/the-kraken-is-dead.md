@@ -1,6 +1,6 @@
 ---
 category: posts
-draft: true
+draft: false
 
 title: The Kraken Is Dead.
 date: 2020-12-10 00:00:00
