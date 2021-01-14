@@ -6,6 +6,10 @@ tags:
     - quotes
     - favorite things
     - wisdom
+    - tech hell
+    - technology
+    - programming
+
 ---
 
 > When I was little — and by the way, I was little once — my father told me a story about an 18<sup>th</sup> century watchmaker. And what this guy had done: he used to produce these fabulously beautiful watches.
@@ -22,6 +26,6 @@ tags:
 >
 > -- [Steve Jobs](https://books.google.com/books?id=cf_2PBPP-rEC&pg=PT189&lpg=PT189&dq=I+want+it+to+be+as+beautiful+as+possible,+even+if+it’s+inside+the+box.+A+great+carpenter+isn’t+going+to+use+lousy+wood+for+the+back+of+a+cabinet,+even+though+nobody’s+going+to+see+it.+When+you’re+a+carpenter+making+a+beautiful+chest+of+drawers,&source=bl&ots=pPNkfM3E3j&sig=ACfU3U1qPk_km86hHE5M33xFWMbzi-urKg&hl=en&sa=X&ved=2ahUKEwiokMTstZ7lAhVGEawKHQ_TD3cQ6AEwAnoECAoQAQ#v=onepage&q=I%20want%20it%20to%20be%20as%20beautiful%20as%20possible%2C%20even%20if%20it’s%20inside%20the%20box.%20A%20great%20carpenter%20isn’t%20going%20to%20use%20lousy%20wood%20for%20the%20back%20of%20a%20cabinet%2C%20even%20though%20nobody’s%20going%20to%20see%20it.%20When%20you’re%20a%20carpenter%20making%20a%20beautiful%20chest%20of%20drawers%2C&f=false<Paste>)
 
-You did _quite_ a bit more, and mostly invisible things, than required for the MVP for the bloody "sprint". But you smile a lot and sleep quite well indeed. Excellence is a Habit.
+Do _quite_ a bit more, good and invisible things, than required for the MVP for the bloody "sprint". You will then smile a lot and sleep quite well indeed. Excellence is a habit.
 
 Saved here via [Stephanie Harcrow's post](https://stephanieharcrow.com/2013/04/20/god-can-see-it/).
