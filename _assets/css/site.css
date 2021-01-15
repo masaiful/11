@@ -218,6 +218,9 @@ article header .draft {
   padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
   margin-left: calc(var(--root-spacing) / 4);
 }
+article header + footer {
+  margin-top: var(--root-spacing);
+}
 article h1, /* h1 is reserved for blog title... penalize visually */
 article h2,
 article h3,
