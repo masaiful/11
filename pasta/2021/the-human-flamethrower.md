@@ -5,9 +5,8 @@ draft: false
 title: The Human Flamethrower
 link: http://ifyoucantaffordtotip.com/hilarious-yelp-review/
 source: "Unknown"
-date: 2021-01-14 16:41:17
+date: 2021-01-13 16:41:17
 tags:
-    - pasta
     - funny
     - food
     - review

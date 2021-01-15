@@ -18,8 +18,7 @@
 
   {% set isSingle = page.url == post.url %}
 
-  {% set postType = post.data.category %}
-  {% if "quotes" in post.data.tags %}
+  {% set postType = post.data.category %} {% if "quotes" in post.data.tags %}
     {% set postType = "quotes" %}
   {% endif %}
 
@@ -32,9 +31,7 @@
 
     <header>
       <h2>
-        <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">
-          {{ post.data.title | smarty }}
-        </a>
+        <a href="{{ linkArticleTo }}" title="{{ post.data.title | superSafeString }}">{{ post.data.title | smarty }}</a>
 
         {% if post.data.year %}
           <span class="media-year">
@@ -56,17 +53,14 @@
           </a>
         {% endif %}
         {% if post.data.category == "pasta" %}
-          <span class="author">
+          <span>
             by
-            <a href="{{ post.data.link }}" title="Link to original post">
-              {{ post.data.source }}
-            </a>
+            <a href="{{ post.data.link }}" title="Link to original post">{{ post.data.source }}</a>
           </span>
-          {% if isSingle %}
-            <a href="/pasta" title="More pasta">
-              More Pasta
-            </a>
-          {% endif %}
+        {% endif %}
+
+        {% if isSingle %}
+          <a href="/pasta" title="More pasta">More Pasta</a>
         {% endif %}
 
         {% if post.data.draft %}

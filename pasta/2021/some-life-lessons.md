@@ -7,7 +7,7 @@ link: https://twitter.com/sweatystartup/status/1345855691068764161
 source: "@sweatystartup on Twitter"
 date: 2021-01-04 16:36:24
 tags:
-    - pasta
+    - life
     - twitter
 
 ---

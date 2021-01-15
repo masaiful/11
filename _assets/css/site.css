@@ -504,25 +504,35 @@ article.pasta > footer > a:last-child::before {
 }
 
 /* PASTA TYPE */
-article.pasta h2 a[href="/pasta"] {
-  background-color: var(--color-highlight);
-  border-bottom: 0;
-  border-radius: var(--rounding-radius);
-  color: white;
-  font-size: smaller;
-  padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
-  margin-left: calc(var(--root-spacing) / 2);
-}
-article.pasta h2 a[href="/pasta"]:hover {
-  background-color: var(--color-highlight-light);
-}
-article.pasta h2 .author {
+article.pasta > header h2 span {
   color: var(--color-text-tertiary);
   font-weight: normal;
 }
-article.pasta h2 .author a {
+article.pasta > header h2 span a {
   color: var(--color-text-tertiary);
   border-bottom-color: var(--color-text-tertiary);
+  border-bottom-style: dotted;
+  font-weight: normal;
+}
+article.pasta > header h2 span a:hover {
+  color: var(--color-text);
+}
+article.pasta.single > header h2 > a {
+  border-bottom: 0;
+  font-weight: bold;
+}
+article.pasta.single > header h2 a[href="/pasta"] {
+  color: var(--color-text-tertiary);
+  font-weight: normal;
+  font-size: smaller;
+  border: 1px dotted var(--color-text-tertiary);
+  border-radius: var(--rounding-radius);
+  padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
+  margin-left: calc(var(--root-spacing) / 4);
+  white-space: nowrap;
+}
+article.pasta.single > header h2 a[href="/pasta"]:hover {
+  color: var(--color-text);
 }
 
 /* MEDIA TYPE */

@@ -7,7 +7,6 @@ link: https://www.reddit.com/r/pics/comments/m5d5j/not_a_huge_fan_of_iowa_but_i_
 source: "@CockroachED on Reddit"
 date: 2020-01-08 01:24:31
 tags:
-    - pasta
     - iowa
     - history
     - favorite things
