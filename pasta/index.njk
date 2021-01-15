@@ -13,13 +13,9 @@ pageClass: compilation pasta-list
   <ul>
     {% for thing in collections.pasta | reverse %}
       <li>
-        <a href="{{ thing.url }}" title="{{ thing.data.title }}">
-          {{ thing.data.title }}
-        </a>
+        <a href="{{ thing.url }}" title="{{ thing.data.title }}">{{ thing.data.title }}</a>
         by
-        <a href="{{ thing.data.link }}" title="Link to original source">
-          {{ thing.data.source }}
-        </a>
+        <a href="{{ thing.data.link }}" title="Link to original source">{{ thing.data.source }}</a>
       </li>
     {% endfor %}
   </ul>
