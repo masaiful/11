@@ -2,7 +2,7 @@
 category: links
 draft: false
 
-title: Stable Genius Client Halts Payments to Fearless Leader of "Elite Strike-Force" Legal Team.
+title: Stable Genius Client Halts Payments to Fearless Leader of his "Elite Strike-Force" Legal Team.
 link: https://www.theguardian.com/us-news/2021/jan/14/trump-refusing-to-pay-rudy-giuliani-legal-fees-after-falling-out
 date: 2021-01-16 11:10:17
 tags:
