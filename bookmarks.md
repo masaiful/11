@@ -8,7 +8,7 @@ pageClass: compilation bookmarks
 
 ## A List of Sites I Like Visiting
 
-<div id="bookmark-list">
+<div class="bookmark-list">
 <section>
 
 ### Comics
@@ -25,19 +25,15 @@ comics, absurd
 Political Cartoons by Barry Deutsch
 
 </section>
-
 <section>
 
 ### Politics
 
 * [Erick Erickson's Confessions of a Political Junkie](https://ewerickson.substack.com)
-politics
-
 * [Letters from an American](https://heathercoxrichardson.substack.com)
-politics
+* [The Erin Endeavour](https://alexandraerin.substack.com/)
 
 </section>
-
 <section>
 
 ### Technology
@@ -58,7 +54,6 @@ tumblelog
 * [Adrian Roselli's Blog](https://adrianroselli.com)
 
 </section>
-
 <section>
 
 ### Books and Other Relatively Long Things
@@ -86,19 +81,15 @@ With the accompanying [problem sets](https://cses.fi/problemset/)
 </section>
 </div>
 
-<script type="text/javascript" src="/assets/js/macy.js"></script>
+<script type="text/javascript" src="/assets/js/flexmasonry.js"></script>
 <script type="text/javascript">
   (() => {
-    Macy({
-      container: '#bookmark-list',
-      trueOrder: false,
-      waitForImages: false,
-      margin: 24,
-      columns: 3,
-      breakAt: {
-        900: 2,
-        700: 1
-      }
+    FlexMasonry.init('.bookmark-list', {
+      responsive: true,
+      breakpointCols: {
+        'min-width: 700px': 2,
+        'min-width: 500px': 1,
+      },
     });
   })();
 </script>

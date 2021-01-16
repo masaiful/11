@@ -13,6 +13,7 @@ const CSS_FILES = [
   `${config.ASSET_PATH}/css/fonts.css`,
   `${config.ASSET_PATH}/css/site.css`,
   `${config.ASSET_PATH}/css/code.css`,
+  `${config.ASSET_PATH}/css/flexmasonry.css`,
 ];
 
 const OUTPUT_PATH = `${config.SITE.dir.output}/${config.ASSET_PATH_IN_BUILT_SITE}/css/site.css`;

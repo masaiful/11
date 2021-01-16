@@ -8,9 +8,10 @@ sitemap.xml.njk
 tags.njk
 year.njk
 
-links/index.njk
+
 media/index.njk
 quotes/index.njk
+pasta/index.njk
 
 posts/2018/**
 posts/2019/**

@@ -11,29 +11,23 @@ title: Here & There
 
 {% from "macros.njk" import singlePost %}
 
-<div id="links-list">
+<div class="links-list">
   {% for thing in links %}
-    {{ singlePost(thing) }}
+    <section>
+      {{ singlePost(thing) }}
+    </section>
   {% endfor %}
 </div>
 
-<script type="text/javascript" src="/assets/js/macy.js"></script>
+<script type="text/javascript" src="/assets/js/flexmasonry.js"></script>
 <script type="text/javascript">
   (() => {
-    const macyInstance = Macy({
-      container: '#links-list',
-      trueOrder: true,
-      waitForImages: false,
-      margin: 24,
-      columns: 3,
-      breakAt: {
-        900: 2,
-        700: 1
-      }
+    FlexMasonry.init('.links-list', {
+      responsive: true,
+      breakpointCols: {
+        'min-width: 700px': 2,
+        'min-width: 500px': 1,
+      },
     });
-
-    macyInstance.runOnImageLoad(function () {
-      macyInstance.recalculate(true);
-    }, true);
   })();
 </script>

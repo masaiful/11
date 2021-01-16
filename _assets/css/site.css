@@ -877,6 +877,12 @@ label[for="dark-mode"] span:nth-of-type(2) {
   border-left: 1px dotted var(--color-text);
   color: var(--color-text);
 }
+.links-list section {
+  padding-right: calc(var(--root-spacing) * 2);
+}
+.links-list section article {
+  margin-bottom: calc(var(--root-spacing) * 2);
+}
 
 /* BOOKMARKS */
 .bookmarks ul li {
