@@ -25,6 +25,8 @@ tags:
 * [Until the Electoral College confirms the winner](https://www.cbc.ca/news/world/biden-trump-electoral-college-votes-1.5840102)
 * [Until the Vice President _maybe_ halts the certification process](https://www.cnn.com/2021/01/05/politics/mike-pence-donald-trump-electoral-college/index.html).
 * [Until the Vice President certifies the winner in a pro forma ceremony](https://www.washingtonpost.com/politics/2021/01/06/congress-electoral-college-vote-live-updates/).
+* [Until we _maybe_ get our way via a terrorist insurrection](https://log.nikhil.io/posts/43f495f4ed5054238cf8eeeaa2e6b2a3/).
 * Until the winner of the election is sworn in on the 20^th^.
 
 And it won't matter after that because, proof be damned, it was a _massive_ fraud perpetrated upon us.
+
