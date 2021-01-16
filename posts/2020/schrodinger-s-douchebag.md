@@ -14,8 +14,6 @@ tags:
     - the worst
 ---
 
-Every Trump supporter you know:
-
 > One who makes douchebag statements, particularly sexist, racist or otherwise bigoted ones, then decides whether they were “just joking” or dead serious based on whether other people in the group approve or not.
 > -- [Urban Dictionary](https://www.urbandictionary.com/define.php?term=schrodinger%E2%80%99s%20douchebag)
 
