@@ -15,7 +15,7 @@ tags:
     
 imdb: tt6469960
 year: 2017
-rating: D
+rating: F
 ---
 
 Absolute garbage. Another [self-indulgent](/media/im-thinking-of-ending-things/) snooze-fest. A total waste of Sienna Miller and Alec Baldwin's talents. Makes you mad at yourself for finishing it.
