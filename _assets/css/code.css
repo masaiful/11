@@ -39,19 +39,16 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #657b83; /* base00 */
   font-family: var(--monospace-family);
-  font-size: var(--monospace-font-size);
+  font-size: 95%;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
-
   line-height: calc(var(--line-height) + 0%);
-
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-
   -webkit-hyphens: none;
   -moz-hyphens: none;
   -ms-hyphens: none;
