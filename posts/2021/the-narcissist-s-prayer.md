@@ -16,15 +16,16 @@ tags:
 > It wasn't that bad.
 >
 > And if it was
-> That's not a big deal
+> That's not a big deal.
 >
 > And if it is
-> That's not my fault
+> That's not my fault.
 >
 > And if it was
-> I didn't mean it
+> I didn't mean it.
 >
 > And if I did
 > You deserved it.
 >
 > -- Unknown
+
