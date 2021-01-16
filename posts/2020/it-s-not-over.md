@@ -23,6 +23,8 @@ tags:
 * [Until the electors vote](https://apnews.com/article/joe-biden-social-affairs-elections-ap-news-alert-electoral-college-9f7c5bbc89077e7cf52ae572de9bd18d).
 * [Until the electors _maybe_ vote faithlessly](https://twitter.com/nytimes/status/1338615480832172033/photo/1).
 * [Until the Electoral College confirms the winner](https://www.cbc.ca/news/world/biden-trump-electoral-college-votes-1.5840102)
+* [Until the Vice President _maybe_ halts the certification process](https://www.cnn.com/2021/01/05/politics/mike-pence-donald-trump-electoral-college/index.html).
+* [Until the Vice President certifies the winner in a pro forma ceremony](https://www.washingtonpost.com/politics/2021/01/06/congress-electoral-college-vote-live-updates/).
 * Until the winner of the election is sworn in on the 20^th^.
 
 And it won't matter after that because, proof be damned, it was a _massive_ fraud perpetrated upon us.
