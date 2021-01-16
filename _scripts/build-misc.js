@@ -31,7 +31,7 @@ const optimizeFile = async (filePath) => {
     fs.access(optimizedFilePath, async (e) => {
       if (e || forceProcessing) {
         await sharp(fileBuffer).toFile(optimizedFilePath);
-        console.log(chalk.cyan(`✔ Wrote ${optimizedFilePath}`));
+        console.log(chalk.cyan(`✔ Wrote ${config.MISC_PATH}/${optimizedFilePath}`));
       }
     });
 
@@ -39,7 +39,7 @@ const optimizeFile = async (filePath) => {
     fs.access(optimizedFilePath_WebP, async (e) => {
       if (e || forceProcessing) {
         await sharp(fileBuffer).toFile(optimizedFilePath_WebP);
-        console.log(chalk.cyan(`✔ Wrote ${optimizedFilePath_WebP}`));
+        console.log(chalk.cyan(`✔ Wrote ${config.MISC_PATH}/${optimizedFilePath_WebP}`));
       }
     });
 
@@ -49,7 +49,7 @@ const optimizeFile = async (filePath) => {
         await sharp(fileBuffer)
           .resize(config.MISC_THUMBNAIL_SIZE, config.MISC_THUMBNAIL_SIZE)
           .toFile(thumbnailFilePath);
-        console.log(chalk.cyan(`✔ Wrote ${thumbnailFilePath}`));
+        console.log(chalk.cyan(`✔ Wrote ${config.MISC_PATH}/${thumbnailFilePath}`));
       }
     });
   } catch (error) {
