@@ -8,7 +8,7 @@ sitemap.xml.njk
 tags.njk
 year.njk
 
-
+links/index.njk
 media/index.njk
 quotes/index.njk
 pasta/index.njk
@@ -24,3 +24,8 @@ media/2020/**
 links/2018/**
 links/2019/**
 links/2020/**
+
+pasta/2018/**
+pasta/2019/**
+pasta/2020/**
+
