@@ -12,7 +12,7 @@
       "#458588": "#83a598",
       "#b16286": "#d3869b",
       "#689d6a": "#8ec07c",
-      "#d65d0e": "#fe8019",
+      "#d65d0e": "#fe8019"
     };
 
     const randomLightHue = randomElement(Object.values(darkToLightHues));
@@ -30,9 +30,9 @@
         p.addEventListener("click", (e) => (window.location.href = e.target.parentNode.dataset.path));
       });
 
-    window.addEventListener("load", function () {
+    document.addEventListener("DOMContentLoaded", function () {
       // Set the title appropriately.
-      if (["log.nikhil.io", "log.nikhil.lol", "log.nikhil.fish"].includes(window.location.hostname)) {
+      if (["log.nikhil.io", "log.nikhil.lol", "log.nikhil.fish", "localhost"].includes(window.location.hostname)) {
         document
           .querySelector("h1 a")
           .innerText = window.location.hostname;
@@ -63,7 +63,7 @@
         .style
         .setProperty("--color-dark-highlight-light", randomDarkHueLight);
 
-    }, false);
+    });
   })();
 </script>
 
