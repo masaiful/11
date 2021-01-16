@@ -1,6 +1,24 @@
 <script type="text/javascript" src="/assets/js/lozad.js"></script>
 <script type="text/javascript">
   (() => {
+    // Pick a random element from a list
+    const randomElement = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+    // https://github.com/morhetz/gruvbox#palette
+    const darkToLightHues = {
+      "#cc241d": "#fb4934",
+      "#98971a": "#b8bb26",
+      "#d79921": "#fabd2f",
+      "#458588": "#83a598",
+      "#b16286": "#d3869b",
+      "#689d6a": "#8ec07c",
+      "#d65d0e": "#fe8019",
+    };
+
+    const randomLightHue = randomElement(Object.values(darkToLightHues));
+    const randomDarkHue = randomElement(Object.keys(darkToLightHues));
+    const randomDarkHueLight = darkToLightHues[randomDarkHue];
+
     // Lazy-load images and videos
     const observer = lozad(".lazy", {threshold: 0.1});
     observer.observe();
@@ -12,14 +30,12 @@
         p.addEventListener("click", (e) => (window.location.href = e.target.parentNode.dataset.path));
       });
 
-    document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("load", function () {
       // Set the title appropriately.
-      if ([
-        "log.nikhil.io",
-        "log.nikhil.lol",
-        "log.nikhil.fish",
-      ].includes(window.location.hostname)) {
-        document.querySelector("h1 a").innerText = window.location.hostname;
+      if (["log.nikhil.io", "log.nikhil.lol", "log.nikhil.fish"].includes(window.location.hostname)) {
+        document
+          .querySelector("h1 a")
+          .innerText = window.location.hostname;
       }
 
       // Set DARK MODE 🧛‍♂️
@@ -30,7 +46,24 @@
         "change", () => darkModeSwitch.checked
         ? localStorage.setItem("darkMode", true)
         : localStorage.removeItem("darkMode"),);
-    });
+
+      // Randomize hues for both light and dark modes
+      document
+        .documentElement
+        .style
+        .setProperty("--color-light-highlight", randomLightHue);
+
+      document
+        .documentElement
+        .style
+        .setProperty("--color-dark-highlight", randomDarkHue);
+
+      document
+        .documentElement
+        .style
+        .setProperty("--color-dark-highlight-light", randomDarkHueLight);
+
+    }, false);
   })();
 </script>
 

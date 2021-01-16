@@ -57,10 +57,9 @@
             by
             <a href="{{ post.data.link }}" title="Link to original post">{{ post.data.source }}</a>
           </span>
-        {% endif %}
-
-        {% if isSingle %}
-          <a href="/pasta" title="More pasta">More Pasta</a>
+          {% if isSingle %}
+            <a href="/pasta" title="More pasta">More Pasta</a>
+          {% endif %}
         {% endif %}
 
         {% if post.data.draft %}
