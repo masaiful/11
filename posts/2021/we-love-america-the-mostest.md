@@ -16,7 +16,5 @@ tags:
 >
 > -- [@TheLonliestWolf](https://twitter.com/ladyogrady/status/1350275055834574848)
 
-Via CK.
-
-/misc/c/conservatives-love-america.mp4
+Via CK. [Cached](/misc/c/conservatives-love-america.mp4).
 
