@@ -3,7 +3,7 @@ category: posts
 draft: false
 
 title: It's Not Over
-date: 2020-12-14 18:15:28
+date: 2021-01-20 08:15:28
 tags:
     - shitkraken
     - politics
@@ -26,7 +26,7 @@ tags:
 * [Until the Vice President _maybe_ halts the certification process](https://www.cnn.com/2021/01/05/politics/mike-pence-donald-trump-electoral-college/index.html).
 * [Until the Vice President certifies the winner in a pro forma ceremony](https://www.washingtonpost.com/politics/2021/01/06/congress-electoral-college-vote-live-updates/).
 * [Until we _maybe_ get our way via a terrorist insurrection](https://log.nikhil.io/posts/43f495f4ed5054238cf8eeeaa2e6b2a3/).
-* Until the winner of the election is sworn in on the 20^th^.
+* [Until the winner of the election is sworn in on the 20^th^](https://edition.cnn.com/politics/live-news/biden-harris-inauguration-day-2021/h_3a1320a33c4bca4445d129010660144c).
 
 And it won't matter after that because, proof be damned, it was a _massive_ fraud perpetrated upon us.
 
