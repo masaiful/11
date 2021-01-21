@@ -9,7 +9,7 @@
   --transition-duration: 0.5s;
 
   /* Fonts */
-  --font-size-base: 18px;
+  --font-size-base: 19px;
   --font-size-serif: 100%;
   --font-size-monospace: 95%;
   --sans-serif-family: "84204FFF-79F6-4EF4-94F5-6CD6CA6CA761", -apple-system,
@@ -980,6 +980,7 @@ label[for="dark-mode"] span:nth-of-type(2) {
     display: none;
   }
 }
+
 @media all and (max-width: 700px) {
   .container {
     padding: calc(var(--root-spacing) / 2);
@@ -1018,3 +1019,4 @@ label[for="dark-mode"] span:nth-of-type(2) {
     margin-top: 95%;
   }
 }
+
