@@ -40,12 +40,32 @@
 
       // Set DARK MODE 🧛‍♂️
       const darkModeSwitch = document.querySelector("#dark-mode");
-      darkModeSwitch.checked = localStorage.getItem("darkMode") === "true";
+
+      // If they prefer Dark mode or if the cookie is set, MAKE IT DARK!
+      const prefersDark = window.matchMedia && window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .matches;
+      const explicitlyPrefersDark = localStorage.getItem("darkMode") === "true";
+      const explicitlyPrefersLight = localStorage.getItem("darkMode") === "false";
+
+      if (explicitlyPrefersDark) {
+        darkModeSwitch.checked = true;
+      } else if (explicitlyPrefersLight) {
+        darkModeSwitch.checked = false;
+      } else {
+        if (prefersDark) {
+          localStorage.setItem("darkMode", true);
+          darkModeSwitch.checked = true;
+        } else {
+          localStorage.setItem("darkMode", false);
+          darkModeSwitch.checked = false;
+        }
+      }
 
       darkModeSwitch.addEventListener(
         "change", () => darkModeSwitch.checked
         ? localStorage.setItem("darkMode", true)
-        : localStorage.removeItem("darkMode"),);
+        : localStorage.setItem("darkMode", false));
 
       // Randomize hues for both light and dark modes
       /*
@@ -64,7 +84,6 @@
         .style
         .setProperty("--color-dark-highlight-light", randomDarkHueLight);
       */
-
     });
   })();
 </script>
