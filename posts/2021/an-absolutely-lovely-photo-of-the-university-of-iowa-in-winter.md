@@ -15,5 +15,4 @@ tags:
 
 ![University of Iowa in Winter](/misc/i/iowa-campus-winter.jpg)
 
-Via [@uiowa](https://twitter.com/uiowa/status/1352281061821186048)
-
+♥️♥️♥️ Via [@uiowa](https://twitter.com/uiowa/status/1352281061821186048)
