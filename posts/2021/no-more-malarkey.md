@@ -11,9 +11,12 @@ tags:
 
 ---
 
-[He may not be perfect](https://en.wikipedia.org/wiki/Nirvana_fallacy) but he is a decent man, if _only_ because he's not malevolent [narcissism](/posts/d0afc6b9723550dd8b0867f418d8bb52) incarnate. Unless you're someone whose livelihood depends on systemic ineptitude, cruelty, and dishonesty[^metrics], you _at least_ ought to be relieved you won't have to say "What the fuck did he do _now_?" as dismayingly frequently as you did over the past four years.
+Here's to a Malarkey-Free America 🇺🇸🍦😎 Things won't magically start getting better. [He isn't perfect](https://en.wikipedia.org/wiki/Nirvana_fallacy). But he certainly is a decent human being, if _only_ because he isn't malevolent narcissism incarnate.
+
+And unless your career depends on democratic dysfunction and systemic ineptitude, cruelty, and dishonesty that sow and sustain rancour[^metrics], you at _least_ ought to be relieved you won't have to say “God what the _fuck_ did he do _now_?” with the exhausting and dismaying frequency you did over the past four (THOUSAND) years. That's something.
+
+🙏♥️🇺🇸
 
 ![Biden](/misc/b/biden.jpg)
 
-[^metrics]: Gotta deliver those engagement metrics!
-
+[^metrics]: Special 📣 to some #techbros and their engagement targets 💸

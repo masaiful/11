@@ -15,5 +15,5 @@ year: 2019
 rating: B+
 ---
 
-Saw with LD. Didn't expect to like the movie as much as I did. Tilda Swinton and Ben Wishaw were brilliant. "Pure Christian pleasure."
+Saw with CK. Didn't expect to like the movie as much as I did. Tilda Swinton and Ben Wishaw were brilliant. "Pure Christian pleasure."
 
