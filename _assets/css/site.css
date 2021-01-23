@@ -27,17 +27,21 @@
 
   --color-light-background: #fff;
   --color-light-text: #282828;
+  --color-light-text-inverse: #fff;
   --color-light-text-secondary: #928374;
   --color-light-text-tertiary: #d5c4a1;
   --color-light-highlight: #fe8019;
   --color-light-highlight-light: #ebdbb2;
+  --color-light-mark: #fbf1c7;
 
   --color-dark-background: #1d2021;
   --color-dark-text: #fff;
+  --color-dark-text-inverse: #282828;
   --color-dark-text-secondary: #928374;
   --color-dark-text-tertiary: #665c54;
   --color-dark-highlight: #cc241d;
   --color-dark-highlight-light: #fb4934;
+  --color-dark-mark: #111;
 }
 
 @keyframes fadeIn {
@@ -50,8 +54,8 @@
 }
 
 ::selection {
-  background: var(--color-highlight-light);
-  color: var(--color-text);
+  background: var(--color-highlight);
+  color: var(--color-white);
 }
 
 /**
@@ -94,6 +98,7 @@ body {
   --color-text-tertiary: var(--color-light-text-tertiary);
   --color-highlight: var(--color-light-highlight);
   --color-highlight-light: var(--color-light-highlight-light);
+  --color-mark: var(--color-light-mark);
 
   --font-weight-article: var(--font-weight-article-light);
 }
@@ -361,6 +366,10 @@ article sub {
 }
 article img {
   border-radius: var(--rounding-radius);
+}
+article mark {
+  color: var(--color-text);
+  background: var(--color-mark);
 }
 article picture.lazy {
   cursor: pointer;
@@ -794,6 +803,7 @@ https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
   --color-text-tertiary: var(--color-dark-text-tertiary);
   --color-highlight: var(--color-dark-highlight);
   --color-highlight-light: var(--color-dark-highlight-light);
+  --color-mark: var(--color-dark-mark);
 
   --font-weight-article: var(--font-weight-article-dark);
 }
