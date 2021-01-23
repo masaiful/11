@@ -50,7 +50,14 @@ A little more backstory:
 >
 > -- Sasha Goldstein, [Those Mittens Bernie Sanders Wears Campaigning Are Made in Vermont](https://www.sevendaysvt.com/vermont/those-mittens-bernie-sanders-wears-campaigning-are-made-in-vermont/Content?oid=29469937)
 
-And finally, via KP:
+And finally (via KP):
 
 ![Bernie](/misc/b/bernie.jpeg)
 
+**Update**
+
+This is the best one I've seen so far (via JK):
+
+/misc/b/bernie-meme.mp4
+
+There's also [a collection](https://twitter.com/talespin22/status/1352101063759949826?s=10) (via CK) and another called "[The approximate size of various ocean animals with a Bernie for scale](https://twitter.com/RebeccaRHelm/status/1352454555959783430)" (via Deepu), and [a Zillow listing](/misc/b/bernie-z1.png).
