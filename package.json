@@ -15,6 +15,7 @@
     "build:site": "npx eleventy",
     "clean": "rimraf _site",
     "compress:site": "node _scripts/compress-site.js",
+    "deploy": "bash _scripts/deploy.sh",
     "push:site": "node _scripts/push-site.js",
     "build": "node _scripts/build.js",
     "build:css": "node _scripts/build-css.js",

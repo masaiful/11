@@ -167,11 +167,11 @@ const replaceMiscLink = async (content, outputPath) => {
           `${config.MISC_REMOTE_PREFIX}`,
         );
 
-        console.log(
-          `🔗  Will expand ${matches.length} link${
-            matches.length > 1 ? "s" : ""
-          } in ${outputPath}`,
-        );
+        // console.log(
+        //   `🔗  Will expand ${matches.length} link${
+        //     matches.length > 1 ? "s" : ""
+        //   } in ${outputPath}`,
+        // );
 
         content = content.replace(path, replacement);
       }
