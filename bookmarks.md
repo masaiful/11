@@ -17,6 +17,9 @@ pageClass: compilation bookmarks
 * [TypeWolf](https://www.typewolf.com/)
 typography
 
+* [ArtVee](https://artvee.com/)
+art, resources
+
 </section>
 <section>
 
