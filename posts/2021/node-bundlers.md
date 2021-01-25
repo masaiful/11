@@ -14,5 +14,5 @@ tags:
 
 [Nexe](https://github.com/nexe/nexe) and [pkg](https://github.com/vercel/pkg) are two (very-starred, mature, well-documented) compilers that create self-contained executables out of your Node scripts.
 
-Deno [just introduced this](https://deno.land/manual@v1.7.0/tools/compiler) 
+Deno [introduced this](https://github.com/denoland/deno/issues/986#issuecomment-740756795) in a recent release, which got me looking for Node-based alternatives.
 
