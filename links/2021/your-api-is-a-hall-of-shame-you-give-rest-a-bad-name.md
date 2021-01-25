@@ -10,6 +10,8 @@ tags:
     - funny
     - youtube
     - parody
-    
+
 ---
+
+Dylan Beattie is my [new favorite nerd on YouTube](https://www.youtube.com/c/DylanBeattie/videos).
 
