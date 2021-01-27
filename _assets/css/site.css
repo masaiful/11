@@ -41,7 +41,7 @@
   --color-dark-text-tertiary: #665c54;
   --color-dark-highlight: #cc241d;
   --color-dark-highlight-light: #fb4934;
-  --color-dark-mark: #111;
+  --color-dark-mark: #000;
 }
 
 @keyframes fadeIn {
