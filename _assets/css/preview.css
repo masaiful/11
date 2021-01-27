@@ -1,0 +1,369 @@
+:root {
+    /* Layout */
+    --root-spacing: 1rem;
+    --root-width: 960px;
+    --article-spacing-factor: 4; /* Times root-spacing */
+    --line-height: 150%;
+    --rounding-radius: 5px;
+    --border-thickness: 2px;
+    --transition-duration: 0.5s;
+
+    /* Fonts */
+    --font-size-base: 19px;
+    --font-size-serif: 100%;
+    --font-size-monospace: 95%;
+    --sans-serif-family: "84204FFF-79F6-4EF4-94F5-6CD6CA6CA761", -apple-system,
+        BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica,
+        Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    --serif-family: Iowan Old Style, Apple Garamond, Baskerville,
+        Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+        Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --monospace-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+        monospace;
+    --font-weight-article-light: 400;
+    --font-weight-article-dark: 300;
+
+    --color-white: #fff;
+
+    --color-light-background: #fff;
+    --color-light-text: #282828;
+    --color-light-text-inverse: #fff;
+    --color-light-text-secondary: #928374;
+    --color-light-text-tertiary: #d5c4a1;
+    --color-light-highlight: #fe8019;
+    --color-light-highlight-light: #ebdbb2;
+    --color-light-mark: #f9f5d7;
+
+    --color-dark-background: #1d2021;
+    --color-dark-text: #fff;
+    --color-dark-text-inverse: #282828;
+    --color-dark-text-secondary: #928374;
+    --color-dark-text-tertiary: #665c54;
+    --color-dark-highlight: #cc241d;
+    --color-dark-highlight-light: #fb4934;
+    --color-dark-mark: #000;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+::selection {
+    background: var(--color-highlight);
+    color: var(--color-white);
+}
+
+/**
+   * 1. Allow children to grow to 100% of viewport height
+   */
+html,
+body {
+    font-family: var(--sans-serif-family);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height);
+    height: 100%; /* 1. */
+
+    /**
+   *  Doesn't work everywhere
+   *  https://caniuse.com/#search=scroll-behavior
+   */
+    scroll-behavior: smooth;
+
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: var(--color-text);
+    background: var(--color-background);
+    padding: calc(var(--root-spacing) * 2);
+    transition: background-color var(--transition-duration) ease,
+        color var(--transition-duration) ease;
+    flex-grow: 1; /* 1. */
+
+    --color-background: var(--color-light-background);
+    --color-text: var(--color-light-text);
+    --color-text-secondary: var(--color-light-text-secondary);
+    --color-text-tertiary: var(--color-light-text-tertiary);
+    --color-highlight: var(--color-light-highlight);
+    --color-highlight-light: var(--color-light-highlight-light);
+    --color-mark: var(--color-light-mark);
+
+    --font-weight-article: var(--font-weight-article-light);
+}
+
+a {
+    text-decoration: none;
+    transition: background var(--transition-duration);
+}
+a:hover {
+    background: var(--color-highlight-light);
+}
+
+/* h1 is reserved for blog title... penalize visually */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 800;
+}
+h3 {
+    color: var(--color-text-secondary);
+}
+h4,
+h5 {
+    color: var(--color-text-tertiary);
+}
+h5 {
+    font-size: small;
+}
+a {
+    color: var(--color-text);
+    border-bottom: var(--border-thickness) solid var(--color-highlight);
+}
+em {
+    font-family: var(--serif-family);
+    font-size: var(--font-size-serif);
+}
+strong {
+    font-weight: 600;
+}
+p {
+    margin: var(--root-spacing) 0;
+}
+kbd {
+    background-color: #f0f0f0;
+
+    border-radius: var(--rounding-radius);
+    -moz-border-radius: var(--rounding-radius);
+    -webkit-border-radius: var(--rounding-radius);
+
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 2px #ffffff;
+    -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+    -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+
+    padding: 0 calc(var(--root-spacing) / 4);
+}
+blockquote {
+    position: relative;
+    margin-left: calc(var(--root-spacing) * 1.5);
+}
+blockquote::before {
+    content: "\201C";
+    position: absolute;
+    display: block;
+    width: 1em;
+    height: 1em;
+    left: -0.7em;
+    top: 10px;
+    font-size: calc(var(--font-size-base) * 2.5);
+    color: var(--color-highlight);
+}
+figure > figcaption::before {
+    color: var(--color-text-tertiary);
+    content: "\2012";
+    left: -1.5em;
+    position: absolute;
+}
+figure > figcaption {
+    position: relative;
+    color: var(--color-text-secondary);
+    margin: var(--root-spacing);
+    margin-left: calc(var(--root-spacing) * 1.5);
+}
+figure > figcaption a {
+    border-bottom-color: var(--color-text-tertiary);
+    color: var(--color-text-secondary);
+}
+figure > figcaption a:hover {
+    color: var(--color-text);
+    border-bottom-color: var(--color-highlight);
+}
+code {
+    padding: 0 calc(var(--root-spacing) / 6);
+}
+ul {
+    list-style-type: disc;
+    margin-left: calc(var(--root-spacing) * 1.125);
+}
+ul li {
+    margin-bottom: calc(var(--root-spacing) / 2);
+}
+ol {
+    margin-left: calc(var(--root-spacing) * 2.5);
+}
+ol li {
+    margin-bottom: calc(var(--root-spacing) / 2);
+}
+
+table {
+    margin: var(--root-spacing) 0;
+    width: 100%;
+}
+table thead tr th {
+    border-bottom: var(--border-thickness) solid var(--color-highlight);
+    font-weight: 600;
+    padding: calc(var(--root-spacing) / 4) calc(var(--root-spacing) / 2);
+    vertical-align: top;
+}
+table thead tr th:first-child {
+    padding-left: 0;
+}
+table tbody tr td {
+    border-bottom: 1px dotted var(--color-text-tertiary);
+    padding: calc(var(--root-spacing) / 4) calc(var(--root-spacing) / 2);
+    vertical-align: top;
+}
+table tbody tr td:first-child {
+    padding-left: 0;
+}
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+sup,
+sub {
+    vertical-align: baseline;
+    position: relative;
+    font-size: calc(var(--font-size-base) * 0.75);
+    top: calc(var(--font-size-base) * -1 * 0.5);
+}
+sub {
+    top: 0.4em;
+}
+img {
+    border-radius: var(--rounding-radius);
+}
+mark {
+    color: var(--color-text);
+    background: var(--color-mark);
+}
+picture.lazy {
+    cursor: pointer;
+}
+.video-container {
+    margin: var(--root-spacing) 0;
+}
+.video-container video {
+    border-radius: var(--rounding-radius);
+    width: 100%;
+}
+footer,
+footer a {
+    color: var(--color-text-tertiary);
+    border-bottom: none;
+    font-weight: 400;
+    line-height: calc(var(--line-height) / 1.5);
+}
+footer a:hover {
+    color: var(--color-text);
+}
+footer > p {
+    display: none;
+}
+footer ul,
+footer time {
+    display: inline;
+}
+footer ul {
+    margin-left: 0;
+}
+footer ul li {
+    display: inline-block;
+}
+footer ul li:not(:last-child):after {
+    content: "\2219";
+}
+footer time > span {
+    display: none;
+}
+footer time {
+    color: var(--color-text-tertiary);
+}
+footer time::before {
+    content: "\2219\2219\2219 ";
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px dotted var(--color-text-tertiary);
+}
+
+/* Update to */
+.update {
+    color: var(--color-highlight);
+    font-size: smaller;
+}
+.update strong {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Footnotes */
+.footnotes {
+    border-top: 1px dotted var(--color-text-tertiary);
+    color: var(--color-text-secondary);
+    margin: var(--root-spacing) 0;
+    padding-top: var(--root-spacing);
+}
+.footnotes ol {
+    margin-left: calc(var(--root-spacing) * 2);
+}
+.footnotes ol li {
+    margin: calc(var(--root-spacing) / 2) 0;
+}
+.footnotes ol li:first-child {
+    margin-top: 0;
+}
+.footnotes ol li:last-child {
+    margin-bottom: 0;
+}
+.footnotes ol li p {
+    margin: 0;
+    padding: 0;
+}
+.footnotes a {
+    border-bottom-color: var(--color-text-tertiary);
+    color: var(--color-text-secondary);
+}
+.footnotes a:hover {
+    border-bottom-color: var(--color-highlight);
+    color: var(--color-text);
+}
+.footnote-ref {
+    border-radius: calc(var(--rounding-radius) * 10);
+    background: var(--color-highlight);
+    font-family: var(--sans-serif-family);
+    margin: 0 0.125em;
+    padding: 0.125em;
+    text-align: center;
+}
+.footnote-ref:hover {
+    background: var(--color-highlight-light);
+}
+.footnote-ref a {
+    border-bottom: none;
+    padding: 0 0.25rem;
+}
+.footnote-ref a:hover {
+    background-color: transparent !important;
+}
+.footnote-backref {
+    border: 1px solid var(--color-text-tertiary);
+    border-radius: var(--rounding-radius);
+    color: var(--color-text-secondary);
+    font-size: calc(var(--font-size-base) * 0.95);
+    margin-left: calc(var(--root-spacing) / 4);
+    padding: calc(var(--root-spacing) / 8) calc(var(--root-spacing) / 4);
+}
+.footnote-backref:hover {
+    color: var(--color-text);
+    border: 1px dotted var(--color-highlight);
+}
