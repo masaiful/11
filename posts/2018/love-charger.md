@@ -23,7 +23,7 @@ This is insane:
 >
 > **Chauhan**: Guru had put a lot of property under the names of castrated devotees. He knew that we would never get married or have children. When we died, we would leave the property here and he would put his name on our Power of Attorney.
 
-![](/misc/v/varys.gif" alt="Lord Varys reaction)
+![](/misc/v/varys.gif)
 
 The charlatan is responsible for the most _horrifying_ song I've ever seen:
 

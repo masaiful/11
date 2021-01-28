@@ -11,4 +11,4 @@ tags:
 
 I'll [take this one](http://soundcloudrappergenerator.com/).
 
-![](/misc/s/soundcloud_name.png" alt="My Soundcloud Name)
+![](/misc/s/soundcloud_name.png)

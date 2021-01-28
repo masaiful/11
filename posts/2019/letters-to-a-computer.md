@@ -10,7 +10,7 @@ tags:
 
 [The Des Moines Register](https://www.desmoinesregister.com/) on how to send them email in (I'm guessing) the late 80s/early 90s.
 
-![](/misc/d/dsm_register_email.jpg" alt="DSM Register on how to send mail to a computer)
+![](/misc/d/dsm_register_email.jpg)
 
 An article on how Baud Rate isn't the same as Bit Rate
 

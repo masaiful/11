@@ -12,11 +12,11 @@ tags:
 
 Decent thriller. Cannot get over the fact that the [antagonist's makeup](https://www.youtube.com/watch?v=EOUjzx7_Nzw) was awful and kept reminding me of the coconut and turmeric [_Varalakshmi Puja_](https://en.wikipedia.org/wiki/Varalakshmi_Vratam) heads from my childhood [^jivaro_heads].
 
-![](/static/r/ratsasan.jpg" alt="Terrible makeup)
+![](/static/r/ratsasan.jpg)
 
 Which looks like this in a cheap wig
 
-![](/static/v/varalakshmi.jpg" alt="Varalakshmi Puja head)
+![](/static/v/varalakshmi.jpg)
 
 <small class="credit">-- [Source](https://www.youtube.com/watch?v=GxJeIhy_Iwg)</small>
 

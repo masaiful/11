@@ -11,4 +11,4 @@ tags:
 
 [An interactive model](https://editor.archilogic.com/3d/archilogic/nsh7wfvq?sceneId=3d6acff4-abcd-4c58-b3f3-d56d99642199&mode=view&view-menu=none&main-menu=login) of the office from _The Office_ 😍
 
-![](/misc/t/the_office_floor_plan.jpg" alt="The Office Floor Plan)
+![](/misc/t/the_office_floor_plan.jpg)

@@ -14,6 +14,6 @@ As if I needed another reason to fall in love with Tilda Swinton
 
 -- [Vulture](http://www.vulture.com/2018/10/tilda-swinton-luca-guadagnino-confirm-that-lutz-ebersdorf-isnt-real.html)
 
-![](/misc/t/tilda_swinton_suspiria.jpeg" alt="Tilda Swinton)
+![](/misc/t/tilda_swinton_suspiria.jpeg)
 
 😳

@@ -11,4 +11,4 @@ tags:
 
 Designed by [Pininfarina](http://www.pininfarina.com/it/ferrari_modulo/) all the way back [in 1970](https://www.youtube.com/watch?v=W_nqVljroho) (!) 😍 🤤
 
-![](/misc/f/ferrari_512_s_concept.jpg" alt="Ferrari 512 S Modulo Concept)
+![](/misc/f/ferrari_512_s_concept.jpg)

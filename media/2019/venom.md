@@ -12,7 +12,7 @@ tags:
 
 Venom goes from evil alien mastermind who wants to take over the planet to Toothless in "_How to Train Your Dragon_" in about five minutes.
 
-![](/static/v/venom_toothless.gif" alt="Toothless)
+![](/static/v/venom_toothless.gif)
 
 His new motivations make no sense whatsoever.
 
