@@ -8,7 +8,6 @@ date: 2020-12-03 19:25:49
 tags:
     - shitkraken
     - twitter
-    - indian people
     - the worst
     - racism
 ---
