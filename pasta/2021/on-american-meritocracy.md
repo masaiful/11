@@ -10,6 +10,8 @@ tags:
     - society
     - conservatism
     - politics
+    - education
+    - racism
     - rich people
 
 ---
