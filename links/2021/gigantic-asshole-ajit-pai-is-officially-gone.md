@@ -12,7 +12,7 @@ tags:
 
 ---
 
-I don't think I've glowed _this_ much at an article's title in a while.
+I don't think I've enjoyed an article's title _this_ much in a while.
 
 > Here is a list of [harmful nonsense](https://www.vice.com/en/topic/ajit-pai) Pai and his FCC did over the last four years:
 >
