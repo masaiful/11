@@ -20,4 +20,4 @@ Shit. Stallone wrote it. Background-watched because it looked revenge-y and Netf
 >
 > -- [Source](https://minhavidacultural.blogspot.com/2014/02/jason-statham-accent.html)
 
-Kate Bosworth was _excellent_ and looked like she subsisted purely on the aura of vegetables a few months before playing her role.
+Kate Bosworth was _excellent_ and looked like she subsisted purely off the aura of vegetables a few months before playing her role.
