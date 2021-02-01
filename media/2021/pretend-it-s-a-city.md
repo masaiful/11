@@ -15,11 +15,11 @@ year: 2021
 rating: C
 ---
 
-SNL offers a perfect review of this waste of time.
+Everything you need to know about this waste of time without watching it, courtesy of SNL:
 
 https://www.youtube.com/watch?v=LOr2Z-6Kibc
 
-_Vulture_ has a more charitable take and [lists the "best bits"](https://www.vulture.com/2021/01/pretend-its-a-city-best-bits-in-netflix-fran-lebowitz-doc.html). And this scene is genuinely very funny:
+_Vulture_ has a more charitable take and [lists the "best bits"](https://www.vulture.com/2021/01/pretend-its-a-city-best-bits-in-netflix-fran-lebowitz-doc.html). And this is genuinely very funny:
 
 ![Fran crossing the street](/misc/f/fran-lebowitz.jpg)
 
