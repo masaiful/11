@@ -7,6 +7,7 @@ link: https://magazine.realtor/home-and-design/guide-residential-styles#Resident
 date: 2021-02-01 15:19:17
 tags:
     - lists
+    - references
     - resources
     - today i learned
     - architecture
