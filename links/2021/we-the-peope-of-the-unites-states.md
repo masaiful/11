@@ -13,8 +13,6 @@ tags:
 
 ---
 
-No, ['Peope' was not a typo](https://lolzil.la/lolz/WE-THE-PEOPE.jpeg).
-
-> 🇺🇸: We the Peope of the Unites States...
+> 🇺🇸: We the [Peope](https://lolzil.la/lolz/WE-THE-PEOPE.jpeg) of the Unites States...
 >
 > 🏴󠁧󠁢󠁥󠁮󠁧󠁿󠁧󠁢󠁥󠁮󠁧󠁿: 🤣
