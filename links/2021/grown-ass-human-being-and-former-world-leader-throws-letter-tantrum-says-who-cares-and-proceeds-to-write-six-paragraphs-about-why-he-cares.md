@@ -2,7 +2,7 @@
 category: links
 draft: false
 
-title: Grown-Ass Human Being and Former World Leader, throws letter tantrum, says "Who cares!" and proceeds to write six paragraphs which demonstrate that he does, indeed, care.
+title: Grown-Ass Human Being and Former World Leader throws tantrum, says "Who cares!", and proceeds to write six paragraphs which demonstrate that he does, indeed, care.
 link: /misc/t/trump-sag-sad.jpg
 date: 2021-02-07 15:42:57
 tags:
