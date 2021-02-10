@@ -2,7 +2,7 @@
 category: pasta
 draft: false
 
-title: We Live in a Society, not an Economy
+title: We Ought to Live in a Society, not an Economy
 link: https://old.reddit.com/r/WhitePeopleTwitter/comments/lb9pbg/but_will_we_the_world_change/glt2dv9
 source: "BaldKnobber123"
 date: 2021-02-08 19:27:51
