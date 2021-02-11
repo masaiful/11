@@ -91,6 +91,17 @@ With the accompanying [problem sets](https://cses.fi/problemset/)
 * [Mathematical Foundations of Computing](/misc/m/Mathematical-Foundations-of-Computing.pdf)
 
 </section>
+<section>
+
+### Web Development
+
+* [Pattern Generator](https://doodad.dev/pattern-generator/)
+web design
+
+* [Image Dithering Tool](https://doodad.dev/dither-me-this/)
+web design, image processing
+
+</section>
 </div>
 
 <script type="text/javascript" src="/assets/js/flexmasonry.js"></script>
