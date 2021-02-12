@@ -101,6 +101,9 @@ web design
 * [Image Dithering Tool](https://doodad.dev/dither-me-this/)
 web design, image processing
 
+* [300,000+ SVG Icons](https://www.svgrepo.com/)
+icons, web design
+
 </section>
 </div>
 
