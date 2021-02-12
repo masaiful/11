@@ -13,4 +13,4 @@ tags:
 
 ![Kiawak Ashoona, Musk Ox, 1963](/misc/y/year-of-ox.jpg)
 
-Kiawak Ashoona, _Musk Ox_, 1963
+Kiawak Ashoona, [_Musk Ox_](https://www.moma.org/collection/works/71221), 1963
