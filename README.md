@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7716919-cb6e-4c73-a7b0-d252f1ee94fd/deploy-status)](https://app.netlify.com/sites/ina/deploys)
+
 ## Usage
 
 Create `.env` with these
