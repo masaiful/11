@@ -6,7 +6,7 @@ const { uploadDirectory } = require("s3-lambo");
     await uploadDirectory({
       path: "./_site",
       params: {
-        Bucket: "log.nikhil.io",
+        Bucket: "",
       },
     });
     console.log(green("✓ Done syncing to bucket"));
