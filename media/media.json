@@ -1,5 +1,5 @@
 {
   "layout": "post.njk",
   "category": "media",
-  "permalink": "media/{{ page.fileSlug }}/"
+  "permalink": "p/{{ page.fileSlug }}/"
 }
