@@ -1,7 +1,7 @@
 {
-  "name": "log-nikhil-io",
+  "name": "saifulmuhajir-web-id",
   "version": "1.0.0",
-  "description": "Nikhil's Log",
+  "description": "just another viewpoints",
   "main": ".eleventy.js",
   "scripts": {
     "bootstrap-misc": "npm-run-all make-misc-folders pull:misc",
@@ -26,7 +26,7 @@
     "start": "node _scripts/start.js",
     "sync": "git pull && yarn pull:misc"
   },
-  "author": "Nikhil Anand",
+  "author": "Saiful",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
