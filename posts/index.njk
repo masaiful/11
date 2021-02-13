@@ -5,7 +5,7 @@ pagination:
   size: 10
   alias: posts
   reverse: true
-permalink: "{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+permalink: "p/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 title: Jabberwocky
 ---
 
