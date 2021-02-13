@@ -8,6 +8,7 @@ tags:
     - art
     - china
     - beautiful
+    - inuit
     
 ---
 
