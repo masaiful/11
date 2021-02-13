@@ -51,7 +51,7 @@ jobs:
           aws-access-key-id: AWS_ACCESS_KEY_ID
           aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           from: _site/
-          to: "s3://log.nikhil.io/"
+          to: ""
           arguments: |
             --delete \
             --exclude "*.DS_Store*" \
