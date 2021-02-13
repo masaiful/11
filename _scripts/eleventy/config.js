@@ -37,8 +37,8 @@ const MISC_THUMBNAIL_SIZE = 128;
  *
  * Note: Bucket name only! No "s3://" prefix!
  */
-const MISC_REMOTE_BUCKET = "static-log.nikhil.io";
-const MISC_REMOTE_PREFIX = "https://static-log.nikhil.io";
+const MISC_REMOTE_BUCKET = "";
+const MISC_REMOTE_PREFIX = "";
 
 /**
  * Just a simple way of organizing misc assets without this folder
@@ -87,7 +87,7 @@ const MISC_FOLDER_LIST = [
 /**
  * S3 Bucket where this site is deployed ☁️ No prefix or trailing slash.
  */
-const BUCKET_NAME = "log.nikhil.io";
+const BUCKET_NAME = "";
 
 /**
  * Send these straight through to the built site. If you want to rename the
