@@ -1,7 +1,3 @@
-# [log.nikhil.io](https://log.nikhil.io/)
-
-My personal log powered by the awesome [11ty.js](https://www.11ty.dev/) and deployed into S3/CloudFront using CircleCI. Simple and scores very well on [Lighthouse](https://developers.google.com/web/tools/lighthouse) and [WebPageTest](https://www.webpagetest.org/).
-
 ## Usage
 
 Create `.env` with these
